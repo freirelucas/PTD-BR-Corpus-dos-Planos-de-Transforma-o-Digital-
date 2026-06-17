@@ -1,29 +1,21 @@
-# PTD-corpus — Corpus dos Planos de Transformação Digital
+# PTD-corpus — Planos de Transformação Digital dos órgãos federais
 
-Pipeline para coleta, extração, padronização e exportação do corpus dos
-**Planos de Transformação Digital (PTDs)** dos órgãos federais brasileiros,
-publicados no portal [gov.br](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/planos-de-transformacao-digital).
-
-> **Spin-off sem analytics.** Este repositório é a fatia de *engenharia do
-> corpus* do projeto PTD: scraping → extração → padronização → exportação →
-> harmonização → metadados de dados abertos. **Sem** a camada de análise
-> (estatísticas, figuras, dashboard interativo, insumos da nota técnica). O
-> porquê, o que foi mantido/removido e como continuar estão em
-> [`HANDOUT.md`](HANDOUT.md).
+Dados estruturados dos **Planos de Transformação Digital (PTDs)** de **93 órgãos
+federais brasileiros** — as **entregas** pactuadas com a SGD/MGI e os **riscos**
+de gestão — extraídos automaticamente dos PDFs oficiais publicados no
+[gov.br](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/planos-de-transformacao-digital),
+entregues em **CSV, JSON e Excel** com metadados em padrões de dados abertos.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/freirelucas/ptd-br-corpus-dos-planos-de-transforma-o-digital-/blob/main/ptd_scraper.ipynb) &nbsp; [![Baixar corpus em Excel](https://img.shields.io/badge/⬇%20Baixar-Corpus%20em%20Excel%20.xlsx-1D6F42?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://github.com/freirelucas/PTD-BR-Corpus-dos-Planos-de-Transforma-o-Digital-/raw/main/output/PTD-corpus.xlsx)
 
 > 📊 **Baixe o corpus pronto em Excel:** [`PTD-corpus.xlsx`](https://github.com/freirelucas/PTD-BR-Corpus-dos-Planos-de-Transforma-o-Digital-/raw/main/output/PTD-corpus.xlsx) (516 KB) — abas **entregas · riscos · órgãos · cobertura** + LEIA-ME e dicionário. Abre direto no Excel/LibreOffice em qualquer idioma (acentos e números corretos, sem mexer em delimitador). 93 órgãos, snapshot 2026-06-17.
 
-## O que o corpus contém
+## Os dados
 
-93 órgãos federais signatários (decreto 12.198/2024). Para cada órgão são
-extraídos dois documentos do portal:
+Para cada órgão, dois documentos do portal viram tabelas:
 
-- **Anexo de Entregas** — tabela de produtos pactuados com a SGD/MGI, classificados por eixo da EFGD 2024-2027
-- **Documento Diretivo** — tabela de gestão de riscos com probabilidade, impacto e ações de tratamento
-
-Resultado consolidado (run de `data_execucao=2026-06-17`, 93 órgãos):
+- **Anexo de Entregas** — produtos pactuados com a SGD/MGI, classificados por eixo da EFGD 2024-2027.
+- **Documento Diretivo** — gestão de riscos com probabilidade, impacto e ações de tratamento.
 
 | Métrica | Valor |
 |---|---|
@@ -32,181 +24,118 @@ Resultado consolidado (run de `data_execucao=2026-06-17`, 93 órgãos):
 | Riscos identificados | **662** |
 | Cobertura entregas | 81/93 órgãos (59 próprios + 22 compartilhados) |
 | Cobertura riscos | 81/93 órgãos (54 próprios + 27 compartilhados) |
-| PDFs com falha de extração (provavelmente escaneados) | 10 |
+| Diretivos sem tabela de risco extraível (provavelmente escaneados) | 10 |
 
-Sete grupos ministeriais publicam um único PDF para múltiplos órgãos
-(MD/MEC/MF/MMA/MT/MIDR/MDA). O pipeline detecta isso por **hash MD5** e registra
-os dados uma única vez sob a sigla alfabeticamente menor; os demais membros são
-marcados como `compartilhado` na cobertura.
+Sete grupos ministeriais publicam um único PDF para vários órgãos
+(MD/MEC/MF/MMA/MT/MIDR/MDA). O pipeline detecta isso por **hash MD5**, registra os
+dados uma única vez sob a sigla alfabeticamente menor e marca os demais membros
+como `compartilhado` na cobertura.
 
-## Saídas
+### Arquivos
 
-| Arquivo | Descrição |
-|---------|-----------|
+| Arquivo | Conteúdo |
+|---|---|
 | `output/deliveries.csv` / `.json` | Entregas pactuadas, concluídas e canceladas |
-| `output/risks.csv` / `.json` | Riscos identificados nos Documentos Diretivos |
-| `output/organs.csv` | Lista de órgãos com URLs dos PDFs |
-| `output/coverage_summary.csv` | Cobertura de extração por órgão (status por documento), gerada por `build_coverage.py` |
-| `output/error_report.csv` | Erros de processamento por órgão e estágio |
+| `output/risks.csv` / `.json` | Riscos dos Documentos Diretivos |
+| `output/organs.csv` | Órgãos e URLs dos PDFs |
+| `output/coverage_summary.csv` | Cobertura de extração por órgão (status por documento) |
 | `output/pdf_metadata.csv` | Metadados dos PDFs (datas, tamanhos) |
-| `output/validation_report.json` | Contagens, taxas de canonização e checksums MD5 dos artefatos |
-| `output/manifest.json` | Manifesto da execução: commit do pipeline, contagens de PDFs e hash SHA-256 dos artefatos exportados |
+| `output/error_report.csv` | Erros de processamento por órgão e estágio |
+| `output/PTD-corpus.xlsx` | Pasta Excel multi-aba pronta para uso (entregas/riscos/órgãos/cobertura + LEIA-ME + dicionário) |
+| `output/harmonized/` | Corpus harmonizado: colunas `*_normalizado` estritamente canônicas + datapackage com enums estritos |
+| `output/variations.csv` | Catálogo tipado das divergências texto autoral × catálogo (`alias`/`aproximado`/`imputado`/`residual`) |
 | `output/datapackage.json` | Descritor [Frictionless Data Package](https://specs.frictionlessdata.io/) (Table Schema dos CSVs) |
-| `output/metadata/` | Metadados em padrões abertos: schema.org/Dataset, DCAT-AP, SKOS, JSON Schema, PROV-O, payload CKAN |
-| `output/harmonized/` | Corpus harmonizado: colunas `*_normalizado` estritamente canônicas + datapackage com enums estritos + relatório auditável |
-| `output/variations.csv` | Catálogo **tipado** das divergências texto autoral × catálogo (`alias`/`aproximado`/`imputado`/`residual`), gerado por `build_variations.py` |
-| `output/PTD-corpus.xlsx` | Pasta de trabalho Excel multi-aba (entregas/riscos/órgãos/cobertura + LEIA-ME + dicionário), pronta para uso no Excel/LibreOffice em qualquer locale, gerada por `build_xlsx.py` |
+| `output/metadata/` | Metadados abertos: schema.org/Dataset, DCAT-AP, SKOS, JSON Schema, PROV-O, payload CKAN |
+| `output/manifest.json` · `validation_report.json` | Proveniência: contagens, taxas de canonização e checksums (MD5/SHA-256) de cada artefato |
 
-Os descritores de dados abertos são gerados por [`build_metadata.py`](build_metadata.py);
-o `manifest.json` por [`build_manifest.py`](build_manifest.py); a versão
-harmonizada do corpus por [`build_corpus.py`](build_corpus.py); a cobertura por
-órgão por [`build_coverage.py`](build_coverage.py); a pasta Excel pronta para
-uso por [`build_xlsx.py`](build_xlsx.py). Documentação e
-linhagem em [`METADATA.md`](METADATA.md).
+Cada campo categórico guarda três versões: `_original` (texto do órgão),
+`_normalizado` (rótulo canônico do catálogo da SGD) e `_method`/`_score` (como um
+foi encaixado no outro). Onde o texto autoral não coube no vocabulário, o atrito é
+consolidado e tipado em `output/variations.csv`; a contagem por linha está em
+`needs_review` e agregada em `validation_report.json`.
 
-Cada campo categórico guarda `_original` (texto autoral) + `_normalizado`
-(catálogo, p/ analytics) + `_method`/`_score` (como o autoral foi encaixado). O
-atrito entre os dois — onde o texto dos órgãos não coube no vocabulário — é
-consolidado e **tipado** em `output/variations.csv` (`build_variations.py`); a
-contagem por linha está nas colunas `needs_review` e agregada em
-`validation_report.json`.
+## Como usar os dados
 
-Para baixar **só o corpus** (CSVs canônicos), `make corpus-zip` empacota
-`corpus_<snapshot>.zip` — pacote Frictionless autocontido:
-`deliveries`/`risks`/`organs` canônicos + `datapackage.json` +
-`harmonization_report.json` + `manifest.json` (proveniência).
+- **Excel / LibreOffice** — baixe [`PTD-corpus.xlsx`](https://github.com/freirelucas/PTD-BR-Corpus-dos-Planos-de-Transforma-o-Digital-/raw/main/output/PTD-corpus.xlsx). Quatro abas + dicionário; abre em qualquer locale.
+- **CSV / JSON** — arquivos em `output/`. Exemplo:
+  ```python
+  import pandas as pd
+  entregas = pd.read_csv("output/deliveries.csv")
+  riscos   = pd.read_csv("output/risks.csv")
+  ```
+- **Frictionless** — `output/datapackage.json` descreve o schema de todos os CSVs (validável com `frictionless validate`).
+- **Corpus canônico** — `output/harmonized/` traz só as colunas normalizadas, com enums estritos. Para empacotar apenas os CSVs canônicos: `make corpus-zip` gera `corpus_<snapshot>.zip` autocontido (dados + `datapackage.json` + proveniência).
 
-## Como usar
+Todo artefato publicado tem checksum em `manifest.json` / `validation_report.json`,
+então dá para verificar que os dados não mudaram desde a extração.
 
-**Princípio do projeto — transparência e reprodutibilidade científicas.**
-Há uma única fonte de código (`notebook_cells/*.py`); o notebook Colab é
-**gerado** dela por `build_notebook.py`, e o CI bloqueia qualquer divergência
-(`notebook-consistency.yml`). Todo artefato publicado é derivável da fonte: os
-CSVs pelo pipeline, os descritores por `build_manifest.py` /
-`build_metadata.py` / `build_corpus.py`, e o `validation_report.json` registra
-checksums de tudo.
+## O que o código faz
 
-### Google Colab
+O pipeline lê o portal do gov.br e produz as tabelas acima, em etapas:
 
-Clique no badge **Open in Colab** acima e execute as células sequencialmente. O
-ambiente detecta o Colab automaticamente e instala as dependências. Os PDFs são
-persistidos no Google Drive (`MyDrive/PTD_Scraper/`) para reutilização entre
-execuções.
+1. **Scraping** — lista de órgãos signatários e URLs dos PDFs.
+2. **Download** — baixa os PDFs (Documento Diretivo + Anexo de Entregas), com resume.
+3. **Dedup MD5** — detecta PDFs compartilhados entre órgãos de um mesmo grupo ministerial.
+4. **Extração** — tabelas via PyMuPDF `find_tables()`, com merge multi-página, tabelas órfãs e consolidação multi-linha.
+5. **Padronização** — normaliza o vocabulário (escalas e produtos canônicos da SGD) por fuzzy match, preservando o texto autoral.
+6. **Exportação** — CSV/JSON + corpus harmonizado + descritores de dados abertos.
+7. **Validação** — `validation_report.json` (contagens, taxas, checksums) e gate de qualidade.
 
-### Execução local
+O pipeline tem **checkpoint/resume**: se interrompido, retoma do último checkpoint salvo.
+
+### Rodar
+
+**Google Colab** — clique no badge **Open in Colab** e execute as células em
+ordem; o ambiente instala as dependências e persiste os PDFs no Drive
+(`MyDrive/PTD_Scraper/`) para reuso entre execuções.
+
+**Local:**
 
 ```bash
 git clone https://github.com/freirelucas/ptd-br-corpus-dos-planos-de-transforma-o-digital-.git
-cd REPO
+cd ptd-br-corpus-dos-planos-de-transforma-o-digital-
 pip install -r requirements.txt
-jupyter notebook ptd_scraper.ipynb
-```
-
-Para rodar o pipeline inteiro sem Jupyter (headless, mesmo fluxo do workflow mensal):
-
-```bash
-python run_pipeline.py          # executa as células em sequência; gate de qualidade no fim
-python run_pipeline.py --sync   # idem + substitui output/ do repo e regenera derivados
+python run_pipeline.py          # pipeline headless; gate de qualidade no fim
+python run_pipeline.py --sync   # idem + regenera output/ e derivados
 ```
 
 Os PDFs ficam em `ptd_output/pdfs/{diretivo,entregas}/` e os outputs em `ptd_output/output/`.
 
 ### Atualizar os dados
 
-Dados entram na `main` por **pull request — nunca por push direto**. O PR de
-dados passa pelos mesmos checks que qualquer mudança de código (pytest,
-consistência do notebook, checksums em dia).
+Os dados entram na `main` por **pull request**, com os mesmos checks de código
+(pytest, consistência do notebook, checksums em dia).
 
-**Via canônica — CI mensal.** O workflow
-[`monthly-refresh.yml`](.github/workflows/monthly-refresh.yml) roda
-`run_pipeline.py --sync` todo dia 2 do mês num runner do GitHub e abre o PR
-`data-refresh/YYYY-MM` com `output/` — apenas se os CSVs sem timestamp mudaram
-de fato. Configure o secret `DATA_REFRESH_PAT` (fine-grained PAT com Contents +
-Pull requests RW) para os checks rodarem automaticamente no PR.
+- **Automático** — o workflow [`monthly-refresh.yml`](.github/workflows/monthly-refresh.yml)
+  roda `run_pipeline.py --sync` todo dia 2 e abre o PR `data-refresh/AAAA-MM`
+  apenas se os dados mudaram (requer o secret `DATA_REFRESH_PAT`).
+- **Manual:**
+  ```bash
+  python run_pipeline.py --sync
+  git checkout -b data-refresh/AAAA-MM
+  git add output/ && git commit -m "data: refresh output/ — AAAA-MM-DD"
+  git push -u origin data-refresh/AAAA-MM   # abrir PR para main
+  ```
 
-**Via local (headless)** — mesma execução, na sua máquina:
+## Fonte, licença e citação
 
-```bash
-python run_pipeline.py --sync               # pipeline + output/ prontos
-git checkout -b data-refresh/AAAA-MM
-git add output/
-git commit -m "data: refresh output/ — run AAAA-MM-DD"
-git push -u origin data-refresh/AAAA-MM     # e abrir PR para main
-```
-
-## Pipeline
-
-O notebook executa as etapas sequenciais de engenharia do corpus:
-
-1. **Setup** — Detecta ambiente (Colab/local), instala dependências
-2. **Configuração** — Vocabulários canônicos, ORGAN_GROUPS, dataclasses
-3. **Utilitários** — Rede, normalização, fuzzy matching
-4. **Scraping** — Coleta lista de órgãos e URLs dos PDFs no gov.br
-5. **Download** — Baixa PDFs com resume automático (skip se já existe)
-6. **Dedup MD5** — Identifica PDFs compartilhados entre órgãos do mesmo grupo ministerial e elege um "owner" alfabético
-7. **Extração** — Configura PyMuPDF `find_tables()` e detectores auxiliares
-8. **Riscos** — Extrai tabelas de risco com merge multi-página, header-as-data, tabelas órfãs e consolidação multi-linha
-9. **Entregas** — Extrai tabelas de entregas com mapeamento posicional para multi-página
-10. **Padronização** — Normaliza vocabulário com fuzzy match contra produtos canônicos + legados
-11. **Exportação** — Gera CSVs e JSONs estruturados
-12. **Validação** — `validation_report.json` (contagens, taxas, checksums) + bundle de publicação
-
-O pipeline tem **checkpoint/resume**: se interrompido, retoma do último checkpoint salvo.
-
-## Estrutura do projeto
-
-```
-PTD-corpus/
-  ptd_scraper.ipynb            # Notebook principal (gerado a partir de notebook_cells/)
-  build_notebook.py            # Monta o notebook a partir das células
-  build_manifest.py            # (re)gera output/manifest.json (derivador standalone)
-  build_metadata.py            # (re)gera descritores de dados abertos
-  build_corpus.py              # (re)gera o corpus harmonizado
-  build_variations.py          # (re)gera variations.csv (catálogo tipado de divergências)
-  build_coverage.py            # (re)gera coverage_summary.csv (cobertura por órgão)
-  build_xlsx.py                # (re)gera PTD-corpus.xlsx (pasta Excel pronta p/ uso)
-  run_pipeline.py              # Executa o pipeline headless (CI/local)
-  notebook_cells/              # Células individuais (.py e .md)
-  output/                      # Dados extraídos e descritores
-  tests/                       # pytest (helpers puros das células + derivadores)
-  HANDOUT.md                   # Origem do spin-off, o que foi mantido/removido, próximos passos
-  DECISIONS.md                 # Histórico de decisões técnicas e bugs corrigidos
-  METADATA.md                  # Linhagem dos metadados de dados abertos
-  requirements.txt             # Dependências Python
-```
+- **Fonte:** portal gov.br / SGD-MGI. Snapshot `data_execucao=2026-06-17`.
+- **Licença:** [Creative Commons Attribution 4.0 (CC BY 4.0)](LICENSE).
+- **Como citar:** DIREITO, Denise; SILVA, Lucas; QUEIROZ, Sérgio. *Corpus dos
+  Planos de Transformação Digital: extração, padronização e análise dos PTDs de 93
+  órgãos federais brasileiros*. Brasília: Ipea, 2026. (Nota Técnica). Metadados de
+  citação em [`CITATION.cff`](CITATION.cff).
 
 ## Desenvolvimento
 
-As células do notebook ficam em `notebook_cells/` como arquivos `.py` e `.md`
-individuais. Após editar, reconstrua o notebook:
+A fonte do notebook são os arquivos em `notebook_cells/` (`.py`/`.md`); o
+`ptd_scraper.ipynb` é **gerado** deles por `build_notebook.py`, e o CI bloqueia
+qualquer divergência. Os derivados de `output/` não exigem rodar o pipeline:
 
 ```bash
-python build_notebook.py        # ou: make build
+python build_notebook.py   # reconstrói o notebook após editar as células
+make manifest metadata corpus variations coverage xlsx   # regenera os derivados
 ```
 
-O CI (`.github/workflows/notebook-consistency.yml`) valida em todo push/PR que
-`ptd_scraper.ipynb` reflete `notebook_cells/` e bloqueia merge em caso de drift.
-
-### Metadados e corpus harmonizado
-
-Os derivados de `output/` não exigem rodar o pipeline:
-
-```bash
-make manifest   # output/manifest.json                         (build_manifest.py)
-make metadata   # output/datapackage.json + output/metadata/   (build_metadata.py)
-make corpus     # output/harmonized/                            (build_corpus.py)
-make variations # output/variations.csv                        (build_variations.py)
-make coverage   # output/coverage_summary.csv                  (build_coverage.py)
-make xlsx       # output/PTD-corpus.xlsx                        (build_xlsx.py)
-```
-
-Todos têm modo `--check` (usado no `pytest`) que falha se os artefatos
-commitados estão defasados. Detalhes em [`METADATA.md`](METADATA.md).
-
-## Citação
-
-DIREITO, Denise; SILVA, Lucas; QUEIROZ, Sérgio. *Corpus dos Planos de Transformação Digital: extração, padronização e análise dos PTDs de 93 órgãos federais brasileiros*. Brasília: Ipea, 2026. (Nota Técnica).
-
-## Licença
-
-Este projeto está licenciado sob a [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
+Cada derivador tem modo `--check` (rodado no `pytest`) que falha se o artefato
+commitado está defasado. Linhagem dos metadados em [`METADATA.md`](METADATA.md).

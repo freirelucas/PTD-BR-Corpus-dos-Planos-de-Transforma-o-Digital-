@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 """(Re)gera output/manifest.json a partir de output/ + git — derivador standalone.
 
-No projeto PTD original (com analytics) o manifest era escrito DENTRO da célula
-do dashboard (11cb_dashboard_data.py), acoplado ao cálculo das estatísticas.
-Neste spin-off sem analytics ele vira um derivador independente, no mesmo padrão
-de build_metadata.py / build_corpus.py: lê o que já está em output/, sem rodar o
-pipeline nem acessar a rede. build_metadata.py consome este manifest
-(data_execucao, pipeline_commit e o mapa outputs[].sha256) para montar os
-descritores DCAT / PROV / CKAN.
+Lê o que já está em output/ (sem rodar o pipeline nem acessar a rede) e escreve
+o manifesto de proveniência da execução: data, commit do pipeline e o hash
+sha256 + bytes de cada artefato exportado. build_metadata.py consome este
+manifest (data_execucao, pipeline_commit e o mapa outputs[].sha256) para montar
+os descritores DCAT / PROV / CKAN.
 
 Campos:
   pipeline_commit   git HEAD do repositório; se indisponível (ex.: árvore sem
@@ -51,7 +49,7 @@ MANIFEST = os.path.join(OUTPUT_DIR, "manifest.json")
 PDF_METADATA = os.path.join(OUTPUT_DIR, "pdf_metadata.csv")
 
 # Arquivos de primeiro nível que NÃO entram em outputs[]:
-#   data.js          artefato de dashboard (não existe no spin-off)
+#   data.js          artefato de dashboard (não usado aqui)
 #   manifest.json    auto-referência
 #   datapackage.json derivado por build_metadata.py (evita ciclo de hash)
 #   variations.csv   derivado por build_variations.py (idem)

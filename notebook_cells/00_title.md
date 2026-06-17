@@ -1,12 +1,10 @@
 # PTD-corpus — Planos de Transformação Digital (Gov.br)
 
-Notebook de **engenharia do corpus** dos Planos de Transformação Digital dos
-órgãos federais brasileiros: coleta, extração, padronização e exportação.
+Coleta, extração, padronização e exportação dos **Planos de Transformação
+Digital (PTDs)** dos órgãos federais brasileiros — entregas pactuadas e riscos de
+gestão — a partir dos PDFs oficiais do gov.br.
 
-Spin-off do projeto PTD **sem a camada de analytics** (estatísticas, figuras,
-dashboard, insumos da nota técnica) — ver `HANDOUT.md`.
-
-**Fonte:** [gov.br/governodigital - Planos de Transformação Digital](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/planos-de-transformacao-digital)
+**Fonte:** [gov.br/governodigital — Planos de Transformação Digital](https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/planos-de-transformacao-digital)
 
 **Pipeline:**
 1. Scraping da lista de órgãos signatários e URLs dos PDFs

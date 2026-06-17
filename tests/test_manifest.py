@@ -1,4 +1,4 @@
-"""Testes do derivador standalone build_manifest.py (spin-off sem analytics).
+"""Testes do derivador standalone build_manifest.py.
 
 Cobre: (a) o mapa outputs[] hasheia os arquivos de primeiro nível e exclui
 data.js / manifest.json / datapackage.json e subdiretórios; (b) as contagens de
