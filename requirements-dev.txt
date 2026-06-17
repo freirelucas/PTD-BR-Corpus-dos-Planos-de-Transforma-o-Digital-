@@ -9,3 +9,7 @@ pytest>=7
 PyYAML>=6.0
 frictionless>=5.0,<6.0
 jsonschema>=4.0
+
+# Geração da pasta Excel (build_xlsx.py): pandas (já em requirements.txt) +
+#   openpyxl — engine de escrita/leitura de .xlsx
+openpyxl>=3.1,<4.0

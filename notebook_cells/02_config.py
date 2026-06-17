@@ -236,7 +236,7 @@ for eixo, prods in LEGACY_PRODUTOS.items():
     for p in prods:
         PRODUTO_TO_EIXO[p] = eixo
 
-# Thresholds de qualidade — usados por 11b_statistics.py para detectar regressões
+# Thresholds de qualidade — usados por 13b (validation_report) + run_pipeline.py para detectar regressões
 # (ex: dedup pulado, checkpoint stale carregado, novo formato de PDF não suportado).
 # Bumpar conforme o corpus crescer ou o gov.br republicar com novos rótulos.
 QUALITY_THRESHOLDS = {

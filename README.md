@@ -53,10 +53,12 @@ marcados como `compartilhado` na cobertura.
 | `output/metadata/` | Metadados em padrões abertos: schema.org/Dataset, DCAT-AP, SKOS, JSON Schema, PROV-O, payload CKAN |
 | `output/harmonized/` | Corpus harmonizado: colunas `*_normalizado` estritamente canônicas + datapackage com enums estritos + relatório auditável |
 | `output/variations.csv` | Catálogo **tipado** das divergências texto autoral × catálogo (`alias`/`aproximado`/`imputado`/`residual`), gerado por `build_variations.py` |
+| `output/PTD-corpus.xlsx` | Pasta de trabalho Excel multi-aba (entregas/riscos/órgãos/cobertura + LEIA-ME + dicionário), pronta para uso no Excel/LibreOffice em qualquer locale, gerada por `build_xlsx.py` |
 
 Os descritores de dados abertos são gerados por [`build_metadata.py`](build_metadata.py);
 o `manifest.json` por [`build_manifest.py`](build_manifest.py); a versão
-harmonizada do corpus por [`build_corpus.py`](build_corpus.py). Documentação e
+harmonizada do corpus por [`build_corpus.py`](build_corpus.py); a pasta Excel
+pronta para uso por [`build_xlsx.py`](build_xlsx.py). Documentação e
 linhagem em [`METADATA.md`](METADATA.md).
 
 Cada campo categórico guarda `_original` (texto autoral) + `_normalizado`
@@ -158,6 +160,7 @@ PTD-corpus/
   build_metadata.py            # (re)gera descritores de dados abertos
   build_corpus.py              # (re)gera o corpus harmonizado
   build_variations.py          # (re)gera variations.csv (catálogo tipado de divergências)
+  build_xlsx.py                # (re)gera PTD-corpus.xlsx (pasta Excel pronta p/ uso)
   run_pipeline.py              # Executa o pipeline headless (CI/local)
   notebook_cells/              # Células individuais (.py e .md)
   output/                      # Dados extraídos e descritores
@@ -189,9 +192,10 @@ make manifest   # output/manifest.json                         (build_manifest.p
 make metadata   # output/datapackage.json + output/metadata/   (build_metadata.py)
 make corpus     # output/harmonized/                            (build_corpus.py)
 make variations # output/variations.csv                        (build_variations.py)
+make xlsx       # output/PTD-corpus.xlsx                        (build_xlsx.py)
 ```
 
-Os três têm modo `--check` (usado no `pytest`) que falha se os artefatos
+Todos têm modo `--check` (usado no `pytest`) que falha se os artefatos
 commitados estão defasados. Detalhes em [`METADATA.md`](METADATA.md).
 
 ## Citação

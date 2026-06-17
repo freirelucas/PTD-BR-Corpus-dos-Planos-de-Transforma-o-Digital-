@@ -20,9 +20,9 @@ Campos:
                     telemetria do run que extraiu os PDFs (não derivável dos
                     CSVs commitados) e portanto preservados do manifest anterior.
   outputs           {arquivo: {linhas, bytes, sha256}} dos arquivos de primeiro
-                    nível em output/, exceto data.js, manifest.json e
-                    datapackage.json (este derivado por build_metadata.py — fica
-                    de fora para não criar ciclo de hash) e subdiretórios
+                    nível em output/, exceto data.js, manifest.json e os
+                    derivados (datapackage.json, variations.csv, PTD-corpus.xlsx
+                    — fora para não criar ciclo de hash) e subdiretórios
                     (metadata/, harmonized/).
 
 Uso:
@@ -55,8 +55,10 @@ PDF_METADATA = os.path.join(OUTPUT_DIR, "pdf_metadata.csv")
 #   manifest.json    auto-referência
 #   datapackage.json derivado por build_metadata.py (evita ciclo de hash)
 #   variations.csv   derivado por build_variations.py (idem)
+#   PTD-corpus.xlsx  derivado por build_xlsx.py (conveniência binária; fora do
+#                    grafo de proveniência, que é sobre os CSVs canônicos)
 _OUTPUTS_EXCLUDE = {"data.js", "manifest.json", "datapackage.json",
-                    "variations.csv"}
+                    "variations.csv", "PTD-corpus.xlsx"}
 
 # Telemetria de PDFs preservada do manifest anterior (não derivável dos CSVs).
 _PRESERVED_PDF_FIELDS = (

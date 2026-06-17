@@ -10,7 +10,7 @@ Dois modos de carregamento:
   puramente declarativos (dataclasses, constantes, funções; os únicos side
   effects são prints e caches lazy, todos toleráveis).
 
-* **defs** — para cells de pipeline (04b, 06b, 08b, 11cb, ...) que, além de
+* **defs** — para cells de pipeline (04b, 06b, 08b, 09b, ...) que, além de
   definir funções, EXECUTAM o pipeline no nível de módulo
   (`all_organs = scrape_organ_listing(BASE_URL)` dispara HTTP real,
   `extract_all_deliveries()` lê PDFs do disco). Filtramos o AST para manter

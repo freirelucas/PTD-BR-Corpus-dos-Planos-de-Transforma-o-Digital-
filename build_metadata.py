@@ -35,7 +35,6 @@ REPO_ROOT = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(REPO_ROOT, "output")
 META_DIR = os.path.join(OUTPUT_DIR, "metadata")
 SCHEMAS_DIR = os.path.join(META_DIR, "schemas")
-INDEX_HTML = os.path.join(REPO_ROOT, "index.html")
 CITATION = os.path.join(REPO_ROOT, "CITATION.cff")
 MANIFEST = os.path.join(OUTPUT_DIR, "manifest.json")
 
