@@ -11,7 +11,9 @@ publicados no portal [gov.br](https://www.gov.br/governodigital/pt-br/estrategia
 > porquê, o que foi mantido/removido e como continuar estão em
 > [`HANDOUT.md`](HANDOUT.md).
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/freirelucas/ptd-br-corpus-dos-planos-de-transforma-o-digital-/blob/main/ptd_scraper.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/freirelucas/ptd-br-corpus-dos-planos-de-transforma-o-digital-/blob/main/ptd_scraper.ipynb) &nbsp; [![Baixar corpus em Excel](https://img.shields.io/badge/⬇%20Baixar-Corpus%20em%20Excel%20.xlsx-1D6F42?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://github.com/freirelucas/PTD-BR-Corpus-dos-Planos-de-Transforma-o-Digital-/raw/main/output/PTD-corpus.xlsx)
+
+> 📊 **Baixe o corpus pronto em Excel:** [`PTD-corpus.xlsx`](https://github.com/freirelucas/PTD-BR-Corpus-dos-Planos-de-Transforma-o-Digital-/raw/main/output/PTD-corpus.xlsx) (516 KB) — abas **entregas · riscos · órgãos · cobertura** + LEIA-ME e dicionário. Abre direto no Excel/LibreOffice em qualquer idioma (acentos e números corretos, sem mexer em delimitador). 93 órgãos, snapshot 2026-06-17.
 
 ## O que o corpus contém
 
