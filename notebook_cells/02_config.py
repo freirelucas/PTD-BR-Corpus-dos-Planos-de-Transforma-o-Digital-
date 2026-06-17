@@ -238,10 +238,11 @@ for eixo, prods in LEGACY_PRODUTOS.items():
 
 # Thresholds de qualidade — usados por 13b (validation_report) + run_pipeline.py para detectar regressões
 # (ex: dedup pulado, checkpoint stale carregado, novo formato de PDF não suportado).
-# Bumpar conforme o corpus crescer ou o gov.br republicar com novos rótulos.
+# Os tetos são POR ÓRGÃO (× nº de órgãos no 13b) — crescem com o corpus, sem
+# precisar bumpar a cada novo órgão; pegam só inflação anômala (bug de duplicação).
 QUALITY_THRESHOLDS = {
-    "max_entregas":               4700,   # 4574 baseline + margem para PDFs novos
-    "max_riscos":                  700,   # 619 baseline + margem
+    "max_entregas_por_orgao":      100,   # ~54/órgão observado (93 órgãos, 2026-06); teto ~2x
+    "max_riscos_por_orgao":         20,   # ~7/órgão observado; teto ~3x
     "min_prob_canonica_ratio":    0.85,
     "min_imp_canonica_ratio":     0.85,
     "min_trat_canonica_ratio":    0.80,

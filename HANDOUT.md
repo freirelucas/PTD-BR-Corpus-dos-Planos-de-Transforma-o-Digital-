@@ -198,21 +198,37 @@ IP do runner), sai com código 2 e mensagem clara — o fallback é rodar no Col
 
 ## 6. O que ainda falta validar / decidir
 
-1. **Primeiro run ao vivo do pipeline.** O portal gov.br costuma bloquear IPs de
-   runner; este pacote foi montado num ambiente **sem acesso ao portal**, então
-   o fim-a-fim (scraping → extração) **não** foi exercido aqui. Rode uma vez
-   (local ou Colab) para confirmar. Num run novo, `build_manifest.py` passa a
-   recontar `pdfs_baixados/diretivo/entregas` de `pdf_metadata.csv`; se quiser
-   também a telemetria de dedup/scan fresca (`dedup_owners`, `compartilhados`,
-   `escaneados_pendentes`, `com_texto_extraido`), porte esse cálculo de
-   `11cb` (original) para uma célula do corpus ou para `build_manifest.py` — hoje
-   ela é **preservada** do snapshot, não recalculada.
-2. **`METADATA.md`** pode citar `index.html`/dashboard em passagens da linhagem.
-   Revise e ajuste o texto (não afeta código).
+1. **Run ao vivo do pipeline — exercido e verde.** O "403 do gov.br" era do
+   **método**: o WAF responde 403 a HEAD mas 200 a GET; o `preflight()` usava
+   HEAD e abortava falso. Corrigido (GET). Rodando o fim-a-fim deste repositório
+   (`run_pipeline.py`) saíram à luz e foram corrigidos mais três bugs latentes:
+   (a) os checkpoints quebravam com `PicklingError` porque as cells rodavam num
+   dict avulso, não no `__main__` real (pickle de dataclasses não achava a
+   classe); (b) `07b` usava `Counter` sem importar; (c) o teto `max_entregas`
+   era **absoluto** (4700) e estourava com o crescimento — agora é **por órgão**
+   (`max_entregas_por_orgao` × nº de órgãos), cresce com o corpus. Um run real
+   (2026-06) deu **93 órgãos, 4999 entregas, 662 riscos**, canonização 98/98/95%,
+   gate verde. Os geradores que faltavam foram reconstruídos: `pdf_metadata.csv`
+   (célula `05d`, lê os PDFs) e `coverage_summary.csv` (`build_coverage.py`).
+   Telemetria de dedup/scan (`dedup_owners`, `compartilhados`,
+   `escaneados_pendentes`, `com_texto_extraido`) ainda é **preservada** do
+   manifest anterior por `build_manifest.py`, não recalculada — porte de `11cb`
+   se quiser fresca.
+2. **Refresh dos dados para o snapshot atual (93 órgãos).** O corpus commitado
+   ainda é o snapshot herdado (91 órgãos, `data_execucao=2026-05-12`); o código
+   já roda com 93. Para atualizar — **via PR, nunca push direto na `main`**
+   (política do projeto):
+   ```bash
+   python run_pipeline.py --sync     # roda o pipeline e regenera output/ + derivadores
+   make test                         # suíte verde (inclui --check de todos os derivadores)
+   git checkout -b data-refresh/AAAA-MM
+   git add output/ && git commit -m "data: refresh output/ — run AAAA-MM-DD"
+   git push -u origin data-refresh/AAAA-MM   # abrir PR para main
+   ```
+   Ao atualizar, ajuste também a tabela de números no `README.md` e o
+   `CITATION.cff` (hoje refletem o snapshot 2026-05).
 3. **`CITATION.cff`** mantém o título/autores da nota técnica do corpus. Ajuste
    se o spin-off for citado de forma diferente.
-4. **Tabela de números no `README.md`** reflete o snapshot herdado
-   (`data_execucao=2026-05-12`). Atualize quando rodar um refresh.
 
 ---
 

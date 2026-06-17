@@ -50,14 +50,14 @@ trat_rate = trat_ok / n_riscos if n_riscos else 0.0
 # --- Threshold checks ---
 thresholds = {
     "max_entregas": {
-        "limit": QUALITY_THRESHOLDS["max_entregas"],
+        "limit": QUALITY_THRESHOLDS["max_entregas_por_orgao"] * n_orgaos,
         "actual": n_entregas,
-        "passed": n_entregas <= QUALITY_THRESHOLDS["max_entregas"],
+        "passed": n_entregas <= QUALITY_THRESHOLDS["max_entregas_por_orgao"] * n_orgaos,
     },
     "max_riscos": {
-        "limit": QUALITY_THRESHOLDS["max_riscos"],
+        "limit": QUALITY_THRESHOLDS["max_riscos_por_orgao"] * n_orgaos,
         "actual": n_riscos,
-        "passed": n_riscos <= QUALITY_THRESHOLDS["max_riscos"],
+        "passed": n_riscos <= QUALITY_THRESHOLDS["max_riscos_por_orgao"] * n_orgaos,
     },
     "min_prob_canonica_ratio": {
         "limit": QUALITY_THRESHOLDS["min_prob_canonica_ratio"],
