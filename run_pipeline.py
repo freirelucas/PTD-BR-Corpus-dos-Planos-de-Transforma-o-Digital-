@@ -68,7 +68,12 @@ def preflight(ns: dict) -> None:
 
 
 def run_cells(skip_preflight: bool) -> None:
-    ns: dict = {"__name__": "__main__"}
+    # Cells no namespace REAL de __main__ — mesma semântica do Jupyter e, crucial
+    # para os checkpoints: pickle.dump de dataclasses (RiskEntry/DeliveryEntry/…)
+    # só resolve a classe se ela viver em sys.modules["__main__"]; um dict avulso
+    # com __name__="__main__" faz o pickle falhar (lookup em __main__ vazio).
+    import __main__
+    ns = __main__.__dict__
     for path in sorted(glob.glob(os.path.join(CELLS_DIR, "*.py"))):
         name = os.path.basename(path)
         t0 = time.time()

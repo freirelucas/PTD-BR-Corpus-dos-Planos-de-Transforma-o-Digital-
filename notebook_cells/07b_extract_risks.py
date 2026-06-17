@@ -3,6 +3,7 @@
 # ============================================================
 # Inclui: merge multi-página, recuperação header-as-data,
 # resolução de referências numéricas de ações.
+from collections import Counter
 
 _HEADER_LITERALS_RISK = {
     "risco", "probabilidade", "impacto", "tratamento",
