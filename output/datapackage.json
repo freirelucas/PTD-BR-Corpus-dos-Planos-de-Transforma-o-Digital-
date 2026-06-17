@@ -1,0 +1,644 @@
+{
+  "name": "ptd-corpus",
+  "title": "PTD — Corpus dos Planos de Transformação Digital",
+  "description": "Pipeline de extração automatizada e corpus dos Planos de Transformação Digital (PTDs) instituídos pelo Decreto 12.198/2024 e pela Estratégia Federal de Governo Digital (EFGD) 2024-2027. Coleta os PTDs publicados no portal SGD/MGI (gov.br), extrai tabelas de entregas pactuadas e tabelas diretivas de gestão de riscos via PyMuPDF, padroniza vocabulário contra escalas e produtos canônicos definidos pela SGD, e disponibiliza os dados estruturados (CSV, JSON) e visualizações interativas para 91 órgãos signatários, ~4.5k entregas e ~600 riscos mapeados.",
+  "version": "0.1.0-preview",
+  "created": "2026-05-12T00:00:00Z",
+  "homepage": "https://freirelucas.github.io/PTD",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "keywords": [
+    "PTD",
+    "Plano de Transformação Digital",
+    "Estratégia Federal de Governo Digital",
+    "EFGD",
+    "SGD",
+    "MGI",
+    "governo digital",
+    "extração tabular de PDF",
+    "PyMuPDF",
+    "canonização de vocabulário",
+    "administração pública federal",
+    "Brasil"
+  ],
+  "contributors": [
+    {
+      "title": "Denise Direito",
+      "organization": "Ipea",
+      "role": "author"
+    },
+    {
+      "title": "Lucas Silva",
+      "organization": "Ipea",
+      "role": "author"
+    },
+    {
+      "title": "Sérgio Queiroz",
+      "organization": "Ipea",
+      "role": "author"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Portal SGD/MGI — Planos de Transformação Digital",
+      "path": "https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/planos-de-transformacao-digital"
+    }
+  ],
+  "resources": [
+    {
+      "name": "organs",
+      "path": "organs.csv",
+      "title": "Órgãos signatários",
+      "description": "Um registro por órgão signatário de PTD, com URLs dos PDFs de origem.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "sigla",
+            "type": "string",
+            "title": "Sigla",
+            "description": "Sigla do órgão signatário (chave primária).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "nome_completo",
+            "type": "string",
+            "title": "Nome completo",
+            "description": "Título do PTD / nome do órgão."
+          },
+          {
+            "name": "grupo",
+            "type": "string",
+            "title": "Grupo",
+            "description": "Grupo de órgãos que compartilham um mesmo PTD, se houver."
+          },
+          {
+            "name": "url_diretivo",
+            "type": "string",
+            "title": "URL do documento diretivo",
+            "description": "URL do PDF diretivo no portal SGD.",
+            "format": "uri"
+          },
+          {
+            "name": "url_entregas",
+            "type": "string",
+            "title": "URL do anexo de entregas",
+            "description": "URL do PDF de entregas no portal SGD.",
+            "format": "uri"
+          },
+          {
+            "name": "pdf_path_diretivo",
+            "type": "string",
+            "title": "Caminho local (diretivo)",
+            "description": "Caminho do PDF diretivo baixado."
+          },
+          {
+            "name": "pdf_path_entregas",
+            "type": "string",
+            "title": "Caminho local (entregas)",
+            "description": "Caminho do PDF de entregas baixado."
+          }
+        ],
+        "primaryKey": "sigla"
+      },
+      "bytes": 46492,
+      "hash": "sha256:c4d6a4410e0c7a3d7159cff1ad869fb80e481a54b0f1aa0bda56b9ebce9ba974"
+    },
+    {
+      "name": "risks",
+      "path": "risks.csv",
+      "title": "Riscos (tabelas diretivas)",
+      "description": "Riscos de gestão extraídos das tabelas diretivas, normalizados contra as escalas SGD.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "orgao_sigla",
+            "type": "string",
+            "title": "Órgão",
+            "description": "Sigla do órgão (chave estrangeira → organs.sigla).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "risco_texto",
+            "type": "string",
+            "title": "Descrição do risco",
+            "description": "Texto do evento de risco extraído da tabela diretiva."
+          },
+          {
+            "name": "probabilidade_original",
+            "type": "string",
+            "title": "Probabilidade (original)",
+            "description": "Valor de probabilidade como extraído do PDF."
+          },
+          {
+            "name": "probabilidade_normalizada",
+            "type": "string",
+            "title": "Probabilidade (canônica)",
+            "description": "Probabilidade na escala ordinal SGD: raro < pouco provável < provável < muito provável < praticamente certo. Linhas com needs_review=True podem conter texto não canônico."
+          },
+          {
+            "name": "probabilidade_score",
+            "type": "number",
+            "title": "Score da probabilidade",
+            "description": "Confiança 0–1 do casamento contra o vocabulário canônico.",
+            "constraints": {
+              "minimum": 0.0,
+              "maximum": 1.0
+            }
+          },
+          {
+            "name": "probabilidade_method",
+            "type": "string",
+            "title": "Método (probabilidade)",
+            "description": "Estratégia de casamento aplicada.",
+            "constraints": {
+              "enum": [
+                "exact",
+                "alias",
+                "fuzzy_high",
+                "fuzzy_low",
+                "unmatched"
+              ]
+            }
+          },
+          {
+            "name": "impacto_original",
+            "type": "string",
+            "title": "Impacto (original)",
+            "description": "Valor de impacto como extraído do PDF."
+          },
+          {
+            "name": "impacto_normalizado",
+            "type": "string",
+            "title": "Impacto (canônico)",
+            "description": "Impacto na escala ordinal SGD: muito baixo < baixo < médio < alto < muito alto. Linhas com needs_review=True podem conter texto não canônico."
+          },
+          {
+            "name": "impacto_score",
+            "type": "number",
+            "title": "Score do impacto",
+            "description": "Confiança 0–1 do casamento contra o vocabulário canônico.",
+            "constraints": {
+              "minimum": 0.0,
+              "maximum": 1.0
+            }
+          },
+          {
+            "name": "impacto_method",
+            "type": "string",
+            "title": "Método (impacto)",
+            "description": "Estratégia de casamento aplicada.",
+            "constraints": {
+              "enum": [
+                "exact",
+                "alias",
+                "fuzzy_high",
+                "fuzzy_low",
+                "unmatched"
+              ]
+            }
+          },
+          {
+            "name": "tratamento_original",
+            "type": "string",
+            "title": "Tratamento (original)",
+            "description": "Opção de tratamento como extraída do PDF."
+          },
+          {
+            "name": "tratamento_normalizado",
+            "type": "string",
+            "title": "Tratamento (canônico)",
+            "description": "Opção de tratamento canônica (mitigar, eliminar, transferir, aceitar). Linhas com needs_review=True podem conter texto não canônico."
+          },
+          {
+            "name": "tratamento_score",
+            "type": "number",
+            "title": "Score do tratamento",
+            "description": "Confiança 0–1 do casamento contra o vocabulário canônico.",
+            "constraints": {
+              "minimum": 0.0,
+              "maximum": 1.0
+            }
+          },
+          {
+            "name": "tratamento_method",
+            "type": "string",
+            "title": "Método (tratamento)",
+            "description": "Estratégia de casamento aplicada.",
+            "constraints": {
+              "enum": [
+                "exact",
+                "alias",
+                "fuzzy_high",
+                "fuzzy_low",
+                "unmatched"
+              ]
+            }
+          },
+          {
+            "name": "acoes_tratamento",
+            "type": "string",
+            "title": "Ações de tratamento",
+            "description": "Ações de tratamento (texto livre ou referências resolvidas)."
+          },
+          {
+            "name": "extraction_confidence",
+            "type": "string",
+            "title": "Confiança da extração",
+            "description": "Confiança qualitativa da linha.",
+            "constraints": {
+              "enum": [
+                "high",
+                "medium",
+                "low"
+              ]
+            }
+          },
+          {
+            "name": "needs_review",
+            "type": "boolean",
+            "title": "Requer revisão",
+            "description": "Sinaliza linha para a fila de revisão humana."
+          },
+          {
+            "name": "review_reason",
+            "type": "string",
+            "title": "Motivo da revisão",
+            "description": "Razão pela qual a linha foi sinalizada."
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "orgao_sigla",
+            "reference": {
+              "resource": "organs",
+              "fields": "sigla"
+            }
+          }
+        ]
+      },
+      "bytes": 230130,
+      "hash": "sha256:5e01d2e584cbb669088da4d121dedafb03d61db9d0593ff4f3a7702a6fe38b58"
+    },
+    {
+      "name": "deliveries",
+      "path": "deliveries.csv",
+      "title": "Entregas pactuadas",
+      "description": "Entregas pactuadas/concluídas extraídas dos anexos, com produto e eixo canônicos.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "orgao_sigla",
+            "type": "string",
+            "title": "Órgão",
+            "description": "Sigla do órgão (chave estrangeira → organs.sigla).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "tabela_tipo",
+            "type": "string",
+            "title": "Tipo de tabela",
+            "description": "Origem estrutural da entrega.",
+            "constraints": {
+              "enum": [
+                "pactuada",
+                "concluida",
+                "cancelada"
+              ]
+            }
+          },
+          {
+            "name": "servico_acao",
+            "type": "string",
+            "title": "Serviço/Ação",
+            "description": "Serviço ou ação associada à entrega."
+          },
+          {
+            "name": "produto_original",
+            "type": "string",
+            "title": "Produto (original)",
+            "description": "Produto como extraído do PDF."
+          },
+          {
+            "name": "produto_normalizado",
+            "type": "string",
+            "title": "Produto (canônico)",
+            "description": "Produto canônico SGD, ou 'Outros'."
+          },
+          {
+            "name": "produto_score",
+            "type": "number",
+            "title": "Score do produto",
+            "description": "Confiança 0–1 do casamento contra o vocabulário canônico.",
+            "constraints": {
+              "minimum": 0.0,
+              "maximum": 1.0
+            }
+          },
+          {
+            "name": "produto_method",
+            "type": "string",
+            "title": "Método (produto)",
+            "description": "Estratégia de casamento aplicada.",
+            "constraints": {
+              "enum": [
+                "exact",
+                "alias",
+                "fuzzy_high",
+                "fuzzy_low",
+                "unmatched"
+              ]
+            }
+          },
+          {
+            "name": "eixo_original",
+            "type": "string",
+            "title": "Eixo (original)",
+            "description": "Eixo como extraído do PDF."
+          },
+          {
+            "name": "eixo_normalizado",
+            "type": "string",
+            "title": "Eixo (canônico)",
+            "description": "Eixo canônico da EFGD.",
+            "constraints": {
+              "enum": [
+                "Serviços Digitais e Melhoria da Qualidade",
+                "Unificação de Canais Digitais",
+                "Governança e Gestão de Dados",
+                "Segurança e Privacidade",
+                "Projetos Especiais"
+              ]
+            }
+          },
+          {
+            "name": "eixo_score",
+            "type": "number",
+            "title": "Score do eixo",
+            "description": "Confiança 0–1 do casamento contra o vocabulário canônico.",
+            "constraints": {
+              "minimum": 0.0,
+              "maximum": 1.0
+            }
+          },
+          {
+            "name": "eixo_method",
+            "type": "string",
+            "title": "Método (eixo)",
+            "description": "Estratégia de casamento aplicada.",
+            "constraints": {
+              "enum": [
+                "exact",
+                "alias",
+                "fuzzy_high",
+                "fuzzy_low",
+                "unmatched"
+              ]
+            }
+          },
+          {
+            "name": "area_responsavel",
+            "type": "string",
+            "title": "Área responsável",
+            "description": "Área/unidade responsável pela entrega."
+          },
+          {
+            "name": "data_pactuada",
+            "type": "string",
+            "title": "Data pactuada",
+            "description": "Prazo pactuado (formato heterogêneo; ver _parse_year_month)."
+          },
+          {
+            "name": "data_entrega",
+            "type": "string",
+            "title": "Data de entrega",
+            "description": "Data de conclusão, quando disponível."
+          },
+          {
+            "name": "pactuado",
+            "type": "string",
+            "title": "Pactuado",
+            "description": "Marcador de pactuação, quando presente no template."
+          },
+          {
+            "name": "justificativa",
+            "type": "string",
+            "title": "Justificativa",
+            "description": "Justificativa (cancelamento ou produto 'Outros')."
+          },
+          {
+            "name": "extraction_confidence",
+            "type": "string",
+            "title": "Confiança da extração",
+            "description": "Confiança qualitativa da linha.",
+            "constraints": {
+              "enum": [
+                "high",
+                "medium",
+                "low"
+              ]
+            }
+          },
+          {
+            "name": "needs_review",
+            "type": "boolean",
+            "title": "Requer revisão",
+            "description": "Sinaliza linha para a fila de revisão humana."
+          },
+          {
+            "name": "review_reason",
+            "type": "string",
+            "title": "Motivo da revisão",
+            "description": "Razão pela qual a linha foi sinalizada."
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "orgao_sigla",
+            "reference": {
+              "resource": "organs",
+              "fields": "sigla"
+            }
+          }
+        ]
+      },
+      "bytes": 1290978,
+      "hash": "sha256:51c3a792a707ba120f9fbcd902af630956f43624ef7222bd39590c8673534fb1"
+    },
+    {
+      "name": "coverage_summary",
+      "path": "coverage_summary.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "sigla",
+            "type": "string"
+          },
+          {
+            "name": "grupo",
+            "type": "string"
+          },
+          {
+            "name": "pdf_diretivo",
+            "type": "string"
+          },
+          {
+            "name": "pdf_entregas",
+            "type": "string"
+          },
+          {
+            "name": "entregas_extraidas",
+            "type": "string"
+          },
+          {
+            "name": "riscos_extraidos",
+            "type": "string"
+          },
+          {
+            "name": "status_entregas",
+            "type": "string"
+          },
+          {
+            "name": "status_riscos",
+            "type": "string"
+          }
+        ]
+      },
+      "bytes": 3224,
+      "hash": "sha256:6d87d6f19b76924f4f1a3f128b1a19d9e4694cf644280647740f03d1711879d2"
+    },
+    {
+      "name": "pdf_metadata",
+      "path": "pdf_metadata.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "sigla",
+            "type": "string"
+          },
+          {
+            "name": "tipo",
+            "type": "string"
+          },
+          {
+            "name": "data_criacao_pdf",
+            "type": "string"
+          },
+          {
+            "name": "data_modificacao_pdf",
+            "type": "string"
+          },
+          {
+            "name": "vigencia",
+            "type": "string"
+          },
+          {
+            "name": "tamanho_kb",
+            "type": "string"
+          }
+        ]
+      },
+      "bytes": 5315,
+      "hash": "sha256:61919c0f8547a358b5cad89586c87f75af4ba56ffed7d9cdf0e1885894b3c8bc"
+    },
+    {
+      "name": "vocabulary_mapping",
+      "path": "vocabulary_mapping.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "original",
+            "type": "string"
+          },
+          {
+            "name": "normalized",
+            "type": "string"
+          },
+          {
+            "name": "score",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "string"
+          }
+        ]
+      },
+      "bytes": 20550,
+      "hash": "sha256:f0383dd303fb45ee02a87dde8278fa1f0d608ff403098e56c98f2860dfcd4ca0"
+    },
+    {
+      "name": "error_report",
+      "path": "error_report.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "orgao_sigla",
+            "type": "string"
+          },
+          {
+            "name": "document_type",
+            "type": "string"
+          },
+          {
+            "name": "stage",
+            "type": "string"
+          },
+          {
+            "name": "error_type",
+            "type": "string"
+          },
+          {
+            "name": "error_message",
+            "type": "string"
+          },
+          {
+            "name": "timestamp",
+            "type": "string"
+          },
+          {
+            "name": "url",
+            "type": "string"
+          }
+        ]
+      },
+      "bytes": 1308,
+      "hash": "sha256:5a9d2884e4466a4367665fec91caa7211f2f3af86ac7896120c6dffbde318d04"
+    }
+  ]
+}

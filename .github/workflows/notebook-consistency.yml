@@ -1,0 +1,70 @@
+name: notebook consistency
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Rebuild notebook from cells
+        run: python build_notebook.py
+      - name: Verify ptd_scraper.ipynb is up to date
+        run: |
+          if ! git diff --quiet ptd_scraper.ipynb; then
+            echo "::error::ptd_scraper.ipynb não reflete notebook_cells/. Rode: python build_notebook.py && git add ptd_scraper.ipynb"
+            git diff --stat ptd_scraper.ipynb
+            exit 1
+          fi
+      - name: Verify output/ checksums match validation_report.json
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, os, sys
+
+          report_path = "output/validation_report.json"
+          if not os.path.exists(report_path):
+              print("validation_report.json ausente — pulando checagem de checksums.")
+              sys.exit(0)
+
+          with open(report_path, encoding="utf-8") as f:
+              report = json.load(f)
+
+          expected = report.get("output_checksums_md5") or {}
+          if not expected:
+              print("validation_report.json sem output_checksums_md5 — pulando.")
+              sys.exit(0)
+
+          drift = []
+          for fname, expected_md5 in expected.items():
+              fpath = os.path.join("output", fname)
+              if not os.path.exists(fpath):
+                  if expected_md5:
+                      drift.append(f"  {fname}: ausente em output/ (esperado md5 {expected_md5[:12]})")
+                  continue
+              if not expected_md5:
+                  continue  # report registrou string vazia
+              h = hashlib.md5()
+              with open(fpath, "rb") as fh:
+                  for chunk in iter(lambda: fh.read(65536), b""):
+                      h.update(chunk)
+              actual = h.hexdigest()
+              if actual != expected_md5:
+                  drift.append(f"  {fname}: md5 atual {actual[:12]} != registrado {expected_md5[:12]}")
+
+          if drift:
+              print("::error::Inconsistência entre output/ e validation_report.json:")
+              for line in drift:
+                  print(line)
+              print("\nCausa típica: commit parcial de output/ — alguns arquivos atualizados,")
+              print("outros ficaram stale. Gere o bundle completo via célula 13c do notebook,")
+              print("substitua output/ inteira e commit num único PR.")
+              sys.exit(1)
+          else:
+              print(f"OK: {len(expected)} arquivos em output/ coincidem com checksums do report.")
+          PY

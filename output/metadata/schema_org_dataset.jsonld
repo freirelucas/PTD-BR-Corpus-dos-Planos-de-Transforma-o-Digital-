@@ -1,0 +1,138 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "PTD — Corpus dos Planos de Transformação Digital",
+  "description": "Pipeline de extração automatizada e corpus dos Planos de Transformação Digital (PTDs) instituídos pelo Decreto 12.198/2024 e pela Estratégia Federal de Governo Digital (EFGD) 2024-2027. Coleta os PTDs publicados no portal SGD/MGI (gov.br), extrai tabelas de entregas pactuadas e tabelas diretivas de gestão de riscos via PyMuPDF, padroniza vocabulário contra escalas e produtos canônicos definidos pela SGD, e disponibiliza os dados estruturados (CSV, JSON) e visualizações interativas para 91 órgãos signatários, ~4.5k entregas e ~600 riscos mapeados.",
+  "url": "https://freirelucas.github.io/PTD",
+  "sameAs": "https://github.com/freirelucas/PTD",
+  "version": "0.1.0-preview",
+  "datePublished": "2026-05-12",
+  "inLanguage": "pt-BR",
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "PTD",
+    "Plano de Transformação Digital",
+    "Estratégia Federal de Governo Digital",
+    "EFGD",
+    "SGD",
+    "MGI",
+    "governo digital",
+    "extração tabular de PDF",
+    "PyMuPDF",
+    "canonização de vocabulário",
+    "administração pública federal",
+    "Brasil"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Denise Direito",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Ipea"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Lucas Silva",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Ipea"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Sérgio Queiroz",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Ipea"
+      }
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Instituto de Pesquisa Econômica Aplicada (Ipea)"
+  },
+  "creativeWorkStatus": "Versão preliminar",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Administração",
+      "@id": "http://vocab.e.gov.br/id/governo#administracao"
+    },
+    {
+      "@type": "Thing",
+      "name": "Serviços Públicos",
+      "@id": "http://vocab.e.gov.br/id/governo#servicos-publicos"
+    },
+    {
+      "@type": "Thing",
+      "name": "Pesquisa e Desenvolvimento",
+      "@id": "http://vocab.e.gov.br/id/governo#pesquisa-e-desenvolvimento"
+    }
+  ],
+  "isBasedOn": "https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/planos-de-transformacao-digital",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://freirelucas.github.io/PTD/output/coverage_summary.csv",
+      "sha256": "6d87d6f19b76924f4f1a3f128b1a19d9e4694cf644280647740f03d1711879d2"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://freirelucas.github.io/PTD/output/deliveries.csv",
+      "sha256": "51c3a792a707ba120f9fbcd902af630956f43624ef7222bd39590c8673534fb1"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://freirelucas.github.io/PTD/output/deliveries.json",
+      "sha256": "27e4ac1b29aa88ee67de30dd3610e6c346ccf79bd223b58af683c33f31dff8ca"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://freirelucas.github.io/PTD/output/error_report.csv",
+      "sha256": "5a9d2884e4466a4367665fec91caa7211f2f3af86ac7896120c6dffbde318d04"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://freirelucas.github.io/PTD/output/organs.csv",
+      "sha256": "c4d6a4410e0c7a3d7159cff1ad869fb80e481a54b0f1aa0bda56b9ebce9ba974"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://freirelucas.github.io/PTD/output/pdf_metadata.csv",
+      "sha256": "61919c0f8547a358b5cad89586c87f75af4ba56ffed7d9cdf0e1885894b3c8bc"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://freirelucas.github.io/PTD/output/risks.csv",
+      "sha256": "5e01d2e584cbb669088da4d121dedafb03d61db9d0593ff4f3a7702a6fe38b58"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://freirelucas.github.io/PTD/output/risks.json",
+      "sha256": "7a3465ab04beefb5cb613d8bd96bb12577b8b436e1b7baecf9319b8ea1e3802a"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://freirelucas.github.io/PTD/output/validation_report.json",
+      "sha256": "19c6e8119f01a34c2314b9dad1a8051e07903f454da8abc8f94ef0559fcae109"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://freirelucas.github.io/PTD/output/vocabulary_mapping.csv",
+      "sha256": "f0383dd303fb45ee02a87dde8278fa1f0d608ff403098e56c98f2860dfcd4ca0"
+    }
+  ]
+}

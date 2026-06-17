@@ -1,0 +1,364 @@
+{
+  "gerado_de": "output/*.csv",
+  "total_alteracoes": 43,
+  "por_motivo": {
+    "multiplos_valores": 4,
+    "deduplicado": 1,
+    "column_bleed": 38
+  },
+  "por_tabela": {
+    "organs": 0,
+    "risks": 43,
+    "deliveries": 0
+  },
+  "alteracoes": {
+    "organs": [],
+    "risks": [
+      {
+        "row": 3,
+        "orgao": "AEB",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "mitigar; transferir",
+        "harmonizado": "",
+        "motivo": "multiplos_valores"
+      },
+      {
+        "row": 9,
+        "orgao": "AEB",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "mitigar; transferir",
+        "harmonizado": "",
+        "motivo": "multiplos_valores"
+      },
+      {
+        "row": 10,
+        "orgao": "AEB",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "mitigar; transferir",
+        "harmonizado": "",
+        "motivo": "multiplos_valores"
+      },
+      {
+        "row": 12,
+        "orgao": "AEB",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "mitigar; transferir",
+        "harmonizado": "",
+        "motivo": "multiplos_valores"
+      },
+      {
+        "row": 21,
+        "orgao": "ANA",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "transferir; transferir",
+        "harmonizado": "transferir",
+        "motivo": "deduplicado"
+      },
+      {
+        "row": 143,
+        "orgao": "CADE",
+        "campo": "probabilidade_normalizada",
+        "original_normalizado": "1-Alto",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 146,
+        "orgao": "CADE",
+        "campo": "probabilidade_normalizada",
+        "original_normalizado": "Médio",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 147,
+        "orgao": "CADE",
+        "campo": "probabilidade_normalizada",
+        "original_normalizado": "Médio",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 176,
+        "orgao": "CENSIPAM",
+        "campo": "impacto_normalizado",
+        "original_normalizado": "Impacto",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 177,
+        "orgao": "CENSIPAM",
+        "campo": "impacto_normalizado",
+        "original_normalizado": "Impacto",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 242,
+        "orgao": "DNOCS",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "Avaliar o impacto de cada cenário no Plano de",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 247,
+        "orgao": "DNOCS",
+        "campo": "impacto_normalizado",
+        "original_normalizado": "Investir em programas de capacitação e treinamento para as equipes de TI existentes, aprimorando suas habilidades e conheciment os em tecnologias emergentes.",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 249,
+        "orgao": "DNOCS",
+        "campo": "impacto_normalizado",
+        "original_normalizado": "Desenvolver planos de contingência detalhados para lidar com falhas ou interrupções nos serviços dos",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 251,
+        "orgao": "DNOCS",
+        "campo": "impacto_normalizado",
+        "original_normalizado": "estabelecer canais de comunicação direta para garantir o alinhamento de expectativas e a troca de informações",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 255,
+        "orgao": "DNOCS",
+        "campo": "impacto_normalizado",
+        "original_normalizado": "Documentar e comunicar claramente o impacto de qualquer mudança estratégica no PTD, buscando soluções colaborativas para minimizar os efeitos adversos",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 259,
+        "orgao": "DNOCS",
+        "campo": "impacto_normalizado",
+        "original_normalizado": "Implantar controles de acesso rigorosos, limitando o acesso a dados apenas a usuários autorizados",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 260,
+        "orgao": "DNOCS",
+        "campo": "impacto_normalizado",
+        "original_normalizado": "Implementar um sistema de gestão do conheciment o para documentar e compartilhar as melhores práticas, os",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 315,
+        "orgao": "IBAMA",
+        "campo": "probabilidade_normalizada",
+        "original_normalizado": "Médio",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 473,
+        "orgao": "MJSP",
+        "campo": "probabilidade_normalizada",
+        "original_normalizado": "rência",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 482,
+        "orgao": "MJSP",
+        "campo": "probabilidade_normalizada",
+        "original_normalizado": "de de Ocor-",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 482,
+        "orgao": "MJSP",
+        "campo": "impacto_normalizado",
+        "original_normalizado": "Impacto",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 492,
+        "orgao": "MMULHERES",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "- Sensibilização para apoio da alta administração; - Alinhamento contínuo com as diretrizes do governo. - Monitoramento das propostas legislativas e participação",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 493,
+        "orgao": "MMULHERES",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "orçamento digital. - Adoção de princípios de acessibilidade digital",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 494,
+        "orgao": "MMULHERES",
+        "campo": "impacto_normalizado",
+        "original_normalizado": "Médio Muito",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 494,
+        "orgao": "MMULHERES",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "- Parcerias estratégicas para expansão da infraestrutura digital. - Criação de estratégias de acesso inclusivo",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 495,
+        "orgao": "MMULHERES",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "acessibilidade; - Campanhas de conscientização. - Aprimoramento das políticas de conformidade com a LGPD e ao PPSI",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 496,
+        "orgao": "MMULHERES",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "- Implementação de protocolos avançados de proteção; - Monitoramento contínuo de ameaças. - Sensibilização da alta administração para priorização de",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 497,
+        "orgao": "MMULHERES",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "- Desenvolvimento de soluções internas; - Planejamento de migração tecnológica sustentável. - Reuniões estratégicas de alinhamento com a alta administração",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 498,
+        "orgao": "MMULHERES",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "- Desenvolvimento de plataformas adaptáveis a diferentes contextos socioculturais. - Sensibilização e capacitação das equipes",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 499,
+        "orgao": "MMULHERES",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "- Estratégias de governança de dados eficazes; - Adoção de protocolos de segurança cibernética. - Capacitação contínua dos servidores",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 501,
+        "orgao": "MMULHERES",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "- Parcerias interministeriais para alinhamento técnico. - Documentação robusta dos processos e entregas",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 503,
+        "orgao": "MMULHERES",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "- Fortalecimento da institucionalização das políticas digitais. - Mapeamento e priorização de investimentos",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 504,
+        "orgao": "MMULHERES",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "ativa em discussões estratégicas; - Reporte à alta administração. - Desenvolvimento de iniciativas de capacitação digital; - Criação de canais híbridos de atendimento para garantir",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 505,
+        "orgao": "MMULHERES",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "- Parcerias com instituições para oferta de treinamentos; - Planejamento de contratações estratégicas. - Diversificação de fornecedores",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 506,
+        "orgao": "MMULHERES",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "- Design inclusivo; - Testes com usuárias reais.",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 507,
+        "orgao": "MMULHERES",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "- Governança bem definida; - Comunicação contínua. - Fortalecimento da segurança cibernética",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 508,
+        "orgao": "MMULHERES",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "- Relatórios periódicos demonstrando impacto e ganhos das iniciativas. - Adoção de padrões abertos de integração",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 526,
+        "orgao": "MPOR",
+        "campo": "impacto_normalizado",
+        "original_normalizado": "Prospecçã o de formas alternativas para viabilizar a composiçã o e a manutençã o da força de trabalho; Utilizar melhores práticas de gerenciame nto de projetos registrando as etapas.",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 528,
+        "orgao": "MPOR",
+        "campo": "impacto_normalizado",
+        "original_normalizado": "Identificaçã o de dependênci as com fornecedor es para o planejamen to preventivo para a contratação ou migração de soluções visando a continuidad e do negócio;",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 528,
+        "orgao": "MPOR",
+        "campo": "tratamento_normalizado",
+        "original_normalizado": "Identificaçã o de dependênci as com fornecedor es para o planejamen to preventivo para a contratação ou migração de soluções visando a continuidad e do negócio",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 529,
+        "orgao": "MPOR",
+        "campo": "impacto_normalizado",
+        "original_normalizado": "Governanç a bem definida, com alinhament o estratégico,",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 532,
+        "orgao": "MPOR",
+        "campo": "impacto_normalizado",
+        "original_normalizado": "Negociar para minimizar os impactos; Identificaçã o de dependênci as com fornecedor es para o planejamen to preventivo para a contratação ou migração de soluções visando a",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      },
+      {
+        "row": 539,
+        "orgao": "MPOR",
+        "campo": "impacto_normalizado",
+        "original_normalizado": "Sensibiliza ção das áreas de negócio para a importância do plano digital; Prospecçã o de formas alternativas para viabilizar a composiçã",
+        "harmonizado": "",
+        "motivo": "column_bleed"
+      }
+    ],
+    "deliveries": []
+  }
+}

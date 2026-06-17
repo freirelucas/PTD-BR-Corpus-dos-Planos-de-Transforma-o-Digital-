@@ -1,0 +1,63 @@
+{
+  "pipeline_commit": "89d5e6769518cf7c817509583cf4f612d27fdbde",
+  "data_execucao": "2026-05-12",
+  "pdfs_baixados": 126,
+  "pdfs_diretivo": 61,
+  "pdfs_entregas": 65,
+  "pdfs_com_texto_extraido": 126,
+  "pdfs_escaneados_pendentes": 10,
+  "pdfs_dedup_owners": 58,
+  "pdfs_compartilhados": 27,
+  "outputs": {
+    "coverage_summary.csv": {
+      "linhas": 92,
+      "bytes": 3224,
+      "sha256": "6d87d6f19b76924f4f1a3f128b1a19d9e4694cf644280647740f03d1711879d2"
+    },
+    "deliveries.csv": {
+      "linhas": 4575,
+      "bytes": 1290978,
+      "sha256": "51c3a792a707ba120f9fbcd902af630956f43624ef7222bd39590c8673534fb1"
+    },
+    "deliveries.json": {
+      "linhas": 96177,
+      "bytes": 3845272,
+      "sha256": "27e4ac1b29aa88ee67de30dd3610e6c346ccf79bd223b58af683c33f31dff8ca"
+    },
+    "error_report.csv": {
+      "linhas": 11,
+      "bytes": 1308,
+      "sha256": "5a9d2884e4466a4367665fec91caa7211f2f3af86ac7896120c6dffbde318d04"
+    },
+    "organs.csv": {
+      "linhas": 92,
+      "bytes": 46492,
+      "sha256": "c4d6a4410e0c7a3d7159cff1ad869fb80e481a54b0f1aa0bda56b9ebce9ba974"
+    },
+    "pdf_metadata.csv": {
+      "linhas": 127,
+      "bytes": 5315,
+      "sha256": "61919c0f8547a358b5cad89586c87f75af4ba56ffed7d9cdf0e1885894b3c8bc"
+    },
+    "risks.csv": {
+      "linhas": 620,
+      "bytes": 230130,
+      "sha256": "5e01d2e584cbb669088da4d121dedafb03d61db9d0593ff4f3a7702a6fe38b58"
+    },
+    "risks.json": {
+      "linhas": 12491,
+      "bytes": 592925,
+      "sha256": "7a3465ab04beefb5cb613d8bd96bb12577b8b436e1b7baecf9319b8ea1e3802a"
+    },
+    "validation_report.json": {
+      "linhas": 274,
+      "bytes": 11907,
+      "sha256": "19c6e8119f01a34c2314b9dad1a8051e07903f454da8abc8f94ef0559fcae109"
+    },
+    "vocabulary_mapping.csv": {
+      "linhas": 200,
+      "bytes": 20550,
+      "sha256": "f0383dd303fb45ee02a87dde8278fa1f0d608ff403098e56c98f2860dfcd4ca0"
+    }
+  }
+}

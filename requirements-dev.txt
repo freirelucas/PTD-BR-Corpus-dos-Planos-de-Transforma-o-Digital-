@@ -1,0 +1,11 @@
+# Dev-only deps. Não necessárias pra rodar o notebook no Colab —
+# usadas apenas para `pytest` localmente e na CI `tests.yml`.
+pytest>=7
+
+# Geração e validação dos metadados de dados abertos (build_metadata.py):
+#   PyYAML       — lê CITATION.cff
+#   frictionless — valida output/datapackage.json (Frictionless Data Package)
+#   jsonschema   — valida risks.json / deliveries.json contra os JSON Schemas
+PyYAML>=6.0
+frictionless>=5.0,<6.0
+jsonschema>=4.0

@@ -1,0 +1,120 @@
+name: monthly data refresh
+
+on:
+  schedule:
+    # 06:17 UTC do dia 2 de cada mês (03:17 em Brasília).
+    # Dia 2: evita a congestão de crons do dia 1 no GitHub e captura
+    # atualizações de fim de mês no portal SGD. Minuto 17: foge do pico
+    # do minuto 0 (jobs agendados em horários cheios sofrem atraso/drop).
+    - cron: "17 6 2 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: monthly-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    # Pipeline completo ~10-20 min (REQUEST_DELAY=2s, ~130 PDFs) + pip + builders.
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          # requirements-dev: PyYAML p/ build_metadata.py ler CITATION.cff
+          # (sem ele o fallback divergiria do que o pytest do PR regenera).
+          pip install -r requirements.txt -r requirements-dev.txt
+
+      - name: Run pipeline (headless) + sync output/
+        run: |
+          set -o pipefail
+          # exit 2 = preflight (gov.br inacessível para IPs do runner) —
+          # fallback manual: fluxo Colab documentado no README.
+          python run_pipeline.py --sync 2>&1 | tee run_pipeline.log
+
+      - name: Detect real data changes
+        id: gate
+        run: |
+          # manifest.json/*.json embutem timestamps/hashes e mudam SEMPRE.
+          # O gate olha só artefatos sem timestamp: sem mudança real → sem PR.
+          DATA_FILES="output/risks.csv output/deliveries.csv output/organs.csv
+                      output/error_report.csv output/coverage_summary.csv
+                      output/vocabulary_mapping.csv"
+          if git diff --quiet -- $DATA_FILES; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Corpus inalterado vs main — nenhum PR será aberto."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --stat -- $DATA_FILES
+          fi
+
+      - name: Compute month and PR body
+        if: steps.gate.outputs.changed == 'true'
+        id: meta
+        run: |
+          echo "month=$(date -u +%Y-%m)" >> "$GITHUB_OUTPUT"
+          {
+            echo "body<<BODYEOF"
+            echo "Refresh mensal automatizado (run headless via \`run_pipeline.py --sync\`)."
+            echo
+            python - <<'PY'
+          import json
+          r = json.load(open("output/validation_report.json"))
+          c, cz = r["counts"], r["canonization"]
+          print("| métrica | valor |")
+          print("|---|---|")
+          print(f"| órgãos | {c['orgaos']} |")
+          print(f"| entregas | {c['entregas']} |")
+          print(f"| riscos | {c['riscos']} |")
+          print(f"| needs_review (E/R) | {c['needs_review_entregas']} / {c['needs_review_riscos']} |")
+          print(f"| canonização P/I/T | {cz['probabilidade']['rate']:.1%} / "
+                f"{cz['impacto']['rate']:.1%} / {cz['tratamento']['rate']:.1%} |")
+          print(f"| QUALITY_THRESHOLDS | {'todos passaram' if r['all_thresholds_passed'] else 'FALHA'} |")
+          PY
+            echo
+            echo "Revisar o diff de risks/deliveries/organs. Se as contagens mudaram,"
+            echo "atualizar a tabela do README (corpus atual) neste PR."
+            echo "BODYEOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Open data-refresh PR
+        if: steps.gate.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          # IMPORTANTE: PRs criados com o GITHUB_TOKEN padrão NÃO disparam os
+          # workflows de CI (tests + notebook-consistency). Crie um fine-grained
+          # PAT (Contents: RW, Pull requests: RW) no secret DATA_REFRESH_PAT
+          # para o PR receber os checks automaticamente. Sem o secret: fechar e
+          # reabrir o PR manualmente (ou push vazio) para rodar o CI.
+          token: ${{ secrets.DATA_REFRESH_PAT || github.token }}
+          add-paths: |
+            output/**
+          branch: data-refresh/${{ steps.meta.outputs.month }}
+          delete-branch: true
+          commit-message: "data: refresh mensal ${{ steps.meta.outputs.month }}"
+          title: "data: refresh mensal ${{ steps.meta.outputs.month }}"
+          body: ${{ steps.meta.outputs.body }}
+          labels: data-refresh
+
+      - name: Upload run log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-pipeline-log
+          path: |
+            run_pipeline.log
+            ptd_output/output/validation_report.json
+          if-no-files-found: ignore
+          retention-days: 30

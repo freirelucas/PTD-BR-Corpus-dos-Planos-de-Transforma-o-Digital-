@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+title: "PTD — Corpus dos Planos de Transformação Digital"
+message: "Se usar este corpus, cite usando os metadados abaixo."
+type: software
+authors:
+  - family-names: Direito
+    given-names: Denise
+    affiliation: Ipea
+  - family-names: Silva
+    given-names: Lucas
+    affiliation: Ipea
+  - family-names: Queiroz
+    given-names: Sérgio
+    affiliation: Ipea
+repository-code: "https://github.com/freirelucas/PTD"
+url: "https://freirelucas.github.io/PTD"
+abstract: >-
+  Pipeline de extração automatizada e corpus dos Planos de Transformação
+  Digital (PTDs) instituídos pelo Decreto 12.198/2024 e pela Estratégia
+  Federal de Governo Digital (EFGD) 2024-2027. Coleta os PTDs publicados
+  no portal SGD/MGI (gov.br), extrai tabelas de entregas pactuadas e
+  tabelas diretivas de gestão de riscos via PyMuPDF, padroniza vocabulário
+  contra escalas e produtos canônicos definidos pela SGD, e disponibiliza
+  os dados estruturados (CSV, JSON) e visualizações interativas para
+  91 órgãos signatários, ~4.5k entregas e ~600 riscos mapeados.
+keywords:
+  - PTD
+  - Plano de Transformação Digital
+  - Estratégia Federal de Governo Digital
+  - EFGD
+  - SGD
+  - MGI
+  - governo digital
+  - extração tabular de PDF
+  - PyMuPDF
+  - canonização de vocabulário
+  - administração pública federal
+  - Brasil
+license: CC-BY-4.0
+version: "0.1.0-preview"
+date-released: "2026-05-12"
+# Após criar release v1.0 no GitHub e conectar repo ao Zenodo:
+# 1) Substituir version pela tag (ex: "1.0.0")
+# 2) Adicionar:
+#    doi: "10.5281/zenodo.XXXXXXX"
+# 3) Atualizar date-released
+preferred-citation:
+  type: generic
+  authors:
+    - family-names: Direito
+      given-names: Denise
+    - family-names: Silva
+      given-names: Lucas
+    - family-names: Queiroz
+      given-names: Sérgio
+  title: "Corpus dos Planos de Transformação Digital: extração, padronização e análise dos PTDs de 91 órgãos federais brasileiros"
+  year: 2026
+  publisher:
+    name: "Instituto de Pesquisa Econômica Aplicada (Ipea)"
+  url: "https://github.com/freirelucas/PTD"
+  notes: "Nota técnica. Versão preliminar."

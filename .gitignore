@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project — diretório de trabalho local
+ptd_output/
+ptd_test_output/
+# Bundle distribuível gerado por `make corpus-zip` (artefato, não fonte)
+/corpus_*.zip
+# Bundle de publicação gerado por 13c (artefato, não fonte)
+/output_*.zip
+# Ignore local Claude settings, but track committed skills (.claude/skills/)
+.claude/*
+!.claude/skills/

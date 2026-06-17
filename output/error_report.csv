@@ -1,0 +1,11 @@
+﻿orgao_sigla,document_type,stage,error_type,error_message,timestamp,url
+AGU,diretivo,extraction,no_risk_table,Nenhuma tabela de risco encontrada em AGU_diretivo.pdf,2026-05-05T19:22:59.616218,
+ANVISA,diretivo,extraction,no_risk_table,Nenhuma tabela de risco encontrada em ANVISA_diretivo.pdf,2026-05-05T19:23:08.399358,
+FBN,diretivo,extraction,no_risk_table,Nenhuma tabela de risco encontrada em FBN_diretivo.pdf,2026-05-05T19:23:26.879045,
+FCP,diretivo,extraction,no_risk_table,Nenhuma tabela de risco encontrada em FCP_diretivo.pdf,2026-05-05T19:23:31.881770,
+FUNAI,diretivo,extraction,no_risk_table,Nenhuma tabela de risco encontrada em FUNAI_diretivo.pdf,2026-05-05T19:23:38.921581,
+INCRA,diretivo,extraction,no_risk_table,Nenhuma tabela de risco encontrada em INCRA_diretivo.pdf,2026-05-05T19:23:42.776411,
+ITI,diretivo,extraction,no_risk_table,Nenhuma tabela de risco encontrada em ITI_diretivo.pdf,2026-05-05T19:23:46.100877,
+MAPA,diretivo,extraction,no_risk_table,Nenhuma tabela de risco encontrada em MAPA_diretivo.pdf,2026-05-05T19:23:51.319548,
+MCOM,diretivo,extraction,no_risk_table,Nenhuma tabela de risco encontrada em MCOM_diretivo.pdf,2026-05-05T19:23:51.858748,
+PREVIC,diretivo,extraction,no_risk_table,Nenhuma tabela de risco encontrada em PREVIC_diretivo.pdf,2026-05-05T19:24:07.934215,

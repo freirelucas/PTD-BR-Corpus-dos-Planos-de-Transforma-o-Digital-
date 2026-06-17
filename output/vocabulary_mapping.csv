@@ -1,0 +1,200 @@
+﻿type,original,normalized,score,count
+eixo,,,0.0,2276
+eixo,Governança e Gestão de Dados,Governança e Gestão de Dados,1.0,54
+eixo,Governaça e Gestão de Dados,Governança e Gestão de Dados,0.95,4
+eixo,PSegurança e Privacidade,Segurança e Privacidade,0.9787234042553191,7
+eixo,Projetos Especiais,Projetos Especiais,1.0,89
+eixo,Segurança e Privacidade,Segurança e Privacidade,1.0,345
+eixo,Segurança e privacidade,Segurança e Privacidade,1.0,3
+eixo,Serviços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,1.0,1271
+eixo,Unificação de Canais Digitais,Unificação de Canais Digitais,1.0,490
+eixo,Unificação de canais digitais,Unificação de Canais Digitais,1.0,6
+eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,0.9879518072289156,11
+eixo,iviços Digitais e Melhoria da Qualid,Serviços Digitais e Melhoria da Qualidade,0.9090909090909091,18
+impacto,,,0.0,3
+impacto,2-Alto,alto,0.95,1
+impacto,3,médio,0.95,5
+impacto,4,alto,0.95,4
+impacto,ALTO,alto,1.0,8
+impacto,Alta,alto,0.95,1
+impacto,Alto,alto,1.0,188
+impacto,Alto Muito,muito alto,0.95,2
+impacto,Baixo,baixo,1.0,25
+impacto,Crítico,muito alto,0.95,1
+impacto,Desenvolver planos de contingência detalhados para lidar com falhas ou interrupções nos serviços dos,Desenvolver planos de contingência detalhados para lidar com falhas ou interrupções nos serviços dos,0.09090909090909091,1
+impacto,"Documentar e comunicar claramente o impacto de qualquer mudança estratégica no PTD, buscando soluções colaborativas para minimizar os efeitos adversos","Documentar e comunicar claramente o impacto de qualquer mudança estratégica no PTD, buscando soluções colaborativas para minimizar os efeitos adversos",0.125,1
+impacto,"Governanç a bem definida, com alinhament o estratégico,","Governanç a bem definida, com alinhament o estratégico,",0.18461538461538463,1
+impacto,Grande,muito alto,0.95,6
+impacto,Identificaçã o de dependênci as com fornecedor es para o planejamen to preventivo para a contratação ou migração de soluções visando a continuidad e do negócio;,Identificaçã o de dependênci as com fornecedor es para o planejamen to preventivo para a contratação ou migração de soluções visando a continuidad e do negócio;,0.07058823529411765,1
+impacto,Impacto,Impacto,0.5454545454545454,3
+impacto,"Implantar controles de acesso rigorosos, limitando o acesso a dados apenas a usuários autorizados","Implantar controles de acesso rigorosos, limitando o acesso a dados apenas a usuários autorizados",0.14953271028037382,1
+impacto,"Implementar um sistema de gestão do conheciment o para documentar e compartilhar as melhores práticas, os","Implementar um sistema de gestão do conheciment o para documentar e compartilhar as melhores práticas, os",0.08695652173913043,1
+impacto,"Investir em programas de capacitação e treinamento para as equipes de TI existentes, aprimorando suas habilidades e conheciment os em tecnologias emergentes.","Investir em programas de capacitação e treinamento para as equipes de TI existentes, aprimorando suas habilidades e conheciment os em tecnologias emergentes.",0.09523809523809523,1
+impacto,MUITO ALTO,muito alto,1.0,1
+impacto,Moderado,médio,0.95,2
+impacto,Muito Alto,muito alto,1.0,7
+impacto,Muito alto,muito alto,1.0,90
+impacto,MÉDIO,médio,1.0,5
+impacto,Média,médio,0.95,7
+impacto,Médio,médio,1.0,97
+impacto,Médio Muito,Médio Muito,0.625,1
+impacto,Negociar para minimizar os impactos; Identificaçã o de dependênci as com fornecedor es para o planejamen to preventivo para a contratação ou migração de soluções visando a,Negociar para minimizar os impactos; Identificaçã o de dependênci as com fornecedor es para o planejamen to preventivo para a contratação ou migração de soluções visando a,0.06629834254143646,1
+impacto,Prospecçã o de formas alternativas para viabilizar a composiçã o e a manutençã o da força de trabalho; Utilizar melhores práticas de gerenciame nto de projetos registrando as etapas.,Prospecçã o de formas alternativas para viabilizar a composiçã o e a manutençã o da força de trabalho; Utilizar melhores práticas de gerenciame nto de projetos registrando as etapas.,0.0625,1
+impacto,Sensibiliza ção das áreas de negócio para a importância do plano digital; Prospecçã o de formas alternativas para viabilizar a composiçã,Sensibiliza ção das áreas de negócio para a importância do plano digital; Prospecçã o de formas alternativas para viabilizar a composiçã,0.1232876712328767,1
+impacto,alto,alto,1.0,60
+impacto,alto Muito,muito alto,0.95,1
+impacto,baixo,baixo,1.0,21
+impacto,estabelecer canais de comunicação direta para garantir o alinhamento de expectativas e a troca de informações,estabelecer canais de comunicação direta para garantir o alinhamento de expectativas e a troca de informações,0.16806722689075632,1
+impacto,muito alto,muito alto,1.0,30
+impacto,médio,médio,1.0,39
+probabilidade,,,0.0,9
+probabilidade,1,raro,0.95,1
+probabilidade,1-Alto,1-Alto,0.4,1
+probabilidade,2,pouco provável,0.95,2
+probabilidade,3,provável,0.95,4
+probabilidade,4,muito provável,0.95,2
+probabilidade,Alta,muito provável,0.95,4
+probabilidade,Baixa,pouco provável,0.95,21
+probabilidade,Baixo,pouco provável,0.95,1
+probabilidade,Certo,praticamente certo,0.95,1
+probabilidade,Muito Provável,muito provável,1.0,5
+probabilidade,Muito baixa,raro,0.95,3
+probabilidade,Muito provável,muito provável,1.0,46
+probabilidade,Média,provável,0.95,11
+probabilidade,Médio,Médio,0.2608695652173913,3
+probabilidade,POUCO PROVÁVEL,pouco provável,1.0,7
+probabilidade,PROVÁVEL,provável,1.0,3
+probabilidade,Pouca,pouco provável,0.95,3
+probabilidade,Pouco Provável,pouco provável,1.0,9
+probabilidade,Pouco provável,pouco provável,1.0,150
+probabilidade,Praticamente certo,praticamente certo,1.0,16
+probabilidade,Provavel,provável,1.0,2
+probabilidade,Provável,provável,1.0,168
+probabilidade,Provável Muito,muito provável,0.95,3
+probabilidade,Provável Pouco,pouco provável,0.95,3
+probabilidade,RARO,raro,1.0,4
+probabilidade,Rara,raro,0.95,1
+probabilidade,Raro,raro,1.0,18
+probabilidade,de de Ocor-,de de Ocor-,0.32,1
+probabilidade,muito provável,muito provável,1.0,6
+probabilidade,pouco provável,pouco provável,1.0,45
+probabilidade,praticamente certo,praticamente certo,1.0,5
+probabilidade,provável,provável,1.0,46
+probabilidade,provável Muito,muito provável,0.95,2
+probabilidade,provável Pouco,pouco provável,0.95,2
+probabilidade,raro,raro,1.0,10
+probabilidade,rência,rência,0.4,1
+produto,"Auto-avaliação, análise de lacunas e planeja","Auto-avaliação, análise de lacunas e planejamento do PPSI",0.8712871287128713,3
+produto,"Auto-avaliação, análise de lacunas e planejam","Auto-avaliação, análise de lacunas e planejamento do PPSI",0.8823529411764706,3
+produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",0.9245283018867925,25
+produto,"Auto-avaliação, análise de lacunas e planejamento do","Auto-avaliação, análise de lacunas e planejamento do PPSI",0.9541284403669725,28
+produto,"Auto-avaliação, análise de lacunas e planejamento do P","Auto-avaliação, análise de lacunas e planejamento do PPSI",0.972972972972973,2
+produto,"Auto-avaliação, análise de lacunas e planejamento do PP","Auto-avaliação, análise de lacunas e planejamento do PPSI",0.9821428571428571,28
+produto,"Auto-avaliação, análise de lacunas e planejamento do PPSI","Auto-avaliação, análise de lacunas e planejamento do PPSI",1.0,202
+produto,"Autoavaliação, análise de lacunas e planejamen","Auto-avaliação, análise de lacunas e planejamento do PPSI",0.8932038834951457,4
+produto,"Autoavaliação, análise de lacunas e planejamento do PPSI","Auto-avaliação, análise de lacunas e planejamento do PPSI",1.0,5
+produto,Disponibilização em Acesso D,Disponibilização em Acesso Digital,0.9032258064516129,15
+produto,Disponibilização em Acesso Digital,Disponibilização em Acesso Digital,1.0,465
+produto,Disponibilização em acesso digital,Disponibilização em Acesso Digital,1.0,27
+produto,Evolução de Serviços,Evolução do Serviço,0.9230769230769231,2
+produto,Evolução do Serviço,Evolução do Serviço,1.0,637
+produto,Evolução do Serviço Digital,Evolução do Serviço,1.0,3
+produto,Evolução do serviço,Evolução do Serviço,1.0,30
+produto,Implantação da Experiência LabQ,Implantação da Experiência LabQ,1.0,31
+produto,Implantação da Área Logada,Implantação da Área Logada Gov.Br,0.8813559322033898,11
+produto,Implantação do Design System,Implantação do Design System,1.0,175
+produto,Implementação do PPSI,Implementação do PPSI,1.0,343
+produto,Implementação do VLIBRAS,Implementação do VLIBRAS,1.0,37
+produto,Integração ao Login Único,Integração ao Login Único,0.98,633
+produto,Integração ao PagTesouro,Integração ao Pagtesouro,1.0,4
+produto,Integração ao Pagtesouro,Integração ao Pagtesouro,1.0,242
+produto,Integração ao login único,Integração ao Login Único,0.98,52
+produto,Integração com Assinatura Digital Gov.br,Integração com Assinatura Digital Gov.br,1.0,35
+produto,Integração à base de dados (O,Integração à base de dados,0.9454545454545454,26
+produto,Integração à base de dados (OUTROS),Integração à base de dados,0.8524590163934426,76
+produto,Integração à base de dados do,Integração à base de dados,0.9454545454545454,6
+produto,Integração à base de dados(OUTROS),Integração à base de dados,0.8666666666666667,1
+produto,Integração à ferramenta de avaliação da satisfação,Integração à ferramenta de avaliação da satisfação dos usuários,0.8849557522123894,13
+produto,Integração à ferramenta de avaliação da satisfação do,Integração à ferramenta de avaliação da satisfação dos usuários,0.9137931034482759,35
+produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,0.9230769230769231,81
+produto,Integração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,0.9411764705882353,66
+produto,Integração à ferramenta de avaliação da satisfação dos usuár,Integração à ferramenta de avaliação da satisfação dos usuários,0.975609756097561,37
+produto,Integração à ferramenta de avaliação da satisfação dos usuários,Integração à ferramenta de avaliação da satisfação dos usuários,1.0,437
+produto,Interoperabilidade de Sistemas,Interoperabilidade de Sistemas,1.0,14
+produto,Migração de APPs móveis para a loja do Go,Migração de APPs móveis para a loja do Gov.br,0.9534883720930233,3
+produto,Migração de APPs móveis para a loja do Gov.br,Migração de APPs móveis para a loja do Gov.br,1.0,19
+produto,Migração de Portal Institucional,Migração de Portal Institucional,1.0,28
+produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,0.875,17
+produto,Migração de Serviço para Plataforma Unificada,Migração de Serviço para Plataforma Unificada,1.0,21
+produto,ODisponibilização em Acesso Digital,Disponibilização em Acesso Digital,0.9855072463768116,1
+produto,OIntegração ao Login Único,Integração ao Login Único,0.9803921568627451,1
+produto,OIntegração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,0.9333333333333333,1
+produto,Outros,Outros,1.0,145
+produto,Realização de Autodiagnóstico de,Realização de Autodiagnóstico de Qualidade,0.8648648648648649,1
+produto,Realização de Autodiagnóstico de Qualidade,Realização de Autodiagnóstico de Qualidade,1.0,134
+produto,Revisão da Descrição dos Serviços,Revisão da descrição dos serviços,1.0,1
+produto,Revisão da descrição dos serv,Revisão da descrição dos serviços,0.9354838709677419,1
+produto,Revisão da descrição dos serviços,Revisão da descrição dos serviços,1.0,323
+produto,aIntegração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,0.9333333333333333,1
+produto,dIntegração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,0.9333333333333333,2
+produto,do framework de Privacidade e Segurança da Informação.,Adequação ao Framework de Privacidade e Segurança da Informação,0.905982905982906,1
+produto,eDisponibilização em Acesso Digital,Disponibilização em Acesso Digital,0.9855072463768116,4
+produto,eEvolução do Serviço,Evolução do Serviço,0.9743589743589743,1
+produto,eIntegração ao Login Único,Integração ao Login Único,0.9803921568627451,4
+produto,eIntegração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,0.9333333333333333,6
+produto,eOutros,Outros,0.9230769230769231,1
+produto,oDisponibilização em Acesso Digital,Disponibilização em Acesso Digital,0.9855072463768116,3
+produto,oEvolução do Serviço,Evolução do Serviço,0.9743589743589743,3
+produto,oI mplantação do Design System,Implantação do Design System,0.9655172413793104,1
+produto,oIntegração ao Login Único,Integração ao Login Único,0.9803921568627451,2
+produto,oIntegração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,0.9333333333333333,2
+produto,oIntegração à ferramenta de avaliação da satisfação dos usuários,Integração à ferramenta de avaliação da satisfação dos usuários,0.9921259842519685,1
+produto,oMigração de Serviço para Plataforma Unificada,Migração de Serviço para Plataforma Unificada,0.989010989010989,1
+produto,pDisponibilização em Acesso Digital,Disponibilização em Acesso Digital,0.9855072463768116,1
+produto,pIntegração ao Login Único,Integração ao Login Único,0.9803921568627451,1
+produto,pIntegração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,0.9333333333333333,1
+produto,pMigração de Serviço para Plataforma Unificada,Migração de Serviço para Plataforma Unificada,0.989010989010989,1
+produto,sOutros,Outros,0.9230769230769231,2
+produto,tDisponibilização em Acesso Digital,Disponibilização em Acesso Digital,0.9855072463768116,1
+produto,tIntegração ao Login Único,Integração ao Login Único,0.9803921568627451,1
+produto,tIntegração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,0.9333333333333333,2
+produto,vEvolução do Serviço,Evolução do Serviço,0.9743589743589743,1
+tratamento,,,0.0,18
+tratamento,- Desenvolvimento de plataformas adaptáveis a diferentes contextos socioculturais. - Sensibilização e capacitação das equipes;,- Desenvolvimento de plataformas adaptáveis a diferentes contextos socioculturais. - Sensibilização e capacitação das equipes,0.10526315789473684,1
+tratamento,- Desenvolvimento de soluções internas; - Planejamento de migração tecnológica sustentável. - Reuniões estratégicas de alinhamento com a alta administração;,- Desenvolvimento de soluções internas; - Planejamento de migração tecnológica sustentável. - Reuniões estratégicas de alinhamento com a alta administração,0.11475409836065574,1
+tratamento,- Design inclusivo; - Testes com usuárias reais.,- Design inclusivo; - Testes com usuárias reais.,0.2631578947368421,1
+tratamento,- Estratégias de governança de dados eficazes; - Adoção de protocolos de segurança cibernética. - Capacitação contínua dos servidores;,- Estratégias de governança de dados eficazes; - Adoção de protocolos de segurança cibernética. - Capacitação contínua dos servidores,0.16666666666666666,1
+tratamento,- Fortalecimento da institucionalização das políticas digitais. - Mapeamento e priorização de investimentos;,- Fortalecimento da institucionalização das políticas digitais. - Mapeamento e priorização de investimentos,0.13675213675213677,1
+tratamento,- Governança bem definida; - Comunicação contínua. - Fortalecimento da segurança cibernética;,- Governança bem definida; - Comunicação contínua. - Fortalecimento da segurança cibernética,0.18181818181818182,1
+tratamento,- Implementação de protocolos avançados de proteção; - Monitoramento contínuo de ameaças. - Sensibilização da alta administração para priorização de,- Implementação de protocolos avançados de proteção; - Monitoramento contínuo de ameaças. - Sensibilização da alta administração para priorização de,0.1553398058252427,1
+tratamento,- Parcerias com instituições para oferta de treinamentos; - Planejamento de contratações estratégicas. - Diversificação de fornecedores;,- Parcerias com instituições para oferta de treinamentos; - Planejamento de contratações estratégicas. - Diversificação de fornecedores,0.1839080459770115,1
+tratamento,- Parcerias estratégicas para expansão da infraestrutura digital. - Criação de estratégias de acesso inclusivo;,- Parcerias estratégicas para expansão da infraestrutura digital. - Criação de estratégias de acesso inclusivo,0.11965811965811966,1
+tratamento,- Parcerias interministeriais para alinhamento técnico. - Documentação robusta dos processos e entregas;,- Parcerias interministeriais para alinhamento técnico. - Documentação robusta dos processos e entregas,0.12612612612612611,1
+tratamento,- Relatórios periódicos demonstrando impacto e ganhos das iniciativas. - Adoção de padrões abertos de integração;,- Relatórios periódicos demonstrando impacto e ganhos das iniciativas. - Adoção de padrões abertos de integração,0.14754098360655737,1
+tratamento,- Sensibilização para apoio da alta administração; - Alinhamento contínuo com as diretrizes do governo. - Monitoramento das propostas legislativas e participação,- Sensibilização para apoio da alta administração; - Alinhamento contínuo com as diretrizes do governo. - Monitoramento das propostas legislativas e participação,0.11864406779661017,1
+tratamento,3-Mitigar,mitigar,0.95,1
+tratamento,Aceitar,aceitar,1.0,43
+tratamento,Aceitar ou tolerar o risco,aceitar,0.95,2
+tratamento,Avaliar o impacto de cada cenário no Plano de,Avaliar o impacto de cada cenário no Plano de,0.22641509433962265,1
+tratamento,Compartilh ar,transferir,0.95,1
+tratamento,Eliminar,eliminar,1.0,8
+tratamento,Evitar,eliminar,0.95,4
+tratamento,Identificaçã o de dependênci as com fornecedor es para o planejamen to preventivo para a contratação ou migração de soluções visando a continuidad e do negócio;,Identificaçã o de dependênci as com fornecedor es para o planejamen to preventivo para a contratação ou migração de soluções visando a continuidad e do negócio,0.07228915662650602,1
+tratamento,MITIGAR,mitigar,1.0,14
+tratamento,Mitigar,mitigar,1.0,312
+tratamento,Mitigar o risco,mitigar,0.95,14
+tratamento,Mitigar/Tra nsferir,mitigar; transferir,0.9523809523809523,4
+tratamento,Monitorar,mitigar,0.95,1
+tratamento,Reduzir ou mitigar,mitigar,0.95,4
+tratamento,Reduzir ou mitigar o risco,mitigar,0.95,16
+tratamento,Transferir,transferir,1.0,3
+tratamento,Transferir/ Compartilhar,transferir; transferir,0.95,1
+tratamento,Tratar,mitigar,0.95,13
+tratamento,aceitar,aceitar,1.0,11
+tratamento,acessibilidade; - Campanhas de conscientização. - Aprimoramento das políticas de conformidade com a LGPD e ao PPSI;,acessibilidade; - Campanhas de conscientização. - Aprimoramento das políticas de conformidade com a LGPD e ao PPSI,0.13333333333333333,1
+tratamento,ativa em discussões estratégicas; - Reporte à alta administração. - Desenvolvimento de iniciativas de capacitação digital; - Criação de canais híbridos de atendimento para garantir,ativa em discussões estratégicas; - Reporte à alta administração. - Desenvolvimento de iniciativas de capacitação digital; - Criação de canais híbridos de atendimento para garantir,0.1276595744680851,1
+tratamento,eliminar,eliminar,1.0,1
+tratamento,mitigar,mitigar,1.0,112
+tratamento,orçamento digital. - Adoção de princípios de acessibilidade digital;,orçamento digital. - Adoção de princípios de acessibilidade digital,0.16216216216216217,1
+tratamento,tolerar,aceitar,0.95,4
+tratamento,transferir,transferir,1.0,15

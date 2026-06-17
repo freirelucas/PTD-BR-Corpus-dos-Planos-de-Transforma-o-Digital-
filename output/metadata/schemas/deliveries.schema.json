@@ -1,0 +1,237 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://freirelucas.github.io/PTD/output/metadata/schemas/deliveries.schema.json",
+  "title": "PTD — Entregas pactuadas",
+  "description": "Entregas pactuadas/concluídas extraídas dos anexos, com produto e eixo canônicos.",
+  "type": "object",
+  "required": [
+    "metadata",
+    "data"
+  ],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "exported_at": {
+          "type": "string"
+        },
+        "total": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "groups": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "total"
+      ]
+    },
+    "data": {
+      "type": "object",
+      "description": "Entries agrupadas por sigla de órgão.",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "orgao_sigla": {
+              "type": "string",
+              "title": "Órgão",
+              "description": "Sigla do órgão (chave estrangeira → organs.sigla)."
+            },
+            "tabela_tipo": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Tipo de tabela",
+              "description": "Origem estrutural da entrega.",
+              "enum": [
+                "pactuada",
+                "concluida",
+                "cancelada",
+                null
+              ]
+            },
+            "servico_acao": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Serviço/Ação",
+              "description": "Serviço ou ação associada à entrega."
+            },
+            "produto_original": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Produto (original)",
+              "description": "Produto como extraído do PDF."
+            },
+            "produto_normalizado": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Produto (canônico)",
+              "description": "Produto canônico SGD, ou 'Outros'."
+            },
+            "produto_score": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "title": "Score do produto",
+              "description": "Confiança 0–1 do casamento contra o vocabulário canônico.",
+              "minimum": 0.0,
+              "maximum": 1.0
+            },
+            "produto_method": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Método (produto)",
+              "description": "Estratégia de casamento aplicada.",
+              "enum": [
+                "exact",
+                "alias",
+                "fuzzy_high",
+                "fuzzy_low",
+                "unmatched",
+                null
+              ]
+            },
+            "eixo_original": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Eixo (original)",
+              "description": "Eixo como extraído do PDF."
+            },
+            "eixo_normalizado": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Eixo (canônico)",
+              "description": "Eixo canônico da EFGD.",
+              "enum": [
+                "Serviços Digitais e Melhoria da Qualidade",
+                "Unificação de Canais Digitais",
+                "Governança e Gestão de Dados",
+                "Segurança e Privacidade",
+                "Projetos Especiais",
+                null
+              ]
+            },
+            "eixo_score": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "title": "Score do eixo",
+              "description": "Confiança 0–1 do casamento contra o vocabulário canônico.",
+              "minimum": 0.0,
+              "maximum": 1.0
+            },
+            "eixo_method": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Método (eixo)",
+              "description": "Estratégia de casamento aplicada.",
+              "enum": [
+                "exact",
+                "alias",
+                "fuzzy_high",
+                "fuzzy_low",
+                "unmatched",
+                null
+              ]
+            },
+            "area_responsavel": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Área responsável",
+              "description": "Área/unidade responsável pela entrega."
+            },
+            "data_pactuada": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Data pactuada",
+              "description": "Prazo pactuado (formato heterogêneo; ver _parse_year_month)."
+            },
+            "data_entrega": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Data de entrega",
+              "description": "Data de conclusão, quando disponível."
+            },
+            "pactuado": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Pactuado",
+              "description": "Marcador de pactuação, quando presente no template."
+            },
+            "justificativa": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Justificativa",
+              "description": "Justificativa (cancelamento ou produto 'Outros')."
+            },
+            "extraction_confidence": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Confiança da extração",
+              "description": "Confiança qualitativa da linha.",
+              "enum": [
+                "high",
+                "medium",
+                "low",
+                null
+              ]
+            },
+            "needs_review": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "title": "Requer revisão",
+              "description": "Sinaliza linha para a fila de revisão humana."
+            },
+            "review_reason": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Motivo da revisão",
+              "description": "Razão pela qual a linha foi sinalizada."
+            }
+          },
+          "required": [
+            "orgao_sigla"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1091 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dct": "http://purl.org/dc/terms/"
+  },
+  "@graph": [
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab",
+      "@type": "skos:ConceptScheme",
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Vocabulário canônico do corpus PTD"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "skos:hasTopConcept": [
+        {
+          "@id": "https://freirelucas.github.io/PTD/vocab/eixo"
+        },
+        {
+          "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+        },
+        {
+          "@id": "https://freirelucas.github.io/PTD/vocab/probabilidade"
+        },
+        {
+          "@id": "https://freirelucas.github.io/PTD/vocab/impacto"
+        },
+        {
+          "@id": "https://freirelucas.github.io/PTD/vocab/tratamento"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/eixo",
+      "@type": "skos:ConceptScheme",
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Eixos da EFGD"
+      }
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto",
+      "@type": "skos:ConceptScheme",
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Produtos canônicos SGD"
+      }
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/probabilidade",
+      "@type": "skos:ConceptScheme",
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Escala de probabilidade"
+      }
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/impacto",
+      "@type": "skos:ConceptScheme",
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Escala de impacto"
+      }
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/tratamento",
+      "@type": "skos:ConceptScheme",
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Opções de tratamento de risco"
+      }
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/eixo#serviços-digitais-e-melhoria-da-qualidade",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/eixo"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Serviços Digitais e Melhoria da Qualidade"
+      },
+      "skos:notation": 1,
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "iServiços Digitais e Melhoria da Qualidade"
+        },
+        {
+          "@language": "pt",
+          "@value": "iviços Digitais e Melhoria da Qualid"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/eixo#unificação-de-canais-digitais",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/eixo"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Unificação de Canais Digitais"
+      },
+      "skos:notation": 2,
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Unificação de canais digitais"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/eixo#governança-e-gestão-de-dados",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/eixo"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Governança e Gestão de Dados"
+      },
+      "skos:notation": 3,
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Governaça e Gestão de Dados"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/eixo#segurança-e-privacidade",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/eixo"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Segurança e Privacidade"
+      },
+      "skos:notation": 4,
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "PSegurança e Privacidade"
+        },
+        {
+          "@language": "pt",
+          "@value": "Segurança e privacidade"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/eixo#projetos-especiais",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/eixo"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Projetos Especiais"
+      },
+      "skos:notation": 5
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#adequação-ao-framework-de-privacidade-e-segurança-da-informação",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Adequação ao Framework de Privacidade e Segurança da Informação"
+      },
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "do framework de Privacidade e Segurança da Informação."
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#auto-avaliação,-análise-de-lacunas-e-planejamento-do-ppsi",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Auto-avaliação, análise de lacunas e planejamento do PPSI"
+      },
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Auto-avaliação, análise de lacunas e planeja"
+        },
+        {
+          "@language": "pt",
+          "@value": "Auto-avaliação, análise de lacunas e planejam"
+        },
+        {
+          "@language": "pt",
+          "@value": "Auto-avaliação, análise de lacunas e planejamento"
+        },
+        {
+          "@language": "pt",
+          "@value": "Auto-avaliação, análise de lacunas e planejamento do"
+        },
+        {
+          "@language": "pt",
+          "@value": "Auto-avaliação, análise de lacunas e planejamento do P"
+        },
+        {
+          "@language": "pt",
+          "@value": "Auto-avaliação, análise de lacunas e planejamento do PP"
+        },
+        {
+          "@language": "pt",
+          "@value": "Autoavaliação, análise de lacunas e planejamen"
+        },
+        {
+          "@language": "pt",
+          "@value": "Autoavaliação, análise de lacunas e planejamento do PPSI"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#disponibilização-em-acesso-digital",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Disponibilização em Acesso Digital"
+      },
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Disponibilização em Acesso D"
+        },
+        {
+          "@language": "pt",
+          "@value": "Disponibilização em acesso digital"
+        },
+        {
+          "@language": "pt",
+          "@value": "ODisponibilização em Acesso Digital"
+        },
+        {
+          "@language": "pt",
+          "@value": "eDisponibilização em Acesso Digital"
+        },
+        {
+          "@language": "pt",
+          "@value": "oDisponibilização em Acesso Digital"
+        },
+        {
+          "@language": "pt",
+          "@value": "pDisponibilização em Acesso Digital"
+        },
+        {
+          "@language": "pt",
+          "@value": "tDisponibilização em Acesso Digital"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#evolução-do-serviço",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Evolução do Serviço"
+      },
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Evolução de Serviços"
+        },
+        {
+          "@language": "pt",
+          "@value": "Evolução do Serviço Digital"
+        },
+        {
+          "@language": "pt",
+          "@value": "Evolução do serviço"
+        },
+        {
+          "@language": "pt",
+          "@value": "eEvolução do Serviço"
+        },
+        {
+          "@language": "pt",
+          "@value": "oEvolução do Serviço"
+        },
+        {
+          "@language": "pt",
+          "@value": "vEvolução do Serviço"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#implantação-da-experiência-labq",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Implantação da Experiência LabQ"
+      }
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#implantação-da-área-logada-gov.br",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Implantação da Área Logada Gov.Br"
+      },
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Implantação da Área Logada"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#implantação-do-design-system",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Implantação do Design System"
+      },
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "oI mplantação do Design System"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#implementação-do-ppsi",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Implementação do PPSI"
+      }
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#implementação-do-vlibras",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Implementação do VLIBRAS"
+      }
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#integração-ao-login-único",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Integração ao Login Único"
+      },
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Integração ao login único"
+        },
+        {
+          "@language": "pt",
+          "@value": "OIntegração ao Login Único"
+        },
+        {
+          "@language": "pt",
+          "@value": "eIntegração ao Login Único"
+        },
+        {
+          "@language": "pt",
+          "@value": "oIntegração ao Login Único"
+        },
+        {
+          "@language": "pt",
+          "@value": "pIntegração ao Login Único"
+        },
+        {
+          "@language": "pt",
+          "@value": "tIntegração ao Login Único"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#integração-ao-pagtesouro",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Integração ao Pagtesouro"
+      },
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Integração ao PagTesouro"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#integração-com-assinatura-digital-gov.br",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Integração com Assinatura Digital Gov.br"
+      }
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#integração-à-base-de-dados",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Integração à base de dados"
+      },
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Integração à base de dados (O"
+        },
+        {
+          "@language": "pt",
+          "@value": "Integração à base de dados (OUTROS)"
+        },
+        {
+          "@language": "pt",
+          "@value": "Integração à base de dados do"
+        },
+        {
+          "@language": "pt",
+          "@value": "Integração à base de dados(OUTROS)"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#integração-à-ferramenta-de-avaliação-da-satisfação-dos-usuários",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Integração à ferramenta de avaliação da satisfação dos usuários"
+      },
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Integração à ferramenta de avaliação da satisfação"
+        },
+        {
+          "@language": "pt",
+          "@value": "Integração à ferramenta de avaliação da satisfação do"
+        },
+        {
+          "@language": "pt",
+          "@value": "Integração à ferramenta de avaliação da satisfação dos"
+        },
+        {
+          "@language": "pt",
+          "@value": "Integração à ferramenta de avaliação da satisfação dos u"
+        },
+        {
+          "@language": "pt",
+          "@value": "Integração à ferramenta de avaliação da satisfação dos usuár"
+        },
+        {
+          "@language": "pt",
+          "@value": "OIntegração à ferramenta de avaliação da satisfação dos u"
+        },
+        {
+          "@language": "pt",
+          "@value": "aIntegração à ferramenta de avaliação da satisfação dos u"
+        },
+        {
+          "@language": "pt",
+          "@value": "dIntegração à ferramenta de avaliação da satisfação dos u"
+        },
+        {
+          "@language": "pt",
+          "@value": "eIntegração à ferramenta de avaliação da satisfação dos u"
+        },
+        {
+          "@language": "pt",
+          "@value": "oIntegração à ferramenta de avaliação da satisfação dos u"
+        },
+        {
+          "@language": "pt",
+          "@value": "oIntegração à ferramenta de avaliação da satisfação dos usuários"
+        },
+        {
+          "@language": "pt",
+          "@value": "pIntegração à ferramenta de avaliação da satisfação dos u"
+        },
+        {
+          "@language": "pt",
+          "@value": "tIntegração à ferramenta de avaliação da satisfação dos u"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#interoperabilidade-de-sistemas",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Interoperabilidade de Sistemas"
+      }
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#migração-de-apps-móveis-para-a-loja-do-gov.br",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Migração de APPs móveis para a loja do Gov.br"
+      },
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Migração de APPs móveis para a loja do Go"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#migração-de-portal-institucional",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Migração de Portal Institucional"
+      }
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#migração-de-serviço-para-plataforma-unificada",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Migração de Serviço para Plataforma Unificada"
+      },
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Migração de Serviço para Plataforma"
+        },
+        {
+          "@language": "pt",
+          "@value": "oMigração de Serviço para Plataforma Unificada"
+        },
+        {
+          "@language": "pt",
+          "@value": "pMigração de Serviço para Plataforma Unificada"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#outros",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Outros"
+      },
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "eOutros"
+        },
+        {
+          "@language": "pt",
+          "@value": "sOutros"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#realização-de-autodiagnóstico-de-qualidade",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Realização de Autodiagnóstico de Qualidade"
+      },
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Realização de Autodiagnóstico de"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/produto#revisão-da-descrição-dos-serviços",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "Revisão da descrição dos serviços"
+      },
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Revisão da Descrição dos Serviços"
+        },
+        {
+          "@language": "pt",
+          "@value": "Revisão da descrição dos serv"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/probabilidade#raro",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/probabilidade"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "raro"
+      },
+      "skos:notation": 1,
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "1"
+        },
+        {
+          "@language": "pt",
+          "@value": "Muito baixa"
+        },
+        {
+          "@language": "pt",
+          "@value": "RARO"
+        },
+        {
+          "@language": "pt",
+          "@value": "Rara"
+        },
+        {
+          "@language": "pt",
+          "@value": "Raro"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/probabilidade#pouco-provável",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/probabilidade"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "pouco provável"
+      },
+      "skos:notation": 2,
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "2"
+        },
+        {
+          "@language": "pt",
+          "@value": "Baixa"
+        },
+        {
+          "@language": "pt",
+          "@value": "Baixo"
+        },
+        {
+          "@language": "pt",
+          "@value": "POUCO PROVÁVEL"
+        },
+        {
+          "@language": "pt",
+          "@value": "Pouca"
+        },
+        {
+          "@language": "pt",
+          "@value": "Pouco Provável"
+        },
+        {
+          "@language": "pt",
+          "@value": "Pouco provável"
+        },
+        {
+          "@language": "pt",
+          "@value": "Provável Pouco"
+        },
+        {
+          "@language": "pt",
+          "@value": "provável Pouco"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/probabilidade#provável",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/probabilidade"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "provável"
+      },
+      "skos:notation": 3,
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "3"
+        },
+        {
+          "@language": "pt",
+          "@value": "Média"
+        },
+        {
+          "@language": "pt",
+          "@value": "PROVÁVEL"
+        },
+        {
+          "@language": "pt",
+          "@value": "Provavel"
+        },
+        {
+          "@language": "pt",
+          "@value": "Provável"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/probabilidade#muito-provável",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/probabilidade"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "muito provável"
+      },
+      "skos:notation": 4,
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "4"
+        },
+        {
+          "@language": "pt",
+          "@value": "Alta"
+        },
+        {
+          "@language": "pt",
+          "@value": "Muito Provável"
+        },
+        {
+          "@language": "pt",
+          "@value": "Muito provável"
+        },
+        {
+          "@language": "pt",
+          "@value": "Provável Muito"
+        },
+        {
+          "@language": "pt",
+          "@value": "provável Muito"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/probabilidade#praticamente-certo",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/probabilidade"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "praticamente certo"
+      },
+      "skos:notation": 5,
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Certo"
+        },
+        {
+          "@language": "pt",
+          "@value": "Praticamente certo"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/impacto#muito-baixo",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/impacto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "muito baixo"
+      },
+      "skos:notation": 1
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/impacto#baixo",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/impacto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "baixo"
+      },
+      "skos:notation": 2,
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Baixo"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/impacto#médio",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/impacto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "médio"
+      },
+      "skos:notation": 3,
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "3"
+        },
+        {
+          "@language": "pt",
+          "@value": "Moderado"
+        },
+        {
+          "@language": "pt",
+          "@value": "MÉDIO"
+        },
+        {
+          "@language": "pt",
+          "@value": "Média"
+        },
+        {
+          "@language": "pt",
+          "@value": "Médio"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/impacto#alto",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/impacto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "alto"
+      },
+      "skos:notation": 4,
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "2-Alto"
+        },
+        {
+          "@language": "pt",
+          "@value": "4"
+        },
+        {
+          "@language": "pt",
+          "@value": "ALTO"
+        },
+        {
+          "@language": "pt",
+          "@value": "Alta"
+        },
+        {
+          "@language": "pt",
+          "@value": "Alto"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/impacto#muito-alto",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/impacto"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "muito alto"
+      },
+      "skos:notation": 5,
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Alto Muito"
+        },
+        {
+          "@language": "pt",
+          "@value": "Crítico"
+        },
+        {
+          "@language": "pt",
+          "@value": "Grande"
+        },
+        {
+          "@language": "pt",
+          "@value": "MUITO ALTO"
+        },
+        {
+          "@language": "pt",
+          "@value": "Muito Alto"
+        },
+        {
+          "@language": "pt",
+          "@value": "Muito alto"
+        },
+        {
+          "@language": "pt",
+          "@value": "alto Muito"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/tratamento#mitigar",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/tratamento"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "mitigar"
+      },
+      "skos:notation": 1,
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "3-Mitigar"
+        },
+        {
+          "@language": "pt",
+          "@value": "MITIGAR"
+        },
+        {
+          "@language": "pt",
+          "@value": "Mitigar"
+        },
+        {
+          "@language": "pt",
+          "@value": "Mitigar o risco"
+        },
+        {
+          "@language": "pt",
+          "@value": "Monitorar"
+        },
+        {
+          "@language": "pt",
+          "@value": "Reduzir ou mitigar"
+        },
+        {
+          "@language": "pt",
+          "@value": "Reduzir ou mitigar o risco"
+        },
+        {
+          "@language": "pt",
+          "@value": "Tratar"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/tratamento#eliminar",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/tratamento"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "eliminar"
+      },
+      "skos:notation": 2,
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Eliminar"
+        },
+        {
+          "@language": "pt",
+          "@value": "Evitar"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/tratamento#transferir",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/tratamento"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "transferir"
+      },
+      "skos:notation": 3,
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Compartilh ar"
+        },
+        {
+          "@language": "pt",
+          "@value": "Transferir"
+        }
+      ]
+    },
+    {
+      "@id": "https://freirelucas.github.io/PTD/vocab/tratamento#aceitar",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://freirelucas.github.io/PTD/vocab/tratamento"
+      },
+      "skos:prefLabel": {
+        "@language": "pt",
+        "@value": "aceitar"
+      },
+      "skos:notation": 4,
+      "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Aceitar"
+        },
+        {
+          "@language": "pt",
+          "@value": "Aceitar ou tolerar o risco"
+        },
+        {
+          "@language": "pt",
+          "@value": "tolerar"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+PTD-corpus — semente de spin-off (sem analytics)
+gerado em: 2026-06-17 02:45 UTC
+a partir do repo PTD, commit: 89d5e6769518cf7c817509583cf4f612d27fdbde
+gerador: tools/make_spinoff.py
+Ver HANDOUT.md para o que foi mantido/removido e os próximos passos.

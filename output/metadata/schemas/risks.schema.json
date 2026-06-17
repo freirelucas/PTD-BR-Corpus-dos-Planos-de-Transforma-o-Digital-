@@ -1,0 +1,225 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://freirelucas.github.io/PTD/output/metadata/schemas/risks.schema.json",
+  "title": "PTD — Riscos (tabelas diretivas)",
+  "description": "Riscos de gestão extraídos das tabelas diretivas, normalizados contra as escalas SGD.",
+  "type": "object",
+  "required": [
+    "metadata",
+    "data"
+  ],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "exported_at": {
+          "type": "string"
+        },
+        "total": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "groups": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "total"
+      ]
+    },
+    "data": {
+      "type": "object",
+      "description": "Entries agrupadas por sigla de órgão.",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "orgao_sigla": {
+              "type": "string",
+              "title": "Órgão",
+              "description": "Sigla do órgão (chave estrangeira → organs.sigla)."
+            },
+            "risco_texto": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Descrição do risco",
+              "description": "Texto do evento de risco extraído da tabela diretiva."
+            },
+            "probabilidade_original": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Probabilidade (original)",
+              "description": "Valor de probabilidade como extraído do PDF."
+            },
+            "probabilidade_normalizada": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Probabilidade (canônica)",
+              "description": "Probabilidade na escala ordinal SGD: raro < pouco provável < provável < muito provável < praticamente certo. Linhas com needs_review=True podem conter texto não canônico."
+            },
+            "probabilidade_score": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "title": "Score da probabilidade",
+              "description": "Confiança 0–1 do casamento contra o vocabulário canônico.",
+              "minimum": 0.0,
+              "maximum": 1.0
+            },
+            "probabilidade_method": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Método (probabilidade)",
+              "description": "Estratégia de casamento aplicada.",
+              "enum": [
+                "exact",
+                "alias",
+                "fuzzy_high",
+                "fuzzy_low",
+                "unmatched",
+                null
+              ]
+            },
+            "impacto_original": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Impacto (original)",
+              "description": "Valor de impacto como extraído do PDF."
+            },
+            "impacto_normalizado": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Impacto (canônico)",
+              "description": "Impacto na escala ordinal SGD: muito baixo < baixo < médio < alto < muito alto. Linhas com needs_review=True podem conter texto não canônico."
+            },
+            "impacto_score": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "title": "Score do impacto",
+              "description": "Confiança 0–1 do casamento contra o vocabulário canônico.",
+              "minimum": 0.0,
+              "maximum": 1.0
+            },
+            "impacto_method": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Método (impacto)",
+              "description": "Estratégia de casamento aplicada.",
+              "enum": [
+                "exact",
+                "alias",
+                "fuzzy_high",
+                "fuzzy_low",
+                "unmatched",
+                null
+              ]
+            },
+            "tratamento_original": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Tratamento (original)",
+              "description": "Opção de tratamento como extraída do PDF."
+            },
+            "tratamento_normalizado": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Tratamento (canônico)",
+              "description": "Opção de tratamento canônica (mitigar, eliminar, transferir, aceitar). Linhas com needs_review=True podem conter texto não canônico."
+            },
+            "tratamento_score": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "title": "Score do tratamento",
+              "description": "Confiança 0–1 do casamento contra o vocabulário canônico.",
+              "minimum": 0.0,
+              "maximum": 1.0
+            },
+            "tratamento_method": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Método (tratamento)",
+              "description": "Estratégia de casamento aplicada.",
+              "enum": [
+                "exact",
+                "alias",
+                "fuzzy_high",
+                "fuzzy_low",
+                "unmatched",
+                null
+              ]
+            },
+            "acoes_tratamento": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Ações de tratamento",
+              "description": "Ações de tratamento (texto livre ou referências resolvidas)."
+            },
+            "extraction_confidence": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Confiança da extração",
+              "description": "Confiança qualitativa da linha.",
+              "enum": [
+                "high",
+                "medium",
+                "low",
+                null
+              ]
+            },
+            "needs_review": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "title": "Requer revisão",
+              "description": "Sinaliza linha para a fila de revisão humana."
+            },
+            "review_reason": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "title": "Motivo da revisão",
+              "description": "Razão pela qual a linha foi sinalizada."
+            }
+          },
+          "required": [
+            "orgao_sigla"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

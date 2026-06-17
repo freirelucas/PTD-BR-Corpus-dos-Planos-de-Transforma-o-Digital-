@@ -1,0 +1,13 @@
+# PTD-corpus — dependências de runtime do pipeline
+#
+# Bounds bilaterais (>=X,<Y) garantem reprodutibilidade dentro de uma faixa
+# semântica e evitam breakage por major bumps. Colab e dev local convergem.
+#
+# Spin-off sem analytics: matplotlib e seaborn (camada de figuras) foram
+# removidos — nenhuma célula do corpus os importa.
+pymupdf>=1.23,<2.0
+pypdf>=4.0,<7.0
+beautifulsoup4>=4.12,<5.0
+requests>=2.31,<3.0
+tqdm>=4.66,<5.0
+pandas>=2.0,<4.0

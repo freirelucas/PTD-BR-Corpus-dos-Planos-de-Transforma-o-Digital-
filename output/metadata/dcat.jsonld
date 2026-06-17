@@ -1,0 +1,236 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "@type": "dcat:Dataset",
+  "@id": "https://freirelucas.github.io/PTD",
+  "dct:title": "PTD — Corpus dos Planos de Transformação Digital",
+  "dct:description": "Pipeline de extração automatizada e corpus dos Planos de Transformação Digital (PTDs) instituídos pelo Decreto 12.198/2024 e pela Estratégia Federal de Governo Digital (EFGD) 2024-2027. Coleta os PTDs publicados no portal SGD/MGI (gov.br), extrai tabelas de entregas pactuadas e tabelas diretivas de gestão de riscos via PyMuPDF, padroniza vocabulário contra escalas e produtos canônicos definidos pela SGD, e disponibiliza os dados estruturados (CSV, JSON) e visualizações interativas para 91 órgãos signatários, ~4.5k entregas e ~600 riscos mapeados.",
+  "dct:issued": "2026-05-12",
+  "dct:modified": "2026-05-12",
+  "dcat:version": "0.1.0-preview",
+  "dct:language": "pt-BR",
+  "dct:accrualPeriodicity": "http://purl.org/cld/freq/irregular",
+  "dct:license": {
+    "@id": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "dcat:keyword": [
+    "PTD",
+    "Plano de Transformação Digital",
+    "Estratégia Federal de Governo Digital",
+    "EFGD",
+    "SGD",
+    "MGI",
+    "governo digital",
+    "extração tabular de PDF",
+    "PyMuPDF",
+    "canonização de vocabulário",
+    "administração pública federal",
+    "Brasil"
+  ],
+  "dcat:theme": [
+    {
+      "@id": "http://vocab.e.gov.br/id/governo#administracao",
+      "skos:prefLabel": "Administração"
+    },
+    {
+      "@id": "http://vocab.e.gov.br/id/governo#servicos-publicos",
+      "skos:prefLabel": "Serviços Públicos"
+    },
+    {
+      "@id": "http://vocab.e.gov.br/id/governo#pesquisa-e-desenvolvimento",
+      "skos:prefLabel": "Pesquisa e Desenvolvimento"
+    }
+  ],
+  "dct:publisher": {
+    "@type": "foaf:Organization",
+    "foaf:name": "Instituto de Pesquisa Econômica Aplicada (Ipea)"
+  },
+  "dct:creator": [
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Denise Direito"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Lucas Silva"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:name": "Sérgio Queiroz"
+    }
+  ],
+  "dct:provenance": {
+    "@type": "dct:ProvenanceStatement",
+    "rdfs:label": "Extraído automaticamente dos PTDs publicados no portal SGD/MGI via pipeline PyMuPDF (commit 89d5e67695), execução de 2026-05-12."
+  },
+  "dct:source": {
+    "@id": "https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/planos-de-transformacao-digital"
+  },
+  "dcat:distribution": [
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": {
+        "@id": "https://freirelucas.github.io/PTD/output/coverage_summary.csv"
+      },
+      "dcat:mediaType": "text/csv",
+      "dct:format": "CSV",
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "spdx:checksum": {
+        "@type": "spdx:Checksum",
+        "spdx:algorithm": "spdx:checksumAlgorithm_sha256",
+        "spdx:checksumValue": "6d87d6f19b76924f4f1a3f128b1a19d9e4694cf644280647740f03d1711879d2"
+      }
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": {
+        "@id": "https://freirelucas.github.io/PTD/output/deliveries.csv"
+      },
+      "dcat:mediaType": "text/csv",
+      "dct:format": "CSV",
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "spdx:checksum": {
+        "@type": "spdx:Checksum",
+        "spdx:algorithm": "spdx:checksumAlgorithm_sha256",
+        "spdx:checksumValue": "51c3a792a707ba120f9fbcd902af630956f43624ef7222bd39590c8673534fb1"
+      }
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": {
+        "@id": "https://freirelucas.github.io/PTD/output/deliveries.json"
+      },
+      "dcat:mediaType": "application/json",
+      "dct:format": "JSON",
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "spdx:checksum": {
+        "@type": "spdx:Checksum",
+        "spdx:algorithm": "spdx:checksumAlgorithm_sha256",
+        "spdx:checksumValue": "27e4ac1b29aa88ee67de30dd3610e6c346ccf79bd223b58af683c33f31dff8ca"
+      }
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": {
+        "@id": "https://freirelucas.github.io/PTD/output/error_report.csv"
+      },
+      "dcat:mediaType": "text/csv",
+      "dct:format": "CSV",
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "spdx:checksum": {
+        "@type": "spdx:Checksum",
+        "spdx:algorithm": "spdx:checksumAlgorithm_sha256",
+        "spdx:checksumValue": "5a9d2884e4466a4367665fec91caa7211f2f3af86ac7896120c6dffbde318d04"
+      }
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": {
+        "@id": "https://freirelucas.github.io/PTD/output/organs.csv"
+      },
+      "dcat:mediaType": "text/csv",
+      "dct:format": "CSV",
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "spdx:checksum": {
+        "@type": "spdx:Checksum",
+        "spdx:algorithm": "spdx:checksumAlgorithm_sha256",
+        "spdx:checksumValue": "c4d6a4410e0c7a3d7159cff1ad869fb80e481a54b0f1aa0bda56b9ebce9ba974"
+      }
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": {
+        "@id": "https://freirelucas.github.io/PTD/output/pdf_metadata.csv"
+      },
+      "dcat:mediaType": "text/csv",
+      "dct:format": "CSV",
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "spdx:checksum": {
+        "@type": "spdx:Checksum",
+        "spdx:algorithm": "spdx:checksumAlgorithm_sha256",
+        "spdx:checksumValue": "61919c0f8547a358b5cad89586c87f75af4ba56ffed7d9cdf0e1885894b3c8bc"
+      }
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": {
+        "@id": "https://freirelucas.github.io/PTD/output/risks.csv"
+      },
+      "dcat:mediaType": "text/csv",
+      "dct:format": "CSV",
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "spdx:checksum": {
+        "@type": "spdx:Checksum",
+        "spdx:algorithm": "spdx:checksumAlgorithm_sha256",
+        "spdx:checksumValue": "5e01d2e584cbb669088da4d121dedafb03d61db9d0593ff4f3a7702a6fe38b58"
+      }
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": {
+        "@id": "https://freirelucas.github.io/PTD/output/risks.json"
+      },
+      "dcat:mediaType": "application/json",
+      "dct:format": "JSON",
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "spdx:checksum": {
+        "@type": "spdx:Checksum",
+        "spdx:algorithm": "spdx:checksumAlgorithm_sha256",
+        "spdx:checksumValue": "7a3465ab04beefb5cb613d8bd96bb12577b8b436e1b7baecf9319b8ea1e3802a"
+      }
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": {
+        "@id": "https://freirelucas.github.io/PTD/output/validation_report.json"
+      },
+      "dcat:mediaType": "application/json",
+      "dct:format": "JSON",
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "spdx:checksum": {
+        "@type": "spdx:Checksum",
+        "spdx:algorithm": "spdx:checksumAlgorithm_sha256",
+        "spdx:checksumValue": "19c6e8119f01a34c2314b9dad1a8051e07903f454da8abc8f94ef0559fcae109"
+      }
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": {
+        "@id": "https://freirelucas.github.io/PTD/output/vocabulary_mapping.csv"
+      },
+      "dcat:mediaType": "text/csv",
+      "dct:format": "CSV",
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "spdx:checksum": {
+        "@type": "spdx:Checksum",
+        "spdx:algorithm": "spdx:checksumAlgorithm_sha256",
+        "spdx:checksumValue": "f0383dd303fb45ee02a87dde8278fa1f0d608ff403098e56c98f2860dfcd4ca0"
+      }
+    }
+  ]
+}
