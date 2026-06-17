@@ -1,19 +1,26 @@
 ﻿orgao_sigla,entry_type,field,original,normalizado,method,score,variation_type
+ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,alias,0.95,alias
+ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,alias,0.95,alias
+ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,alias,0.95,alias
+ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,alias,0.95,alias
+ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,alias,0.95,alias
+ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,alias,0.95,alias
+ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,alias,0.95,alias
+ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,alias,0.95,alias
+ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,alias,0.95,alias
+ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,alias,0.95,alias
+ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,alias,0.95,alias
+MTUR,delivery,eixo,PSegurança e Privacidade,Segurança e Privacidade,alias,0.95,alias
+MTUR,delivery,eixo,PSegurança e Privacidade,Segurança e Privacidade,alias,0.95,alias
+MTUR,delivery,eixo,PSegurança e Privacidade,Segurança e Privacidade,alias,0.95,alias
+MTUR,delivery,eixo,PSegurança e Privacidade,Segurança e Privacidade,alias,0.95,alias
+MTUR,delivery,eixo,PSegurança e Privacidade,Segurança e Privacidade,alias,0.95,alias
+MTUR,delivery,eixo,PSegurança e Privacidade,Segurança e Privacidade,alias,0.95,alias
+MTUR,delivery,eixo,PSegurança e Privacidade,Segurança e Privacidade,alias,0.95,alias
 PGFN,delivery,eixo,Governaça e Gestão de Dados,Governança e Gestão de Dados,alias,0.95,alias
 PGFN,delivery,eixo,Governaça e Gestão de Dados,Governança e Gestão de Dados,alias,0.95,alias
 PGFN,delivery,eixo,Governaça e Gestão de Dados,Governança e Gestão de Dados,alias,0.95,alias
 PGFN,delivery,eixo,Governaça e Gestão de Dados,Governança e Gestão de Dados,alias,0.95,alias
-ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,fuzzy_high,0.988,aproximado
-ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,fuzzy_high,0.988,aproximado
-ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,fuzzy_high,0.988,aproximado
-ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,fuzzy_high,0.988,aproximado
-ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,fuzzy_high,0.988,aproximado
-ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,fuzzy_high,0.988,aproximado
-ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,fuzzy_high,0.988,aproximado
-ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,fuzzy_high,0.988,aproximado
-ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,fuzzy_high,0.988,aproximado
-ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,fuzzy_high,0.988,aproximado
-ANAC,delivery,eixo,iServiços Digitais e Melhoria da Qualidade,Serviços Digitais e Melhoria da Qualidade,fuzzy_high,0.988,aproximado
 ANAC,delivery,eixo,iviços Digitais e Melhoria da Qualid,Serviços Digitais e Melhoria da Qualidade,fuzzy_high,0.909,aproximado
 ANAC,delivery,eixo,iviços Digitais e Melhoria da Qualid,Serviços Digitais e Melhoria da Qualidade,fuzzy_high,0.909,aproximado
 ANAC,delivery,eixo,iviços Digitais e Melhoria da Qualid,Serviços Digitais e Melhoria da Qualidade,fuzzy_high,0.909,aproximado
@@ -32,13 +39,19 @@ ANAC,delivery,eixo,iviços Digitais e Melhoria da Qualid,Serviços Digitais e Me
 ANAC,delivery,eixo,iviços Digitais e Melhoria da Qualid,Serviços Digitais e Melhoria da Qualidade,fuzzy_high,0.909,aproximado
 ANAC,delivery,eixo,iviços Digitais e Melhoria da Qualid,Serviços Digitais e Melhoria da Qualidade,fuzzy_high,0.909,aproximado
 ANAC,delivery,eixo,iviços Digitais e Melhoria da Qualid,Serviços Digitais e Melhoria da Qualidade,fuzzy_high,0.909,aproximado
-MTUR,delivery,eixo,PSegurança e Privacidade,Segurança e Privacidade,fuzzy_high,0.979,aproximado
-MTUR,delivery,eixo,PSegurança e Privacidade,Segurança e Privacidade,fuzzy_high,0.979,aproximado
-MTUR,delivery,eixo,PSegurança e Privacidade,Segurança e Privacidade,fuzzy_high,0.979,aproximado
-MTUR,delivery,eixo,PSegurança e Privacidade,Segurança e Privacidade,fuzzy_high,0.979,aproximado
-MTUR,delivery,eixo,PSegurança e Privacidade,Segurança e Privacidade,fuzzy_high,0.979,aproximado
-MTUR,delivery,eixo,PSegurança e Privacidade,Segurança e Privacidade,fuzzy_high,0.979,aproximado
-MTUR,delivery,eixo,PSegurança e Privacidade,Segurança e Privacidade,fuzzy_high,0.979,aproximado
+ABIN,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
+ABIN,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
+ABIN,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
+ABIN,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
+ABIN,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
+ABIN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ABIN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ABIN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ABIN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ABIN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ABIN,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+ABIN,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+ABIN,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 ANA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
 ANEEL,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 ANM,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
@@ -342,22 +355,16 @@ ANM,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 ANM,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 ANM,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 ANTT,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-ANTT,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-ANTT,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-ANTT,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-ANTT,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-ANTT,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-ANTT,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-ANTT,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-ANTT,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-ANTT,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-ANTT,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-ANTT,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-ANTT,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-ANTT,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-ANTT,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-ANTT,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-ANTT,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 ANTT,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
 ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
@@ -395,6 +402,62 @@ ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imp
 ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
 ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
 ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+ANTT,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 ANTT,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 ANTT,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 ANTT,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
@@ -889,7 +952,6 @@ CAPES,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
 CAPES,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
 CAPES,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
 CAPES,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
-CAPES,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
 CAPES,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 CAPES,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 CAPES,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
@@ -900,6 +962,28 @@ CAPES,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 CAPES,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 CAPES,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 CAPES,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
 CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
 CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
 CAPES,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
@@ -1043,6 +1127,33 @@ CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0
 CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
 CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
 CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+CENSIPAM,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
 CENSIPAM,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 CENSIPAM,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 CENSIPAM,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
@@ -1080,14 +1191,6 @@ CENSIPAM,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 CENSIPAM,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 CENSIPAM,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 CENSIPAM,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
-COAF,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
-COAF,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
-COAF,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
-COAF,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
-COAF,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
-COAF,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
-COAF,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
-COAF,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
 COAF,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 COAF,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 COAF,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
@@ -1106,7 +1209,6 @@ CONAB,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,im
 CONAB,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
 CONAB,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
 CVM,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-CVM,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
 CVM,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 CVM,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 CVM,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
@@ -1174,7 +1276,6 @@ FUNARTE,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
 FUNARTE,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
 FUNARTE,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
 FUNARTE,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-FUNARTE,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
 FUNARTE,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 FUNARTE,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 FUNARTE,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
@@ -1212,7 +1313,6 @@ FUNARTE,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 FUNARTE,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 FUNARTE,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 IPHAN,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-IPHAN,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
 IPHAN,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 IPHAN,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 IPHAN,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
@@ -1222,6 +1322,24 @@ IPHAN,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 IPHAN,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 IPHAN,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 IPHAN,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
 IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
 IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
 IPHAN,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
@@ -1459,12 +1577,6 @@ MGI,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
 MGI,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
 MGI,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
 MGI,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-MGI,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
-MGI,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
-MGI,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
-MGI,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
-MGI,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
-MGI,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
 MGI,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 MGI,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 MGI,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
@@ -1651,7 +1763,6 @@ MGI,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 MGI,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 MGI,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 MJSP,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-MJSP,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
 MJSP,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 MJSP,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 MJSP,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
@@ -1757,6 +1868,72 @@ MJSP,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 MJSP,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 MJSP,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 MJSP,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MPA,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
+MPA,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MPA,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MPA,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MPA,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MPA,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MPA,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MPA,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MPA,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MPA,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MPA,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MPA,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MPA,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 MPI,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
 MPI,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
 MPI,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
@@ -1767,7 +1944,6 @@ MPI,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
 MPI,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
 MPI,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
 MPI,delivery,eixo,,Governança e Gestão de Dados,unmatched,0.0,imputado
-MPI,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
 MPI,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 MPI,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 MPI,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
@@ -1800,7 +1976,6 @@ MPI,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 MPI,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 MPI,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 MPI,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
-MPS,delivery,eixo,,Projetos Especiais,unmatched,0.0,imputado
 MPS,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 MPS,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
 MPS,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
@@ -1847,6 +2022,94 @@ MPS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 MPS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 MPS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 MPS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MS,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Segurança e Privacidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
+MS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
+MS,delivery,eixo,,Unificação de Canais Digitais,unmatched,0.0,imputado
 MTE,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
 MTE,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
 MTE,delivery,eixo,,Serviços Digitais e Melhoria da Qualidade,unmatched,0.0,imputado
@@ -2432,6 +2695,7 @@ ANPD,delivery,produto,Integração ao Login Único,Integração ao Login Único,
 ANPD,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 ANPD,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 ANPD,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+ANPD,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 ANS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 ANS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 ANS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
@@ -2448,6 +2712,13 @@ ANTAQ,delivery,produto,Integração ao Login Único,Integração ao Login Único
 ANTAQ,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 ANTAQ,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 ANTAQ,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+ANTT,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+ANTT,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+ANTT,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+ANTT,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+ANTT,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+ANTT,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+ANTT,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 ANTT,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 ANTT,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 ANTT,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
@@ -2861,6 +3132,15 @@ MME,delivery,produto,Integração ao Login Único,Integração ao Login Único,a
 MME,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 MME,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 MME,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MPA,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MPA,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MPA,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MPA,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MPA,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MPA,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MPA,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MPA,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MPA,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 MPI,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 MPO,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 MPO,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
@@ -2886,6 +3166,79 @@ MRE,delivery,produto,Integração ao Login Único,Integração ao Login Único,a
 MRE,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 MRE,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 MRE,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+MS,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 MTUR,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 MTUR,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 MTUR,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
@@ -3000,21 +3353,10 @@ PRF,delivery,produto,Integração ao Login Único,Integração ao Login Único,a
 PRF,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 PRF,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
 SUSEP,delivery,produto,Integração ao Login Único,Integração ao Login Único,alias,0.98,alias
+ABIN,delivery,produto,Migração de APPs móveis para a loja do,Migração de APPs móveis para a loja do Gov.br,fuzzy_high,0.916,aproximado
 ANA,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
 ANA,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
 ANA,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
-ANAC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-ANAC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-ANAC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-ANAC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-ANAC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-ANAC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-ANAC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-ANAC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-ANAC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-ANAC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-ANAC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-ANAC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
 ANAC,delivery,produto,Integração à ferramenta de avaliação da satisfação dos usuár,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.976,aproximado
 ANAC,delivery,produto,Integração à ferramenta de avaliação da satisfação dos usuár,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.976,aproximado
 ANAC,delivery,produto,Integração à ferramenta de avaliação da satisfação dos usuár,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.976,aproximado
@@ -3050,8 +3392,6 @@ ANAC,delivery,produto,oMigração de Serviço para Plataforma Unificada,Migraç�
 ANAC,delivery,produto,pMigração de Serviço para Plataforma Unificada,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.989,aproximado
 ANCINE,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do P","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.973,aproximado
 ANCINE,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do P","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.973,aproximado
-ANCINE,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-ANCINE,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
 ANCINE,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
 ANCINE,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
 ANCINE,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
@@ -3084,14 +3424,7 @@ ANCINE,delivery,produto,Integração à ferramenta de avaliação da satisfaçã
 ANCINE,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
 ANCINE,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
 ANCINE,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
-ANM,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-ANS,delivery,produto,"Auto-avaliação, análise de lacunas e planejam","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.882,aproximado
-ANS,delivery,produto,"Auto-avaliação, análise de lacunas e planejam","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.882,aproximado
-ANS,delivery,produto,"Auto-avaliação, análise de lacunas e planejam","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.882,aproximado
-ANTT,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-ANTT,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-ANTT,delivery,produto,Integração à base de dados(OUTROS),Integração à base de dados,fuzzy_high,0.867,aproximado
-ANTT,delivery,produto,do framework de Privacidade e Segurança da Informação.,Adequação ao Framework de Privacidade e Segurança da Informação,fuzzy_high,0.906,aproximado
+ANTT,delivery,produto,Evolução de Serviço,Evolução do Serviço,fuzzy_high,0.947,aproximado
 CADE,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
 CADE,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
 CADE,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
@@ -3099,54 +3432,22 @@ CADE,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Au
 CADE,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
 CADE,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
 CADE,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
-CAPES,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-CAPES,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-CAPES,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-CAPES,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-CAPES,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-CAPES,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-CAPES,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-CAPES,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-CAPES,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-CAPES,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-CAPES,delivery,produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.875,aproximado
-CAPES,delivery,produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.875,aproximado
-CAPES,delivery,produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.875,aproximado
-CAPES,delivery,produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.875,aproximado
-CAPES,delivery,produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.875,aproximado
-CAPES,delivery,produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.875,aproximado
-CAPES,delivery,produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.875,aproximado
-CAPES,delivery,produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.875,aproximado
-CAPES,delivery,produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.875,aproximado
-CAPES,delivery,produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.875,aproximado
-CAPES,delivery,produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.875,aproximado
-CAPES,delivery,produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.875,aproximado
-CAPES,delivery,produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.875,aproximado
-CAPES,delivery,produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.875,aproximado
-CAPES,delivery,produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.875,aproximado
-CAPES,delivery,produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.875,aproximado
-CAPES,delivery,produto,Migração de Serviço para Plataforma,Migração de Serviço para Plataforma Unificada,fuzzy_high,0.875,aproximado
-CENSIPAM,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
 CVM,delivery,produto,"Autoavaliação, análise de lacunas e planejamen","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.893,aproximado
 CVM,delivery,produto,"Autoavaliação, análise de lacunas e planejamen","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.893,aproximado
 CVM,delivery,produto,"Autoavaliação, análise de lacunas e planejamen","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.893,aproximado
 CVM,delivery,produto,"Autoavaliação, análise de lacunas e planejamen","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.893,aproximado
-CVM,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
 FCP,delivery,produto,Evolução de Serviços,Evolução do Serviço,fuzzy_high,0.923,aproximado
 FCP,delivery,produto,Evolução de Serviços,Evolução do Serviço,fuzzy_high,0.923,aproximado
 FCRB,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
 FCRB,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
 FCRB,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
 FCRB,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
-FCRB,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-FUNARTE,delivery,produto,Implantação da Área Logada,Implantação da Área Logada Gov.Br,fuzzy_high,0.881,aproximado
 FUNARTE,delivery,produto,Integração à base de dados do,Integração à base de dados,fuzzy_high,0.945,aproximado
 FUNARTE,delivery,produto,Integração à base de dados do,Integração à base de dados,fuzzy_high,0.945,aproximado
 FUNARTE,delivery,produto,Integração à base de dados do,Integração à base de dados,fuzzy_high,0.945,aproximado
 FUNARTE,delivery,produto,Integração à base de dados do,Integração à base de dados,fuzzy_high,0.945,aproximado
 FUNARTE,delivery,produto,Integração à base de dados do,Integração à base de dados,fuzzy_high,0.945,aproximado
 FUNARTE,delivery,produto,Integração à base de dados do,Integração à base de dados,fuzzy_high,0.945,aproximado
-FUNARTE,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
 IBAMA,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do PP","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.982,aproximado
 IBAMA,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do PP","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.982,aproximado
 IBAMA,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do PP","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.982,aproximado
@@ -3175,9 +3476,6 @@ IBAMA,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do 
 IBAMA,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do PP","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.982,aproximado
 IBAMA,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do PP","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.982,aproximado
 IBAMA,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do PP","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.982,aproximado
-IBAMA,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-IBAMA,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-IBAMA,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
 IBAMA,delivery,produto,Integração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.941,aproximado
 IBAMA,delivery,produto,Integração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.941,aproximado
 IBAMA,delivery,produto,Integração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.941,aproximado
@@ -3250,14 +3548,6 @@ IBAMA,delivery,produto,OIntegração à ferramenta de avaliação da satisfaçã
 IBAMA,delivery,produto,aIntegração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.933,aproximado
 IBAMA,delivery,produto,dIntegração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.933,aproximado
 IBAMA,delivery,produto,dIntegração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.933,aproximado
-IBAMA,delivery,produto,eDisponibilização em Acesso Digital,Disponibilização em Acesso Digital,fuzzy_high,0.986,aproximado
-IBAMA,delivery,produto,eDisponibilização em Acesso Digital,Disponibilização em Acesso Digital,fuzzy_high,0.986,aproximado
-IBAMA,delivery,produto,eDisponibilização em Acesso Digital,Disponibilização em Acesso Digital,fuzzy_high,0.986,aproximado
-IBAMA,delivery,produto,eDisponibilização em Acesso Digital,Disponibilização em Acesso Digital,fuzzy_high,0.986,aproximado
-IBAMA,delivery,produto,eIntegração ao Login Único,Integração ao Login Único,fuzzy_high,0.98,aproximado
-IBAMA,delivery,produto,eIntegração ao Login Único,Integração ao Login Único,fuzzy_high,0.98,aproximado
-IBAMA,delivery,produto,eIntegração ao Login Único,Integração ao Login Único,fuzzy_high,0.98,aproximado
-IBAMA,delivery,produto,eIntegração ao Login Único,Integração ao Login Único,fuzzy_high,0.98,aproximado
 IBAMA,delivery,produto,eIntegração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.933,aproximado
 IBAMA,delivery,produto,eIntegração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.933,aproximado
 IBAMA,delivery,produto,eIntegração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.933,aproximado
@@ -3279,15 +3569,6 @@ IBAMA,delivery,produto,tIntegração ao Login Único,Integração ao Login Únic
 IBAMA,delivery,produto,tIntegração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.933,aproximado
 IBAMA,delivery,produto,tIntegração à ferramenta de avaliação da satisfação dos u,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.933,aproximado
 IBAMA,delivery,produto,vEvolução do Serviço,Evolução do Serviço,fuzzy_high,0.974,aproximado
-IBGE,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-IBGE,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-IBGE,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-IBGE,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-IBGE,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-IBGE,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-IBGE,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-IBGE,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-IBGE,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
 INPI,delivery,produto,oEvolução do Serviço,Evolução do Serviço,fuzzy_high,0.974,aproximado
 INPI,delivery,produto,oEvolução do Serviço,Evolução do Serviço,fuzzy_high,0.974,aproximado
 INPI,delivery,produto,oI mplantação do Design System,Implantação do Design System,fuzzy_high,0.966,aproximado
@@ -3295,7 +3576,6 @@ INPI,delivery,produto,oIntegração à ferramenta de avaliação da satisfação
 INSS,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
 INSS,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
 INSS,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
-INSS,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
 INSS,delivery,produto,Integração à ferramenta de avaliação da satisfação,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.885,aproximado
 INSS,delivery,produto,Integração à ferramenta de avaliação da satisfação,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.885,aproximado
 INSS,delivery,produto,Integração à ferramenta de avaliação da satisfação,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.885,aproximado
@@ -3309,8 +3589,6 @@ INSS,delivery,produto,Integração à ferramenta de avaliação da satisfação,
 INSS,delivery,produto,Integração à ferramenta de avaliação da satisfação,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.885,aproximado
 INSS,delivery,produto,Integração à ferramenta de avaliação da satisfação,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.885,aproximado
 INSS,delivery,produto,Integração à ferramenta de avaliação da satisfação,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.885,aproximado
-IPHAN,delivery,produto,Implantação da Área Logada,Implantação da Área Logada Gov.Br,fuzzy_high,0.881,aproximado
-IPHAN,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
 IPHAN,delivery,produto,Realização de Autodiagnóstico de,Realização de Autodiagnóstico de Qualidade,fuzzy_high,0.865,aproximado
 MAPA,delivery,produto,Migração de APPs móveis para a loja do Go,Migração de APPs móveis para a loja do Gov.br,fuzzy_high,0.953,aproximado
 MAPA,delivery,produto,Migração de APPs móveis para a loja do Go,Migração de APPs móveis para a loja do Gov.br,fuzzy_high,0.953,aproximado
@@ -3349,13 +3627,11 @@ MDHC,delivery,produto,Integração à ferramenta de avaliação da satisfação 
 MDHC,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
 MDHC,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
 MDHC,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
-MDIC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
 MEMP,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.954,aproximado
 MEMP,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.954,aproximado
 MEMP,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.954,aproximado
 MEMP,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.954,aproximado
 MEMP,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.954,aproximado
-MEMP,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
 MEMP,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
 MEMP,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
 MEMP,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
@@ -3369,43 +3645,9 @@ MEMP,delivery,produto,Integração à ferramenta de avaliação da satisfação 
 MEMP,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
 MF,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.954,aproximado
 MF,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.954,aproximado
-MGI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MGI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MGI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MGI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MGI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MGI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MGI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MGI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MGI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MGI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MGI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MINC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MINC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MINC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MINC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MJSP,delivery,produto,Implantação da Área Logada,Implantação da Área Logada Gov.Br,fuzzy_high,0.881,aproximado
-MJSP,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MME,delivery,produto,Implantação da Área Logada,Implantação da Área Logada Gov.Br,fuzzy_high,0.881,aproximado
-MME,delivery,produto,Implantação da Área Logada,Implantação da Área Logada Gov.Br,fuzzy_high,0.881,aproximado
-MME,delivery,produto,Implantação da Área Logada,Implantação da Área Logada Gov.Br,fuzzy_high,0.881,aproximado
-MME,delivery,produto,Implantação da Área Logada,Implantação da Área Logada Gov.Br,fuzzy_high,0.881,aproximado
-MME,delivery,produto,Implantação da Área Logada,Implantação da Área Logada Gov.Br,fuzzy_high,0.881,aproximado
 MMULHERES,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
 MMULHERES,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
 MMULHERES,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.925,aproximado
-MMULHERES,delivery,produto,Implantação da Área Logada,Implantação da Área Logada Gov.Br,fuzzy_high,0.881,aproximado
-MPI,delivery,produto,Implantação da Área Logada,Implantação da Área Logada Gov.Br,fuzzy_high,0.881,aproximado
-MPI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MPI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MPI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MPI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MPI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MPI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MPI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MPI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MPI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-MPI,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
 MPO,delivery,produto,"Auto-avaliação, análise de lacunas e planeja","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.871,aproximado
 MPO,delivery,produto,"Auto-avaliação, análise de lacunas e planeja","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.871,aproximado
 MPO,delivery,produto,"Auto-avaliação, análise de lacunas e planeja","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.871,aproximado
@@ -3456,6 +3698,11 @@ MRE,delivery,produto,Integração à ferramenta de avaliação da satisfação d
 MRE,delivery,produto,Integração à ferramenta de avaliação da satisfação do,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.914,aproximado
 MRE,delivery,produto,Integração à ferramenta de avaliação da satisfação do,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.914,aproximado
 MRE,delivery,produto,Integração à ferramenta de avaliação da satisfação do,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.914,aproximado
+MS,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do PPS","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.991,aproximado
+MS,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do PPS","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.991,aproximado
+MS,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do PPS","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.991,aproximado
+MS,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do PPS","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.991,aproximado
+MS,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do PPS","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.991,aproximado
 MTUR,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.954,aproximado
 MTUR,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.954,aproximado
 MTUR,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.954,aproximado
@@ -3463,7 +3710,6 @@ MTUR,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do",
 MTUR,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.954,aproximado
 MTUR,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.954,aproximado
 MTUR,delivery,produto,"Auto-avaliação, análise de lacunas e planejamento do","Auto-avaliação, análise de lacunas e planejamento do PPSI",fuzzy_high,0.954,aproximado
-MTUR,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
 MTUR,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
 MTUR,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
 MTUR,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
@@ -3483,21 +3729,6 @@ MTUR,delivery,produto,Integração à ferramenta de avaliação da satisfação 
 MTUR,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
 MTUR,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
 MTUR,delivery,produto,Integração à ferramenta de avaliação da satisfação dos,Integração à ferramenta de avaliação da satisfação dos usuários,fuzzy_high,0.923,aproximado
-PGFN,delivery,produto,Disponibilização em Acesso D,Disponibilização em Acesso Digital,fuzzy_high,0.903,aproximado
-PGFN,delivery,produto,Disponibilização em Acesso D,Disponibilização em Acesso Digital,fuzzy_high,0.903,aproximado
-PGFN,delivery,produto,Disponibilização em Acesso D,Disponibilização em Acesso Digital,fuzzy_high,0.903,aproximado
-PGFN,delivery,produto,Disponibilização em Acesso D,Disponibilização em Acesso Digital,fuzzy_high,0.903,aproximado
-PGFN,delivery,produto,Disponibilização em Acesso D,Disponibilização em Acesso Digital,fuzzy_high,0.903,aproximado
-PGFN,delivery,produto,Disponibilização em Acesso D,Disponibilização em Acesso Digital,fuzzy_high,0.903,aproximado
-PGFN,delivery,produto,Disponibilização em Acesso D,Disponibilização em Acesso Digital,fuzzy_high,0.903,aproximado
-PGFN,delivery,produto,Disponibilização em Acesso D,Disponibilização em Acesso Digital,fuzzy_high,0.903,aproximado
-PGFN,delivery,produto,Disponibilização em Acesso D,Disponibilização em Acesso Digital,fuzzy_high,0.903,aproximado
-PGFN,delivery,produto,Disponibilização em Acesso D,Disponibilização em Acesso Digital,fuzzy_high,0.903,aproximado
-PGFN,delivery,produto,Disponibilização em Acesso D,Disponibilização em Acesso Digital,fuzzy_high,0.903,aproximado
-PGFN,delivery,produto,Disponibilização em Acesso D,Disponibilização em Acesso Digital,fuzzy_high,0.903,aproximado
-PGFN,delivery,produto,Disponibilização em Acesso D,Disponibilização em Acesso Digital,fuzzy_high,0.903,aproximado
-PGFN,delivery,produto,Disponibilização em Acesso D,Disponibilização em Acesso Digital,fuzzy_high,0.903,aproximado
-PGFN,delivery,produto,Disponibilização em Acesso D,Disponibilização em Acesso Digital,fuzzy_high,0.903,aproximado
 PGFN,delivery,produto,Integração à base de dados (O,Integração à base de dados,fuzzy_high,0.945,aproximado
 PGFN,delivery,produto,Integração à base de dados (O,Integração à base de dados,fuzzy_high,0.945,aproximado
 PGFN,delivery,produto,Integração à base de dados (O,Integração à base de dados,fuzzy_high,0.945,aproximado
@@ -3525,10 +3756,6 @@ PGFN,delivery,produto,Integração à base de dados (O,Integração à base de d
 PGFN,delivery,produto,Integração à base de dados (O,Integração à base de dados,fuzzy_high,0.945,aproximado
 PGFN,delivery,produto,Integração à base de dados (O,Integração à base de dados,fuzzy_high,0.945,aproximado
 PGFN,delivery,produto,Revisão da descrição dos serv,Revisão da descrição dos serviços,fuzzy_high,0.935,aproximado
-PREVIC,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-PRF,delivery,produto,Implantação da Área Logada,Implantação da Área Logada Gov.Br,fuzzy_high,0.881,aproximado
-SUSEP,delivery,produto,Integração à base de dados (OUTROS),Integração à base de dados,fuzzy_high,0.852,aproximado
-ABIN,delivery,produto,Outros,Outros,exact,1.0,residual
 ABIN,delivery,produto,Outros,Outros,exact,1.0,residual
 ABIN,delivery,produto,Outros,Outros,exact,1.0,residual
 ABIN,delivery,produto,Outros,Outros,exact,1.0,residual
@@ -3559,6 +3786,7 @@ ANS,delivery,produto,Outros,Outros,exact,1.0,residual
 ANS,delivery,produto,Outros,Outros,exact,1.0,residual
 ANS,delivery,produto,Outros,Outros,exact,1.0,residual
 ANS,delivery,produto,Outros,Outros,exact,1.0,residual
+ANS,delivery,produto,Outros,Outros,exact,1.0,residual
 ANVISA,delivery,produto,Outros,Outros,exact,1.0,residual
 ANVISA,delivery,produto,Outros,Outros,exact,1.0,residual
 ANVISA,delivery,produto,Outros,Outros,exact,1.0,residual
@@ -3577,19 +3805,8 @@ CAPES,delivery,produto,Outros,Outros,exact,1.0,residual
 CAPES,delivery,produto,Outros,Outros,exact,1.0,residual
 CAPES,delivery,produto,Outros,Outros,exact,1.0,residual
 CAPES,delivery,produto,Outros,Outros,exact,1.0,residual
-CAPES,delivery,produto,Outros,Outros,exact,1.0,residual
-COAF,delivery,produto,Outros,Outros,exact,1.0,residual
-COAF,delivery,produto,Outros,Outros,exact,1.0,residual
-COAF,delivery,produto,Outros,Outros,exact,1.0,residual
-COAF,delivery,produto,Outros,Outros,exact,1.0,residual
-COAF,delivery,produto,Outros,Outros,exact,1.0,residual
-COAF,delivery,produto,Outros,Outros,exact,1.0,residual
-COAF,delivery,produto,Outros,Outros,exact,1.0,residual
-COAF,delivery,produto,Outros,Outros,exact,1.0,residual
-CVM,delivery,produto,Outros,Outros,exact,1.0,residual
 FIOCRUZ,delivery,produto,Outros,Outros,exact,1.0,residual
 FIOCRUZ,delivery,produto,Outros,Outros,exact,1.0,residual
-FUNARTE,delivery,produto,Outros,Outros,exact,1.0,residual
 IBAMA,delivery,produto,Outros,Outros,exact,1.0,residual
 IBAMA,delivery,produto,Outros,Outros,exact,1.0,residual
 IBAMA,delivery,produto,Outros,Outros,exact,1.0,residual
@@ -3603,7 +3820,6 @@ INSS,delivery,produto,Outros,Outros,exact,1.0,residual
 INSS,delivery,produto,Outros,Outros,exact,1.0,residual
 INSS,delivery,produto,Outros,Outros,exact,1.0,residual
 INSS,delivery,produto,Outros,Outros,exact,1.0,residual
-IPHAN,delivery,produto,Outros,Outros,exact,1.0,residual
 MCTI,delivery,produto,Outros,Outros,exact,1.0,residual
 MCTI,delivery,produto,Outros,Outros,exact,1.0,residual
 MCTI,delivery,produto,Outros,Outros,exact,1.0,residual
@@ -3624,14 +3840,6 @@ MDIC,delivery,produto,Outros,Outros,exact,1.0,residual
 MDIC,delivery,produto,Outros,Outros,exact,1.0,residual
 MDIC,delivery,produto,Outros,Outros,exact,1.0,residual
 MDIC,delivery,produto,Outros,Outros,exact,1.0,residual
-MDIC,delivery,produto,Outros,Outros,exact,1.0,residual
-MDIC,delivery,produto,Outros,Outros,exact,1.0,residual
-MDIC,delivery,produto,Outros,Outros,exact,1.0,residual
-MDIC,delivery,produto,Outros,Outros,exact,1.0,residual
-MDIC,delivery,produto,Outros,Outros,exact,1.0,residual
-MDIC,delivery,produto,Outros,Outros,exact,1.0,residual
-MDIC,delivery,produto,Outros,Outros,exact,1.0,residual
-MDIC,delivery,produto,Outros,Outros,exact,1.0,residual
 MESP,delivery,produto,Outros,Outros,exact,1.0,residual
 MESP,delivery,produto,Outros,Outros,exact,1.0,residual
 MESP,delivery,produto,Outros,Outros,exact,1.0,residual
@@ -3640,17 +3848,9 @@ MF,delivery,produto,Outros,Outros,exact,1.0,residual
 MF,delivery,produto,Outros,Outros,exact,1.0,residual
 MF,delivery,produto,Outros,Outros,exact,1.0,residual
 MF,delivery,produto,Outros,Outros,exact,1.0,residual
-MGI,delivery,produto,Outros,Outros,exact,1.0,residual
-MGI,delivery,produto,Outros,Outros,exact,1.0,residual
-MGI,delivery,produto,Outros,Outros,exact,1.0,residual
-MGI,delivery,produto,Outros,Outros,exact,1.0,residual
-MGI,delivery,produto,Outros,Outros,exact,1.0,residual
-MGI,delivery,produto,Outros,Outros,exact,1.0,residual
-MJSP,delivery,produto,Outros,Outros,exact,1.0,residual
 MME,delivery,produto,Outros,Outros,exact,1.0,residual
 MME,delivery,produto,Outros,Outros,exact,1.0,residual
 MMULHERES,delivery,produto,Outros,Outros,exact,1.0,residual
-MPI,delivery,produto,Outros,Outros,exact,1.0,residual
 MPOR,delivery,produto,Outros,Outros,exact,1.0,residual
 MPOR,delivery,produto,Outros,Outros,exact,1.0,residual
 MPOR,delivery,produto,Outros,Outros,exact,1.0,residual
@@ -3658,7 +3858,6 @@ MPOR,delivery,produto,Outros,Outros,exact,1.0,residual
 MPOR,delivery,produto,Outros,Outros,exact,1.0,residual
 MPOR,delivery,produto,Outros,Outros,exact,1.0,residual
 MPOR,delivery,produto,Outros,Outros,exact,1.0,residual
-MPS,delivery,produto,Outros,Outros,exact,1.0,residual
 MRE,delivery,produto,Outros,Outros,exact,1.0,residual
 MRE,delivery,produto,Outros,Outros,exact,1.0,residual
 MRE,delivery,produto,Outros,Outros,exact,1.0,residual
@@ -3671,6 +3870,8 @@ MRE,delivery,produto,Outros,Outros,exact,1.0,residual
 MRE,delivery,produto,Outros,Outros,exact,1.0,residual
 MRE,delivery,produto,Outros,Outros,exact,1.0,residual
 MRE,delivery,produto,Outros,Outros,exact,1.0,residual
+MS,delivery,produto,Outros,Outros,exact,1.0,residual
+MS,delivery,produto,Outros,Outros,exact,1.0,residual
 PGFN,delivery,produto,Outros,Outros,exact,1.0,residual
 PGFN,delivery,produto,Outros,Outros,exact,1.0,residual
 PGFN,delivery,produto,Outros,Outros,exact,1.0,residual
@@ -3695,6 +3896,7 @@ FIOCRUZ,risk,impacto,Média,médio,alias,0.95,alias
 FIOCRUZ,risk,impacto,Média,médio,alias,0.95,alias
 MMULHERES,risk,impacto,Alto Muito,muito alto,alias,0.95,alias
 MMULHERES,risk,impacto,Alto Muito,muito alto,alias,0.95,alias
+MMULHERES,risk,impacto,Médio Muito,médio,alias,0.95,alias
 MMULHERES,risk,impacto,alto Muito,muito alto,alias,0.95,alias
 MPOR,risk,impacto,Média,médio,alias,0.95,alias
 SUSEP,risk,impacto,3,médio,alias,0.95,alias
@@ -3707,8 +3909,6 @@ SUSEP,risk,impacto,4,alto,alias,0.95,alias
 SUSEP,risk,impacto,4,alto,alias,0.95,alias
 SUSEP,risk,impacto,4,alto,alias,0.95,alias
 CENSIPAM,risk,impacto,,,unmatched,0.0,residual
-CENSIPAM,risk,impacto,Impacto,Impacto,unmatched,0.545,residual
-CENSIPAM,risk,impacto,Impacto,Impacto,unmatched,0.545,residual
 DNOCS,risk,impacto,Desenvolver planos de contingência detalhados para lidar com falhas ou interrupções nos serviços dos,Desenvolver planos de contingência detalhados para lidar com falhas ou interrupções nos serviços dos,unmatched,0.091,residual
 DNOCS,risk,impacto,"Documentar e comunicar claramente o impacto de qualquer mudança estratégica no PTD, buscando soluções colaborativas para minimizar os efeitos adversos","Documentar e comunicar claramente o impacto de qualquer mudança estratégica no PTD, buscando soluções colaborativas para minimizar os efeitos adversos",unmatched,0.125,residual
 DNOCS,risk,impacto,"Implantar controles de acesso rigorosos, limitando o acesso a dados apenas a usuários autorizados","Implantar controles de acesso rigorosos, limitando o acesso a dados apenas a usuários autorizados",unmatched,0.15,residual
@@ -3716,14 +3916,11 @@ DNOCS,risk,impacto,"Implementar um sistema de gestão do conheciment o para docu
 DNOCS,risk,impacto,"Investir em programas de capacitação e treinamento para as equipes de TI existentes, aprimorando suas habilidades e conheciment os em tecnologias emergentes.","Investir em programas de capacitação e treinamento para as equipes de TI existentes, aprimorando suas habilidades e conheciment os em tecnologias emergentes.",unmatched,0.095,residual
 DNOCS,risk,impacto,estabelecer canais de comunicação direta para garantir o alinhamento de expectativas e a troca de informações,estabelecer canais de comunicação direta para garantir o alinhamento de expectativas e a troca de informações,unmatched,0.168,residual
 MJSP,risk,impacto,,,unmatched,0.0,residual
-MJSP,risk,impacto,Impacto,Impacto,unmatched,0.545,residual
-MMULHERES,risk,impacto,Médio Muito,Médio Muito,unmatched,0.625,residual
 MPOR,risk,impacto,"Governanç a bem definida, com alinhament o estratégico,","Governanç a bem definida, com alinhament o estratégico,",unmatched,0.185,residual
 MPOR,risk,impacto,Identificaçã o de dependênci as com fornecedor es para o planejamen to preventivo para a contratação ou migração de soluções visando a continuidad e do negócio;,Identificaçã o de dependênci as com fornecedor es para o planejamen to preventivo para a contratação ou migração de soluções visando a continuidad e do negócio;,unmatched,0.071,residual
 MPOR,risk,impacto,Negociar para minimizar os impactos; Identificaçã o de dependênci as com fornecedor es para o planejamen to preventivo para a contratação ou migração de soluções visando a,Negociar para minimizar os impactos; Identificaçã o de dependênci as com fornecedor es para o planejamen to preventivo para a contratação ou migração de soluções visando a,unmatched,0.066,residual
 MPOR,risk,impacto,Prospecçã o de formas alternativas para viabilizar a composiçã o e a manutençã o da força de trabalho; Utilizar melhores práticas de gerenciame nto de projetos registrando as etapas.,Prospecçã o de formas alternativas para viabilizar a composiçã o e a manutençã o da força de trabalho; Utilizar melhores práticas de gerenciame nto de projetos registrando as etapas.,unmatched,0.062,residual
 MPOR,risk,impacto,Sensibiliza ção das áreas de negócio para a importância do plano digital; Prospecçã o de formas alternativas para viabilizar a composiçã,Sensibiliza ção das áreas de negócio para a importância do plano digital; Prospecçã o de formas alternativas para viabilizar a composiçã,unmatched,0.123,residual
-PRF,risk,impacto,,,unmatched,0.0,residual
 ANTAQ,risk,probabilidade,Alta,muito provável,alias,0.95,alias
 ANTAQ,risk,probabilidade,Alta,muito provável,alias,0.95,alias
 ANTAQ,risk,probabilidade,Baixa,pouco provável,alias,0.95,alias
@@ -3792,17 +3989,13 @@ CADE,risk,probabilidade,1-Alto,1-Alto,unmatched,0.4,residual
 CADE,risk,probabilidade,Médio,Médio,unmatched,0.261,residual
 CADE,risk,probabilidade,Médio,Médio,unmatched,0.261,residual
 CENSIPAM,risk,probabilidade,,,unmatched,0.0,residual
-CENSIPAM,risk,probabilidade,,,unmatched,0.0,residual
-CENSIPAM,risk,probabilidade,,,unmatched,0.0,residual
 CVM,risk,probabilidade,,,unmatched,0.0,residual
 CVM,risk,probabilidade,,,unmatched,0.0,residual
 CVM,risk,probabilidade,,,unmatched,0.0,residual
 CVM,risk,probabilidade,,,unmatched,0.0,residual
 IBAMA,risk,probabilidade,Médio,Médio,unmatched,0.261,residual
 IBGE,risk,probabilidade,,,unmatched,0.0,residual
-MJSP,risk,probabilidade,de de Ocor-,de de Ocor-,unmatched,0.32,residual
 MJSP,risk,probabilidade,rência,rência,unmatched,0.4,residual
-PRF,risk,probabilidade,,,unmatched,0.0,residual
 ANAC,risk,tratamento,Monitorar,mitigar,alias,0.95,alias
 ANPD,risk,tratamento,Aceitar ou tolerar o risco,aceitar,alias,0.95,alias
 ANPD,risk,tratamento,Aceitar ou tolerar o risco,aceitar,alias,0.95,alias
@@ -3826,6 +4019,16 @@ ANTAQ,risk,tratamento,Tratar,mitigar,alias,0.95,alias
 ANTAQ,risk,tratamento,Tratar,mitigar,alias,0.95,alias
 ANTAQ,risk,tratamento,Tratar,mitigar,alias,0.95,alias
 ANTAQ,risk,tratamento,Tratar,mitigar,alias,0.95,alias
+ANTT,risk,tratamento,Aceitar ou tolerar o risco,aceitar,alias,0.95,alias
+ANTT,risk,tratamento,Aceitar ou tolerar o risco,aceitar,alias,0.95,alias
+ANTT,risk,tratamento,Reduzir ou mitigar o risco,mitigar,alias,0.95,alias
+ANTT,risk,tratamento,Reduzir ou mitigar o risco,mitigar,alias,0.95,alias
+ANTT,risk,tratamento,Reduzir ou mitigar o risco,mitigar,alias,0.95,alias
+ANTT,risk,tratamento,Reduzir ou mitigar o risco,mitigar,alias,0.95,alias
+ANTT,risk,tratamento,Reduzir ou mitigar o risco,mitigar,alias,0.95,alias
+ANTT,risk,tratamento,Reduzir ou mitigar o risco,mitigar,alias,0.95,alias
+ANTT,risk,tratamento,Reduzir ou mitigar o risco,mitigar,alias,0.95,alias
+ANTT,risk,tratamento,Reduzir ou mitigar o risco,mitigar,alias,0.95,alias
 CADE,risk,tratamento,3-Mitigar,mitigar,alias,0.95,alias
 COAF,risk,tratamento,Reduzir ou mitigar o risco,mitigar,alias,0.95,alias
 COAF,risk,tratamento,Reduzir ou mitigar o risco,mitigar,alias,0.95,alias
@@ -3851,14 +4054,14 @@ FCRB,risk,tratamento,Mitigar o risco,mitigar,alias,0.95,alias
 FCRB,risk,tratamento,Mitigar o risco,mitigar,alias,0.95,alias
 FCRB,risk,tratamento,Mitigar o risco,mitigar,alias,0.95,alias
 FCRB,risk,tratamento,Mitigar o risco,mitigar,alias,0.95,alias
-IBAMA,risk,tratamento,A) Evitar,eliminar,alias,0.95,alias
-IBAMA,risk,tratamento,A) Evitar,eliminar,alias,0.95,alias
-IBAMA,risk,tratamento,B) Reduzir ou mitigar,mitigar,alias,0.95,alias
-IBAMA,risk,tratamento,B) Reduzir ou mitigar,mitigar,alias,0.95,alias
-IBAMA,risk,tratamento,B) Reduzir ou mitigar,mitigar,alias,0.95,alias
-IBAMA,risk,tratamento,B) Reduzir ou mitigar,mitigar,alias,0.95,alias
 IBAMA,risk,tratamento,Evitar,eliminar,alias,0.95,alias
 IBAMA,risk,tratamento,Evitar,eliminar,alias,0.95,alias
+IBAMA,risk,tratamento,Evitar,eliminar,alias,0.95,alias
+IBAMA,risk,tratamento,Evitar,eliminar,alias,0.95,alias
+IBAMA,risk,tratamento,Reduzir ou mitigar,mitigar,alias,0.95,alias
+IBAMA,risk,tratamento,Reduzir ou mitigar,mitigar,alias,0.95,alias
+IBAMA,risk,tratamento,Reduzir ou mitigar,mitigar,alias,0.95,alias
+IBAMA,risk,tratamento,Reduzir ou mitigar,mitigar,alias,0.95,alias
 SGPR,risk,tratamento,tolerar,aceitar,alias,0.95,alias
 SGPR,risk,tratamento,tolerar,aceitar,alias,0.95,alias
 SGPR,risk,tratamento,tolerar,aceitar,alias,0.95,alias
@@ -3870,30 +4073,28 @@ AEB,risk,tratamento,Mitigar/Tra nsferir,mitigar; transferir,fuzzy_high,0.952,apr
 ANA,risk,tratamento,Transferir/ Compartilhar,transferir; transferir,fuzzy_high,0.95,aproximado
 ANM,risk,tratamento,,,unmatched,0.0,residual
 CENSIPAM,risk,tratamento,,,unmatched,0.0,residual
-CENSIPAM,risk,tratamento,,,unmatched,0.0,residual
-CENSIPAM,risk,tratamento,,,unmatched,0.0,residual
 DNOCS,risk,tratamento,Avaliar o impacto de cada cenário no Plano de,Avaliar o impacto de cada cenário no Plano de,unmatched,0.226,residual
 IBGE,risk,tratamento,,,unmatched,0.0,residual
 IBGE,risk,tratamento,,,unmatched,0.0,residual
 MJSP,risk,tratamento,,,unmatched,0.0,residual
-MJSP,risk,tratamento,,,unmatched,0.0,residual
-MMULHERES,risk,tratamento,- Desenvolvimento de plataformas adaptáveis a diferentes contextos socioculturais. - Sensibilização e capacitação das equipes;,- Desenvolvimento de plataformas adaptáveis a diferentes contextos socioculturais. - Sensibilização e capacitação das equipes,unmatched,0.105,residual
-MMULHERES,risk,tratamento,- Desenvolvimento de soluções internas; - Planejamento de migração tecnológica sustentável. - Reuniões estratégicas de alinhamento com a alta administração;,- Desenvolvimento de soluções internas; - Planejamento de migração tecnológica sustentável. - Reuniões estratégicas de alinhamento com a alta administração,unmatched,0.115,residual
-MMULHERES,risk,tratamento,- Design inclusivo; - Testes com usuárias reais.,- Design inclusivo; - Testes com usuárias reais.,unmatched,0.263,residual
-MMULHERES,risk,tratamento,- Estratégias de governança de dados eficazes; - Adoção de protocolos de segurança cibernética. - Capacitação contínua dos servidores;,- Estratégias de governança de dados eficazes; - Adoção de protocolos de segurança cibernética. - Capacitação contínua dos servidores,unmatched,0.167,residual
-MMULHERES,risk,tratamento,- Fortalecimento da institucionalização das políticas digitais. - Mapeamento e priorização de investimentos;,- Fortalecimento da institucionalização das políticas digitais. - Mapeamento e priorização de investimentos,unmatched,0.137,residual
-MMULHERES,risk,tratamento,- Governança bem definida; - Comunicação contínua. - Fortalecimento da segurança cibernética;,- Governança bem definida; - Comunicação contínua. - Fortalecimento da segurança cibernética,unmatched,0.182,residual
-MMULHERES,risk,tratamento,- Implementação de protocolos avançados de proteção; - Monitoramento contínuo de ameaças. - Sensibilização da alta administração para priorização de,- Implementação de protocolos avançados de proteção; - Monitoramento contínuo de ameaças. - Sensibilização da alta administração para priorização de,unmatched,0.155,residual
-MMULHERES,risk,tratamento,- Parcerias com instituições para oferta de treinamentos; - Planejamento de contratações estratégicas. - Diversificação de fornecedores;,- Parcerias com instituições para oferta de treinamentos; - Planejamento de contratações estratégicas. - Diversificação de fornecedores,unmatched,0.184,residual
-MMULHERES,risk,tratamento,- Parcerias estratégicas para expansão da infraestrutura digital. - Criação de estratégias de acesso inclusivo;,- Parcerias estratégicas para expansão da infraestrutura digital. - Criação de estratégias de acesso inclusivo,unmatched,0.12,residual
-MMULHERES,risk,tratamento,- Parcerias interministeriais para alinhamento técnico. - Documentação robusta dos processos e entregas;,- Parcerias interministeriais para alinhamento técnico. - Documentação robusta dos processos e entregas,unmatched,0.126,residual
-MMULHERES,risk,tratamento,- Relatórios periódicos demonstrando impacto e ganhos das iniciativas. - Adoção de padrões abertos de integração;,- Relatórios periódicos demonstrando impacto e ganhos das iniciativas. - Adoção de padrões abertos de integração,unmatched,0.148,residual
-MMULHERES,risk,tratamento,- Sensibilização para apoio da alta administração; - Alinhamento contínuo com as diretrizes do governo. - Monitoramento das propostas legislativas e participação,- Sensibilização para apoio da alta administração; - Alinhamento contínuo com as diretrizes do governo. - Monitoramento das propostas legislativas e participação,unmatched,0.119,residual
-MMULHERES,risk,tratamento,acessibilidade; - Campanhas de conscientização. - Aprimoramento das políticas de conformidade com a LGPD e ao PPSI;,acessibilidade; - Campanhas de conscientização. - Aprimoramento das políticas de conformidade com a LGPD e ao PPSI,unmatched,0.133,residual
-MMULHERES,risk,tratamento,ativa em discussões estratégicas; - Reporte à alta administração. - Desenvolvimento de iniciativas de capacitação digital; - Criação de canais híbridos de atendimento para garantir,ativa em discussões estratégicas; - Reporte à alta administração. - Desenvolvimento de iniciativas de capacitação digital; - Criação de canais híbridos de atendimento para garantir,unmatched,0.128,residual
-MMULHERES,risk,tratamento,orçamento digital. - Adoção de princípios de acessibilidade digital;,orçamento digital. - Adoção de princípios de acessibilidade digital,unmatched,0.162,residual
+MMULHERES,risk,tratamento,- Desenvolvimento de plataformas adaptáveis a diferentes | contextos socioculturais. | - Sensibilização e capacitação das equipes;,- Desenvolvimento de plataformas adaptáveis a diferentes | contextos socioculturais. | - Sensibilização e capacitação das equipes,unmatched,0.102,residual
+MMULHERES,risk,tratamento,- Desenvolvimento de soluções internas; | - Planejamento de migração tecnológica sustentável. | - Reuniões estratégicas de alinhamento com a alta | administração;,- Desenvolvimento de soluções internas; | - Planejamento de migração tecnológica sustentável. | - Reuniões estratégicas de alinhamento com a alta | administração,unmatched,0.109,residual
+MMULHERES,risk,tratamento,- Design inclusivo; | - Testes com usuárias reais.,- Design inclusivo; | - Testes com usuárias reais.,unmatched,0.25,residual
+MMULHERES,risk,tratamento,- Estratégias de governança de dados eficazes; | - Adoção de protocolos de segurança cibernética. | - Capacitação contínua dos servidores;,- Estratégias de governança de dados eficazes; | - Adoção de protocolos de segurança cibernética. | - Capacitação contínua dos servidores,unmatched,0.16,residual
+MMULHERES,risk,tratamento,- Fortalecimento da institucionalização das políticas | digitais. | - Mapeamento e priorização de investimentos;,- Fortalecimento da institucionalização das políticas | digitais. | - Mapeamento e priorização de investimentos,unmatched,0.132,residual
+MMULHERES,risk,tratamento,- Governança bem definida; | - Comunicação contínua. | - Fortalecimento da segurança cibernética;,- Governança bem definida; | - Comunicação contínua. | - Fortalecimento da segurança cibernética,unmatched,0.177,residual
+MMULHERES,risk,tratamento,- Implementação de protocolos avançados de proteção; | - Monitoramento contínuo de ameaças. | - Sensibilização da alta administração para priorização de,- Implementação de protocolos avançados de proteção; | - Monitoramento contínuo de ameaças. | - Sensibilização da alta administração para priorização de,unmatched,0.15,residual
+MMULHERES,risk,tratamento,- Parcerias com instituições para oferta de treinamentos; | - Planejamento de contratações estratégicas. | - Diversificação de fornecedores;,- Parcerias com instituições para oferta de treinamentos; | - Planejamento de contratações estratégicas. | - Diversificação de fornecedores,unmatched,0.176,residual
+MMULHERES,risk,tratamento,- Parcerias estratégicas para expansão da infraestrutura | digital. | - Criação de estratégias de acesso inclusivo;,- Parcerias estratégicas para expansão da infraestrutura | digital. | - Criação de estratégias de acesso inclusivo,unmatched,0.116,residual
+MMULHERES,risk,tratamento,- Parcerias interministeriais para alinhamento técnico. | - Documentação robusta dos processos e entregas;,- Parcerias interministeriais para alinhamento técnico. | - Documentação robusta dos processos e entregas,unmatched,0.124,residual
+MMULHERES,risk,tratamento,- Relatórios periódicos demonstrando impacto e ganhos | das iniciativas. | - Adoção de padrões abertos de integração;,- Relatórios periódicos demonstrando impacto e ganhos | das iniciativas. | - Adoção de padrões abertos de integração,unmatched,0.143,residual
+MMULHERES,risk,tratamento,- Sensibilização para apoio da alta administração; | - Alinhamento contínuo com as diretrizes do governo. | - Monitoramento das propostas legislativas e participação,- Sensibilização para apoio da alta administração; | - Alinhamento contínuo com as diretrizes do governo. | - Monitoramento das propostas legislativas e participação,unmatched,0.115,residual
+MMULHERES,risk,tratamento,acessibilidade; | - Campanhas de conscientização. | - Aprimoramento das políticas de conformidade com a | LGPD e ao PPSI;,acessibilidade; | - Campanhas de conscientização. | - Aprimoramento das políticas de conformidade com a | LGPD e ao PPSI,unmatched,0.126,residual
+MMULHERES,risk,tratamento,ativa em discussões estratégicas; | - Reporte à alta administração. | - Desenvolvimento de iniciativas de capacitação digital; | - Criação de canais híbridos de atendimento para garantir,ativa em discussões estratégicas; | - Reporte à alta administração. | - Desenvolvimento de iniciativas de capacitação digital; | - Criação de canais híbridos de atendimento para garantir,unmatched,0.122,residual
+MMULHERES,risk,tratamento,orçamento digital. | - Adoção de princípios de acessibilidade digital;,orçamento digital. | - Adoção de princípios de acessibilidade digital,unmatched,0.158,residual
+MPA,risk,tratamento,"Fortalecer a conformidade com a LGPD e a melhoria contínua do fluxo de tratamento dos dados. 15. Implementação dos controles previstos nos frameworks do PPSI. 16. Alinhamento com os princípios, objetivos e iniciativas da EFGD e com a legislação relativa ao atendimento aos usuários dos serviços públicos.",Fortalecer a conformidade com a LGPD e a melhoria contínua do fluxo de tratamento dos dados. 15. Implementação dos controles previstos nos frameworks do PPSI. 16. Alinhamento com os princípios; objetivos e iniciativas da EFGD e com a legislação relativa ao atendimento aos usuários dos serviços públicos.,unmatched,0.06,residual
+MPA,risk,tratamento,Reuniões periódicas de acompanhamento e reportar continuamente a alta gestão. 4. Prospecção de formas alternativas para a composição da força de trabalho. 7. Alinhamento com as estratégias e planos de Governo. 9. Reuniões periódicas de divulgação de informações do Plano e entregas realizadas.,Reuniões periódicas de acompanhamento e reportar continuamente a alta gestão. 4. Prospecção de formas alternativas para a composição da força de trabalho. 7. Alinhamento com as estratégias e planos de Governo. 9. Reuniões periódicas de divulgação de informações do Plano e entregas realizadas.,unmatched,0.046,residual
 MPOR,risk,tratamento,Identificaçã o de dependênci as com fornecedor es para o planejamen to preventivo para a contratação ou migração de soluções visando a continuidad e do negócio;,Identificaçã o de dependênci as com fornecedor es para o planejamen to preventivo para a contratação ou migração de soluções visando a continuidad e do negócio,unmatched,0.072,residual
-PRF,risk,tratamento,,,unmatched,0.0,residual
 SUSEP,risk,tratamento,,,unmatched,0.0,residual
 SUSEP,risk,tratamento,,,unmatched,0.0,residual
 SUSEP,risk,tratamento,,,unmatched,0.0,residual

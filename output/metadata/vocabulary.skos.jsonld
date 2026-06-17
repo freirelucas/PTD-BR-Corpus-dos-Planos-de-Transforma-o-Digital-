@@ -165,23 +165,6 @@
       "skos:notation": 5
     },
     {
-      "@id": "https://freirelucas.github.io/PTD/vocab/produto#adequação-ao-framework-de-privacidade-e-segurança-da-informação",
-      "@type": "skos:Concept",
-      "skos:inScheme": {
-        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
-      },
-      "skos:prefLabel": {
-        "@language": "pt",
-        "@value": "Adequação ao Framework de Privacidade e Segurança da Informação"
-      },
-      "skos:altLabel": [
-        {
-          "@language": "pt",
-          "@value": "do framework de Privacidade e Segurança da Informação."
-        }
-      ]
-    },
-    {
       "@id": "https://freirelucas.github.io/PTD/vocab/produto#auto-avaliação,-análise-de-lacunas-e-planejamento-do-ppsi",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -198,10 +181,6 @@
         },
         {
           "@language": "pt",
-          "@value": "Auto-avaliação, análise de lacunas e planejam"
-        },
-        {
-          "@language": "pt",
           "@value": "Auto-avaliação, análise de lacunas e planejamento"
         },
         {
@@ -215,6 +194,10 @@
         {
           "@language": "pt",
           "@value": "Auto-avaliação, análise de lacunas e planejamento do PP"
+        },
+        {
+          "@language": "pt",
+          "@value": "Auto-avaliação, análise de lacunas e planejamento do PPS"
         },
         {
           "@language": "pt",
@@ -278,6 +261,10 @@
         "@value": "Evolução do Serviço"
       },
       "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Evolução de Serviço"
+        },
         {
           "@language": "pt",
           "@value": "Evolução de Serviços"
@@ -458,10 +445,6 @@
         {
           "@language": "pt",
           "@value": "Integração à base de dados do"
-        },
-        {
-          "@language": "pt",
-          "@value": "Integração à base de dados(OUTROS)"
         }
       ]
     },
@@ -476,6 +459,10 @@
         "@value": "Integração à ferramenta de avaliação da satisfação dos usuários"
       },
       "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Integração à ferramenta de avaliação da"
+        },
         {
           "@language": "pt",
           "@value": "Integração à ferramenta de avaliação da satisfação"
@@ -531,17 +518,6 @@
       ]
     },
     {
-      "@id": "https://freirelucas.github.io/PTD/vocab/produto#interoperabilidade-de-sistemas",
-      "@type": "skos:Concept",
-      "skos:inScheme": {
-        "@id": "https://freirelucas.github.io/PTD/vocab/produto"
-      },
-      "skos:prefLabel": {
-        "@language": "pt",
-        "@value": "Interoperabilidade de Sistemas"
-      }
-    },
-    {
       "@id": "https://freirelucas.github.io/PTD/vocab/produto#migração-de-apps-móveis-para-a-loja-do-gov.br",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -552,6 +528,10 @@
         "@value": "Migração de APPs móveis para a loja do Gov.br"
       },
       "skos:altLabel": [
+        {
+          "@language": "pt",
+          "@value": "Migração de APPs móveis para a loja do"
+        },
         {
           "@language": "pt",
           "@value": "Migração de APPs móveis para a loja do Go"
@@ -892,6 +872,10 @@
         {
           "@language": "pt",
           "@value": "Médio"
+        },
+        {
+          "@language": "pt",
+          "@value": "Médio Muito"
         }
       ]
     },

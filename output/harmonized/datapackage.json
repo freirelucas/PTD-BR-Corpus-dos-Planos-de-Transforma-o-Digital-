@@ -3,7 +3,7 @@
   "title": "PTD — Corpus dos Planos de Transformação Digital — visão harmonizada",
   "description": "Visão harmonizada do corpus PTD: as colunas *_normalizado contêm apenas valores canônicos (ou vazio). Valores crus preservados em *_original; alterações em harmonization_report.json.",
   "version": "0.1.0-preview",
-  "created": "2026-05-12T00:00:00Z",
+  "created": "2026-06-17T00:00:00Z",
   "homepage": "https://freirelucas.github.io/PTD",
   "licenses": [
     {
@@ -77,7 +77,7 @@
         ],
         "primaryKey": "sigla"
       },
-      "hash": "sha256:08039e08b24a430a5a4143ebf83e734c347faa0ea9b4fc0415ee4882f72bea6d"
+      "hash": "sha256:1a1718db5c26027c13e27676fb697fe0897be6d81cd83fee5626c0463e1bb9ad"
     },
     {
       "name": "risks",
@@ -281,7 +281,7 @@
           }
         ]
       },
-      "hash": "sha256:ddacd1f0a4c5e96e299b56ac108f4d548252ce71c7b1a22abc27faa4f530cd35"
+      "hash": "sha256:8a37fdeefedb50fdd0745ab1faa367d840722a4ce1e1db8eccaed5ee140150bc"
     },
     {
       "name": "deliveries",
@@ -468,7 +468,7 @@
           }
         ]
       },
-      "hash": "sha256:0bd022a892a0e0aa4ca6eb5d3184a7784d15c720037036065eb6c5be41aa8a69"
+      "hash": "sha256:9e4ea5d00debe783f6899a613c5cb8ca2b6e0634fa1a30128f21cdc607dd9ef0"
     }
   ]
 }

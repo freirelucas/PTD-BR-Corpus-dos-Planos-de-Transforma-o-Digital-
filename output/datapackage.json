@@ -1,9 +1,9 @@
 {
   "name": "ptd-corpus",
   "title": "PTD — Corpus dos Planos de Transformação Digital",
-  "description": "Pipeline de extração automatizada e corpus dos Planos de Transformação Digital (PTDs) instituídos pelo Decreto 12.198/2024 e pela Estratégia Federal de Governo Digital (EFGD) 2024-2027. Coleta os PTDs publicados no portal SGD/MGI (gov.br), extrai tabelas de entregas pactuadas e tabelas diretivas de gestão de riscos via PyMuPDF, padroniza vocabulário contra escalas e produtos canônicos definidos pela SGD, e disponibiliza os dados estruturados (CSV, JSON) e visualizações interativas para 91 órgãos signatários, ~4.5k entregas e ~600 riscos mapeados.",
+  "description": "Pipeline de extração automatizada e corpus dos Planos de Transformação Digital (PTDs) instituídos pelo Decreto 12.198/2024 e pela Estratégia Federal de Governo Digital (EFGD) 2024-2027. Coleta os PTDs publicados no portal SGD/MGI (gov.br), extrai tabelas de entregas pactuadas e tabelas diretivas de gestão de riscos via PyMuPDF, padroniza vocabulário contra escalas e produtos canônicos definidos pela SGD, e disponibiliza os dados estruturados (CSV, JSON) para 93 órgãos signatários, ~5k entregas e ~660 riscos mapeados.",
   "version": "0.1.0-preview",
-  "created": "2026-05-12T00:00:00Z",
+  "created": "2026-06-17T00:00:00Z",
   "homepage": "https://freirelucas.github.io/PTD",
   "licenses": [
     {
@@ -110,8 +110,8 @@
         ],
         "primaryKey": "sigla"
       },
-      "bytes": 46492,
-      "hash": "sha256:c4d6a4410e0c7a3d7159cff1ad869fb80e481a54b0f1aa0bda56b9ebce9ba974"
+      "bytes": 54004,
+      "hash": "sha256:ca2b2650e3fc5c1eececb9c2fc5f4a5e3d84592b589b60c0849e648aed73f8b4"
     },
     {
       "name": "risks",
@@ -291,8 +291,8 @@
           }
         ]
       },
-      "bytes": 230130,
-      "hash": "sha256:5e01d2e584cbb669088da4d121dedafb03d61db9d0593ff4f3a7702a6fe38b58"
+      "bytes": 213087,
+      "hash": "sha256:52c9c6533189f35b42f1562fa25b807b67a7aee2f627196381d6b847c05461d6"
     },
     {
       "name": "deliveries",
@@ -481,8 +481,8 @@
           }
         ]
       },
-      "bytes": 1290978,
-      "hash": "sha256:51c3a792a707ba120f9fbcd902af630956f43624ef7222bd39590c8673534fb1"
+      "bytes": 1421858,
+      "hash": "sha256:babf4d7bb7c1500762b7476ccbbfd6463a65bd202eeb5b2743b9ad8b3f63510d"
     },
     {
       "name": "coverage_summary",
@@ -526,8 +526,8 @@
           }
         ]
       },
-      "bytes": 3224,
-      "hash": "sha256:6d87d6f19b76924f4f1a3f128b1a19d9e4694cf644280647740f03d1711879d2"
+      "bytes": 3284,
+      "hash": "sha256:0ea8b53eaa2326814b0415c3575117592899462df5c52980a6e61ba2885377bd"
     },
     {
       "name": "pdf_metadata",
@@ -563,8 +563,8 @@
           }
         ]
       },
-      "bytes": 5315,
-      "hash": "sha256:61919c0f8547a358b5cad89586c87f75af4ba56ffed7d9cdf0e1885894b3c8bc"
+      "bytes": 5454,
+      "hash": "sha256:0e50d7327146183eb7b469d2bf91d3477b20a6b4b32b4fbe0177c9896f093e53"
     },
     {
       "name": "vocabulary_mapping",
@@ -596,8 +596,8 @@
           }
         ]
       },
-      "bytes": 20550,
-      "hash": "sha256:f0383dd303fb45ee02a87dde8278fa1f0d608ff403098e56c98f2860dfcd4ca0"
+      "bytes": 21753,
+      "hash": "sha256:cad9bf3cad018542121a35a088d0111f1967eba734701ab5b74b3c5d1c54dc44"
     },
     {
       "name": "error_report",
@@ -638,7 +638,7 @@
         ]
       },
       "bytes": 1308,
-      "hash": "sha256:5a9d2884e4466a4367665fec91caa7211f2f3af86ac7896120c6dffbde318d04"
+      "hash": "sha256:962644acea058f8dd2d95efa6d4b8c0bdca3f99604c29ca20ec821c719f74457"
     }
   ]
 }

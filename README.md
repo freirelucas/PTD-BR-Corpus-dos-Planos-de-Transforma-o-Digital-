@@ -15,21 +15,21 @@ publicados no portal [gov.br](https://www.gov.br/governodigital/pt-br/estrategia
 
 ## O que o corpus contém
 
-91 órgãos federais signatários (decreto 12.198/2024). Para cada órgão são
+93 órgãos federais signatários (decreto 12.198/2024). Para cada órgão são
 extraídos dois documentos do portal:
 
 - **Anexo de Entregas** — tabela de produtos pactuados com a SGD/MGI, classificados por eixo da EFGD 2024-2027
 - **Documento Diretivo** — tabela de gestão de riscos com probabilidade, impacto e ações de tratamento
 
-Resultado consolidado (snapshot herdado do projeto PTD, `data_execucao=2026-05-12`):
+Resultado consolidado (run de `data_execucao=2026-06-17`, 93 órgãos):
 
 | Métrica | Valor |
 |---|---|
-| Órgãos signatários | 91 |
-| Entregas pactuadas | **4.574** |
-| Riscos identificados | **619** |
-| Cobertura entregas | 79/91 órgãos (57 próprios + 22 compartilhados) |
-| Cobertura riscos | 76/91 órgãos (51 próprios + 25 compartilhados) |
+| Órgãos signatários | 93 |
+| Entregas pactuadas | **4.999** |
+| Riscos identificados | **662** |
+| Cobertura entregas | 81/93 órgãos (59 próprios + 22 compartilhados) |
+| Cobertura riscos | 81/93 órgãos (54 próprios + 27 compartilhados) |
 | PDFs com falha de extração (provavelmente escaneados) | 10 |
 
 Sete grupos ministeriais publicam um único PDF para múltiplos órgãos
@@ -203,7 +203,7 @@ commitados estão defasados. Detalhes em [`METADATA.md`](METADATA.md).
 
 ## Citação
 
-DIREITO, Denise; SILVA, Lucas; QUEIROZ, Sérgio. *Corpus dos Planos de Transformação Digital: extração, padronização e análise dos PTDs de 91 órgãos federais brasileiros*. Brasília: Ipea, 2026. (Nota Técnica).
+DIREITO, Denise; SILVA, Lucas; QUEIROZ, Sérgio. *Corpus dos Planos de Transformação Digital: extração, padronização e análise dos PTDs de 93 órgãos federais brasileiros*. Brasília: Ipea, 2026. (Nota Técnica).
 
 ## Licença
 

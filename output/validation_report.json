@@ -1,29 +1,29 @@
 {
   "schema_version": 1,
-  "timestamp_utc": "2026-05-12T17:23:51+00:00",
+  "timestamp_utc": "2026-06-17T13:24:06+00:00",
   "counts": {
-    "orgaos": 91,
-    "entregas": 4574,
-    "riscos": 619,
+    "orgaos": 93,
+    "entregas": 4999,
+    "riscos": 662,
     "errors": 10,
-    "needs_review_entregas": 2679,
-    "needs_review_riscos": 86
+    "needs_review_entregas": 2873,
+    "needs_review_riscos": 80
   },
   "canonization": {
     "probabilidade": {
-      "ok": 604,
-      "total": 619,
-      "rate": 0.9758
+      "ok": 651,
+      "total": 662,
+      "rate": 0.9834
     },
     "impacto": {
-      "ok": 601,
-      "total": 619,
-      "rate": 0.9709
+      "ok": 649,
+      "total": 662,
+      "rate": 0.9804
     },
     "tratamento": {
-      "ok": 584,
-      "total": 619,
-      "rate": 0.9435
+      "ok": 629,
+      "total": 662,
+      "rate": 0.9502
     }
   },
   "non_canonical_top20": {
@@ -39,17 +39,9 @@
       {
         "value": "rência",
         "count": 1
-      },
-      {
-        "value": "de de Ocor-",
-        "count": 1
       }
     ],
     "impacto": [
-      {
-        "value": "Impacto",
-        "count": 3
-      },
       {
         "value": "Investir em programas de capacitação e treinamento para as equipes de TI existentes, aprimorando suas habilidades e conheciment os em tecnologias emergentes.",
         "count": 1
@@ -72,10 +64,6 @@
       },
       {
         "value": "Implementar um sistema de gestão do conheciment o para documentar e compartilhar as melhores práticas, os",
-        "count": 1
-      },
-      {
-        "value": "Médio Muito",
         "count": 1
       },
       {
@@ -105,63 +93,71 @@
         "count": 1
       },
       {
-        "value": "- Sensibilização para apoio da alta administração; - Alinhamento contínuo com as diretrizes do governo. - Monitoramento das propostas legislativas e participação",
+        "value": "- Sensibilização para apoio da alta administração; | - Alinhamento contínuo com as diretrizes do governo. | - Monitoramento das propostas legislativas e participação",
         "count": 1
       },
       {
-        "value": "orçamento digital. - Adoção de princípios de acessibilidade digital;",
+        "value": "orçamento digital. | - Adoção de princípios de acessibilidade digital;",
         "count": 1
       },
       {
-        "value": "- Parcerias estratégicas para expansão da infraestrutura digital. - Criação de estratégias de acesso inclusivo;",
+        "value": "- Parcerias estratégicas para expansão da infraestrutura | digital. | - Criação de estratégias de acesso inclusivo;",
         "count": 1
       },
       {
-        "value": "acessibilidade; - Campanhas de conscientização. - Aprimoramento das políticas de conformidade com a LGPD e ao PPSI;",
+        "value": "acessibilidade; | - Campanhas de conscientização. | - Aprimoramento das políticas de conformidade com a | LGPD e ao PPSI;",
         "count": 1
       },
       {
-        "value": "- Implementação de protocolos avançados de proteção; - Monitoramento contínuo de ameaças. - Sensibilização da alta administração para priorização de",
+        "value": "- Implementação de protocolos avançados de proteção; | - Monitoramento contínuo de ameaças. | - Sensibilização da alta administração para priorização de",
         "count": 1
       },
       {
-        "value": "- Desenvolvimento de soluções internas; - Planejamento de migração tecnológica sustentável. - Reuniões estratégicas de alinhamento com a alta administração;",
+        "value": "- Desenvolvimento de soluções internas; | - Planejamento de migração tecnológica sustentável. | - Reuniões estratégicas de alinhamento com a alta | administração;",
         "count": 1
       },
       {
-        "value": "- Desenvolvimento de plataformas adaptáveis a diferentes contextos socioculturais. - Sensibilização e capacitação das equipes;",
+        "value": "- Desenvolvimento de plataformas adaptáveis a diferentes | contextos socioculturais. | - Sensibilização e capacitação das equipes;",
         "count": 1
       },
       {
-        "value": "- Estratégias de governança de dados eficazes; - Adoção de protocolos de segurança cibernética. - Capacitação contínua dos servidores;",
+        "value": "- Estratégias de governança de dados eficazes; | - Adoção de protocolos de segurança cibernética. | - Capacitação contínua dos servidores;",
         "count": 1
       },
       {
-        "value": "- Parcerias interministeriais para alinhamento técnico. - Documentação robusta dos processos e entregas;",
+        "value": "- Parcerias interministeriais para alinhamento técnico. | - Documentação robusta dos processos e entregas;",
         "count": 1
       },
       {
-        "value": "- Fortalecimento da institucionalização das políticas digitais. - Mapeamento e priorização de investimentos;",
+        "value": "- Fortalecimento da institucionalização das políticas | digitais. | - Mapeamento e priorização de investimentos;",
         "count": 1
       },
       {
-        "value": "ativa em discussões estratégicas; - Reporte à alta administração. - Desenvolvimento de iniciativas de capacitação digital; - Criação de canais híbridos de atendimento para garantir",
+        "value": "ativa em discussões estratégicas; | - Reporte à alta administração. | - Desenvolvimento de iniciativas de capacitação digital; | - Criação de canais híbridos de atendimento para garantir",
         "count": 1
       },
       {
-        "value": "- Parcerias com instituições para oferta de treinamentos; - Planejamento de contratações estratégicas. - Diversificação de fornecedores;",
+        "value": "- Parcerias com instituições para oferta de treinamentos; | - Planejamento de contratações estratégicas. | - Diversificação de fornecedores;",
         "count": 1
       },
       {
-        "value": "- Design inclusivo; - Testes com usuárias reais.",
+        "value": "- Design inclusivo; | - Testes com usuárias reais.",
         "count": 1
       },
       {
-        "value": "- Governança bem definida; - Comunicação contínua. - Fortalecimento da segurança cibernética;",
+        "value": "- Governança bem definida; | - Comunicação contínua. | - Fortalecimento da segurança cibernética;",
         "count": 1
       },
       {
-        "value": "- Relatórios periódicos demonstrando impacto e ganhos das iniciativas. - Adoção de padrões abertos de integração;",
+        "value": "- Relatórios periódicos demonstrando impacto e ganhos | das iniciativas. | - Adoção de padrões abertos de integração;",
+        "count": 1
+      },
+      {
+        "value": "Reuniões periódicas de acompanhamento e reportar continuamente a alta gestão. 4. Prospecção de formas alternativas para a composição da força de trabalho. 7. Alinhamento com as estratégias e planos de Governo. 9. Reuniões periódicas de divulgação de informações do Plano e entregas realizadas.",
+        "count": 1
+      },
+      {
+        "value": "Fortalecer a conformidade com a LGPD e a melhoria contínua do fluxo de tratamento dos dados. 15. Implementação dos controles previstos nos frameworks do PPSI. 16. Alinhamento com os princípios, objetivos e iniciativas da EFGD e com a legislação relativa ao atendimento aos usuários dos serviços públicos.",
         "count": 1
       },
       {
@@ -172,31 +168,28 @@
   },
   "distributions_normalized": {
     "probabilidade": {
-      "raro": 37,
-      "pouco provável": 243,
-      "provável": 234,
+      "raro": 38,
+      "pouco provável": 263,
+      "provável": 256,
       "praticamente certo": 22,
-      "muito provável": 68,
+      "muito provável": 72,
       "1-Alto": 1,
       "Médio": 3,
-      "": 9,
-      "rência": 1,
-      "de de Ocor-": 1
+      "": 6,
+      "rência": 1
     },
     "impacto": {
-      "médio": 155,
-      "baixo": 46,
-      "alto": 262,
-      "muito alto": 138,
-      "Impacto": 3,
-      "": 3,
+      "médio": 170,
+      "baixo": 53,
+      "alto": 278,
+      "muito alto": 148,
+      "": 2,
       "Investir em programas de capacitação e treinamento para as equipes de TI existentes, aprimorando suas habilidades e conheciment os em tecnologias emergentes.": 1,
       "Desenvolver planos de contingência detalhados para lidar com falhas ou interrupções nos serviços dos": 1,
       "estabelecer canais de comunicação direta para garantir o alinhamento de expectativas e a troca de informações": 1,
       "Documentar e comunicar claramente o impacto de qualquer mudança estratégica no PTD, buscando soluções colaborativas para minimizar os efeitos adversos": 1,
       "Implantar controles de acesso rigorosos, limitando o acesso a dados apenas a usuários autorizados": 1,
       "Implementar um sistema de gestão do conheciment o para documentar e compartilhar as melhores práticas, os": 1,
-      "Médio Muito": 1,
       "Prospecçã o de formas alternativas para viabilizar a composiçã o e a manutençã o da força de trabalho; Utilizar melhores práticas de gerenciame nto de projetos registrando as etapas.": 1,
       "Identificaçã o de dependênci as com fornecedor es para o planejamen to preventivo para a contratação ou migração de soluções visando a continuidad e do negócio;": 1,
       "Governanç a bem definida, com alinhament o estratégico,": 1,
@@ -205,70 +198,73 @@
     },
     "tratamento": {
       "transferir": 19,
-      "mitigar": 487,
-      "aceitar": 60,
+      "mitigar": 530,
+      "aceitar": 62,
       "mitigar; transferir": 4,
       "transferir; transferir": 1,
       "eliminar": 13,
-      "": 18,
+      "": 14,
       "Avaliar o impacto de cada cenário no Plano de": 1,
-      "- Sensibilização para apoio da alta administração; - Alinhamento contínuo com as diretrizes do governo. - Monitoramento das propostas legislativas e participação": 1,
-      "orçamento digital. - Adoção de princípios de acessibilidade digital": 1,
-      "- Parcerias estratégicas para expansão da infraestrutura digital. - Criação de estratégias de acesso inclusivo": 1,
-      "acessibilidade; - Campanhas de conscientização. - Aprimoramento das políticas de conformidade com a LGPD e ao PPSI": 1,
-      "- Implementação de protocolos avançados de proteção; - Monitoramento contínuo de ameaças. - Sensibilização da alta administração para priorização de": 1,
-      "- Desenvolvimento de soluções internas; - Planejamento de migração tecnológica sustentável. - Reuniões estratégicas de alinhamento com a alta administração": 1,
-      "- Desenvolvimento de plataformas adaptáveis a diferentes contextos socioculturais. - Sensibilização e capacitação das equipes": 1,
-      "- Estratégias de governança de dados eficazes; - Adoção de protocolos de segurança cibernética. - Capacitação contínua dos servidores": 1,
-      "- Parcerias interministeriais para alinhamento técnico. - Documentação robusta dos processos e entregas": 1,
-      "- Fortalecimento da institucionalização das políticas digitais. - Mapeamento e priorização de investimentos": 1,
-      "ativa em discussões estratégicas; - Reporte à alta administração. - Desenvolvimento de iniciativas de capacitação digital; - Criação de canais híbridos de atendimento para garantir": 1,
-      "- Parcerias com instituições para oferta de treinamentos; - Planejamento de contratações estratégicas. - Diversificação de fornecedores": 1,
-      "- Design inclusivo; - Testes com usuárias reais.": 1,
-      "- Governança bem definida; - Comunicação contínua. - Fortalecimento da segurança cibernética": 1,
-      "- Relatórios periódicos demonstrando impacto e ganhos das iniciativas. - Adoção de padrões abertos de integração": 1,
+      "- Sensibilização para apoio da alta administração; | - Alinhamento contínuo com as diretrizes do governo. | - Monitoramento das propostas legislativas e participação": 1,
+      "orçamento digital. | - Adoção de princípios de acessibilidade digital": 1,
+      "- Parcerias estratégicas para expansão da infraestrutura | digital. | - Criação de estratégias de acesso inclusivo": 1,
+      "acessibilidade; | - Campanhas de conscientização. | - Aprimoramento das políticas de conformidade com a | LGPD e ao PPSI": 1,
+      "- Implementação de protocolos avançados de proteção; | - Monitoramento contínuo de ameaças. | - Sensibilização da alta administração para priorização de": 1,
+      "- Desenvolvimento de soluções internas; | - Planejamento de migração tecnológica sustentável. | - Reuniões estratégicas de alinhamento com a alta | administração": 1,
+      "- Desenvolvimento de plataformas adaptáveis a diferentes | contextos socioculturais. | - Sensibilização e capacitação das equipes": 1,
+      "- Estratégias de governança de dados eficazes; | - Adoção de protocolos de segurança cibernética. | - Capacitação contínua dos servidores": 1,
+      "- Parcerias interministeriais para alinhamento técnico. | - Documentação robusta dos processos e entregas": 1,
+      "- Fortalecimento da institucionalização das políticas | digitais. | - Mapeamento e priorização de investimentos": 1,
+      "ativa em discussões estratégicas; | - Reporte à alta administração. | - Desenvolvimento de iniciativas de capacitação digital; | - Criação de canais híbridos de atendimento para garantir": 1,
+      "- Parcerias com instituições para oferta de treinamentos; | - Planejamento de contratações estratégicas. | - Diversificação de fornecedores": 1,
+      "- Design inclusivo; | - Testes com usuárias reais.": 1,
+      "- Governança bem definida; | - Comunicação contínua. | - Fortalecimento da segurança cibernética": 1,
+      "- Relatórios periódicos demonstrando impacto e ganhos | das iniciativas. | - Adoção de padrões abertos de integração": 1,
+      "Reuniões periódicas de acompanhamento e reportar continuamente a alta gestão. 4. Prospecção de formas alternativas para a composição da força de trabalho. 7. Alinhamento com as estratégias e planos de Governo. 9. Reuniões periódicas de divulgação de informações do Plano e entregas realizadas.": 1,
+      "Fortalecer a conformidade com a LGPD e a melhoria contínua do fluxo de tratamento dos dados. 15. Implementação dos controles previstos nos frameworks do PPSI. 16. Alinhamento com os princípios; objetivos e iniciativas da EFGD e com a legislação relativa ao atendimento aos usuários dos serviços públicos.": 1,
       "Identificaçã o de dependênci as com fornecedor es para o planejamen to preventivo para a contratação ou migração de soluções visando a continuidad e do negócio": 1
     }
   },
   "thresholds": {
     "max_entregas": {
-      "limit": 4700,
-      "actual": 4574,
+      "limit": 9300,
+      "actual": 4999,
       "passed": true
     },
     "max_riscos": {
-      "limit": 700,
-      "actual": 619,
+      "limit": 1860,
+      "actual": 662,
       "passed": true
     },
     "min_prob_canonica_ratio": {
       "limit": 0.85,
-      "actual": 0.9758,
+      "actual": 0.9834,
       "passed": true
     },
     "min_imp_canonica_ratio": {
       "limit": 0.85,
-      "actual": 0.9709,
+      "actual": 0.9804,
       "passed": true
     },
     "min_trat_canonica_ratio": {
       "limit": 0.8,
-      "actual": 0.9435,
+      "actual": 0.9502,
       "passed": true
     }
   },
   "all_thresholds_passed": true,
   "output_checksums_md5": {
-    "risks.csv": "1de5866a9cd9e9f387affbc1b41da10d",
-    "deliveries.csv": "179c016830cd788838c5691eb3ee0997",
-    "organs.csv": "00acdbf24799902960f36ed93c565f19",
-    "risks.json": "27a6645ccfa8618514f3432624960039",
-    "deliveries.json": "2ccab34ee53727677c187368a8f6eba0",
-    "statistics_summary.json": "217fedeaf37b1a4b592ea77a6510e5fe",
-    "error_report.csv": "61c3e36c454c3032411ebd61c0193f78"
+    "risks.csv": "2bd714c07b1e9b3de07e04108a70d78b",
+    "deliveries.csv": "d6cc50e55118c86699fdfaa32e60b682",
+    "organs.csv": "a71cc4a6fc13cdb2c2a6653ba7697810",
+    "risks.json": "4ae877c0acc0fdc0e60e5ff02eaf52b9",
+    "deliveries.json": "62d03472ef4f12ff23a4bd3a030bad37",
+    "error_report.csv": "1701833032f869b8ed45ec39ddb6fb3a"
   },
   "checkpoint_fingerprints": {
-    "deliveries_standardized": "db96a042b922",
-    "risks_standardized": "06cb7deb611a"
+    "deliveries_raw": "5657fce164cb",
+    "deliveries_standardized": "c32932a2162b",
+    "risks_raw": "b35c60a86260",
+    "risks_standardized": "15c9fad5d508"
   }
 }
