@@ -43,14 +43,18 @@ FLOORS = {"orgaos": 80, "entregas": 3500, "riscos": 450}
 
 
 def preflight(ns: dict) -> None:
-    """HEAD no portal SGD; aborta com exit 2 (e mensagem clara) se inacessível."""
+    """GET no portal SGD; aborta com exit 2 (e mensagem clara) se inacessível.
+
+    GET, não HEAD: o WAF do gov.br responde 403 a HEAD mas 200 a GET — é o que o
+    scraping real (04b) usa. stream=True evita baixar o corpo da página."""
     import requests
     url = ns["BASE_URL"]
     exc_msg = ""
     try:
-        resp = requests.head(url, headers=ns["HTTP_HEADERS"],
-                             timeout=30, allow_redirects=True)
+        resp = requests.get(url, headers=ns["HTTP_HEADERS"], timeout=30,
+                            allow_redirects=True, stream=True)
         code = resp.status_code
+        resp.close()
     except requests.RequestException as exc:
         code, exc_msg = None, f"{type(exc).__name__}: {exc}"
     if code is None or code >= 400:

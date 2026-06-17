@@ -98,8 +98,9 @@ def _dictionary(frames: dict) -> pd.DataFrame:
 
 
 def _leia_me(frames: dict) -> pd.DataFrame:
+    n_org = len(frames["organs.csv"])
     lines = [
-        "Corpus dos Planos de Transformação Digital — 91 órgãos federais (Decreto 12.198/2024).",
+        f"Corpus dos Planos de Transformação Digital — {n_org} órgãos federais signatários.",
         f"Snapshot: {_snapshot()}   |   Fonte: gov.br / SGD-MGI   |   Licença: CC BY 4.0",
         "",
         "ABAS:",

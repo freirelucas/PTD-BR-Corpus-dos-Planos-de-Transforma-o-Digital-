@@ -194,10 +194,10 @@ _n_grupos = sum(1 for o in all_organs if o.grupo is not None)
 
 print(f"\n{'='*50}")
 print(f"Total de órgãos encontrados: {_n_total}")
-if _n_total < 80 or _n_total > 110:
-    print(f"  ⚠ ATENÇÃO: esperados ~91 órgãos, encontrados {_n_total}")
+if not 80 <= _n_total <= 150:
+    print(f"  ⚠ ATENÇÃO: {_n_total} órgãos fora da faixa esperada (80–150)")
 else:
-    print(f"  ✓ Contagem dentro do esperado (~91)")
+    print(f"  ✓ Contagem dentro da faixa esperada (80–150)")
 print(f"  Com Documento Diretivo:    {_n_diretivo}")
 print(f"  Com Anexo de Entregas:     {_n_entregas}")
 print(f"  Com ambos:                 {_n_ambos}")

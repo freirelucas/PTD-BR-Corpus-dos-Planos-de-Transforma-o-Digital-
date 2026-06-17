@@ -1,8 +1,11 @@
 """Testes do derivador build_coverage.py (cobertura de extração por órgão).
 
 Cobre a regra-chave de status (compartilhado exige um 'dono' com dados no grupo
-que divide a URL; senão é sem_dados / no_risk_table), a distribuição do snapshot
-e a paridade do coverage_summary.csv commitado (mesmo guard --check da CI)."""
+que divide a URL; senão é sem_dados / no_risk_table), invariantes que valem em
+QUALQUER snapshot (sem fixar contagens — o corpus cresce) e a paridade do
+coverage_summary.csv commitado (mesmo guard --check da CI)."""
+import csv
+import os
 from collections import Counter
 
 import build_coverage as bc
@@ -19,14 +22,28 @@ def test_share_index_exige_dono_com_dados():
     assert has_owner == {"u1": True, "u2": False}
 
 
-def test_build_reproduz_distribuicao_do_snapshot():
+def test_build_invariantes():
+    """Invariantes independentes de contagem — valem com 91, 93, 100… órgãos."""
     rows = bc.build()
-    assert len(rows) == 91
-    se = Counter(r["status_entregas"] for r in rows)
-    sr = Counter(r["status_riscos"] for r in rows)
-    assert se == {"ok": 57, "compartilhado": 22, "sem_dados": 12}
-    assert sr == {"ok": 51, "compartilhado": 25, "no_risk_table": 10, "sem_pdf": 5}
-    assert rows == sorted(rows, key=lambda r: r["sigla"])   # ordenado por sigla
+    with open(os.path.join(bc.OUTPUT_DIR, "organs.csv"), encoding="utf-8-sig") as fh:
+        n_orgaos = sum(1 for _ in csv.DictReader(fh))
+    assert len(rows) == n_orgaos                     # uma linha por órgão
+    assert rows == sorted(rows, key=lambda r: r["sigla"])
+    assert all(r["status_entregas"] in {"ok", "compartilhado", "sem_dados"}
+               for r in rows)
+    assert all(r["status_riscos"] in {"ok", "compartilhado", "no_risk_table",
+                                      "sem_pdf"} for r in rows)
+    # contagens batem com o groupby de deliveries / risks
+    n_del = Counter(r["orgao_sigla"] for r in bc._read(bc.DELIVERIES))
+    n_risk = Counter(r["orgao_sigla"] for r in bc._read(bc.RISKS))
+    for r in rows:
+        assert int(r["entregas_extraidas"]) == n_del.get(r["sigla"], 0)
+        assert int(r["riscos_extraidos"]) == n_risk.get(r["sigla"], 0)
+        # sem PDF diretivo => sem_pdf; com dados => ok (coerência status×contagem)
+        if r["pdf_diretivo"] == "nao":
+            assert r["status_riscos"] == "sem_pdf"
+        if int(r["entregas_extraidas"]) > 0:
+            assert r["status_entregas"] == "ok"
 
 
 def test_serialize_estavel_e_header():
