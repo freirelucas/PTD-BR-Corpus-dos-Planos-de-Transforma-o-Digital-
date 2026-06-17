@@ -98,6 +98,7 @@ PTDs (PDF, portal SGD/MGI)
   → normalização+canonização SGD (09b) → export CSV/JSON (10b) ......... output/
   → descritores de dados abertos (build_metadata.py) .... output/datapackage.json, metadata/
   → harmonização estrita (build_corpus.py) .............. output/harmonized/
+  → cobertura por órgão (build_coverage.py) ............ output/coverage_summary.csv
   → catálogo de variações (build_variations.py) ........ output/variations.csv
   → pasta Excel pronta p/ uso (build_xlsx.py) .......... output/PTD-corpus.xlsx
 ```

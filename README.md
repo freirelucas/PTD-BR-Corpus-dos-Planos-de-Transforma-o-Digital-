@@ -44,7 +44,7 @@ marcados como `compartilhado` na cobertura.
 | `output/deliveries.csv` / `.json` | Entregas pactuadas, concluídas e canceladas |
 | `output/risks.csv` / `.json` | Riscos identificados nos Documentos Diretivos |
 | `output/organs.csv` | Lista de órgãos com URLs dos PDFs |
-| `output/coverage_summary.csv` | Cobertura de extração por órgão |
+| `output/coverage_summary.csv` | Cobertura de extração por órgão (status por documento), gerada por `build_coverage.py` |
 | `output/error_report.csv` | Erros de processamento por órgão e estágio |
 | `output/pdf_metadata.csv` | Metadados dos PDFs (datas, tamanhos) |
 | `output/validation_report.json` | Contagens, taxas de canonização e checksums MD5 dos artefatos |
@@ -57,8 +57,9 @@ marcados como `compartilhado` na cobertura.
 
 Os descritores de dados abertos são gerados por [`build_metadata.py`](build_metadata.py);
 o `manifest.json` por [`build_manifest.py`](build_manifest.py); a versão
-harmonizada do corpus por [`build_corpus.py`](build_corpus.py); a pasta Excel
-pronta para uso por [`build_xlsx.py`](build_xlsx.py). Documentação e
+harmonizada do corpus por [`build_corpus.py`](build_corpus.py); a cobertura por
+órgão por [`build_coverage.py`](build_coverage.py); a pasta Excel pronta para
+uso por [`build_xlsx.py`](build_xlsx.py). Documentação e
 linhagem em [`METADATA.md`](METADATA.md).
 
 Cada campo categórico guarda `_original` (texto autoral) + `_normalizado`
@@ -160,6 +161,7 @@ PTD-corpus/
   build_metadata.py            # (re)gera descritores de dados abertos
   build_corpus.py              # (re)gera o corpus harmonizado
   build_variations.py          # (re)gera variations.csv (catálogo tipado de divergências)
+  build_coverage.py            # (re)gera coverage_summary.csv (cobertura por órgão)
   build_xlsx.py                # (re)gera PTD-corpus.xlsx (pasta Excel pronta p/ uso)
   run_pipeline.py              # Executa o pipeline headless (CI/local)
   notebook_cells/              # Células individuais (.py e .md)
@@ -192,6 +194,7 @@ make manifest   # output/manifest.json                         (build_manifest.p
 make metadata   # output/datapackage.json + output/metadata/   (build_metadata.py)
 make corpus     # output/harmonized/                            (build_corpus.py)
 make variations # output/variations.csv                        (build_variations.py)
+make coverage   # output/coverage_summary.csv                  (build_coverage.py)
 make xlsx       # output/PTD-corpus.xlsx                        (build_xlsx.py)
 ```
 

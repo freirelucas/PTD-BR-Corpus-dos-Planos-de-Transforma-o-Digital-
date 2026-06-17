@@ -23,14 +23,13 @@ out_dir = DIRS["output"]
 zip_name = f"output_{datetime.now().strftime('%Y%m%d_%H%M%S')}.zip"
 zip_path = os.path.join(os.path.dirname(out_dir), zip_name)
 
-# Núcleo obrigatório: o que o pipeline SEMPRE gera no top-level de output/.
-# Fora da lista (decisão deliberada):
-#   - datapackage.json, metadata/, harmonized/  derivados no repo por
-#     build_metadata.py / build_corpus.py (ver README §Publicar)
+# Núcleo obrigatório: o que as CÉLULAS sempre geram no top-level de output/.
+# Fora da lista (derivados pós-pipeline, gerados por build_*.py — ver README):
+#   - manifest.json (build_manifest.py), coverage_summary.csv (build_coverage.py)
+#   - datapackage.json, metadata/, harmonized/, variations.csv, PTD-corpus.xlsx
+#     (build_metadata / build_corpus / build_variations / build_xlsx)
 EXPECTED_OUTPUTS = [
-    "manifest.json",
     "validation_report.json",
-    "coverage_summary.csv",
     "pdf_metadata.csv",
     "risks.csv",
     "risks.json",
@@ -74,7 +73,8 @@ print("\nPara publicar (fallback — o caminho canônico é o CI mensal, que abr
 print("  1. Baixe o zip pelo painel de Files do Colab (ou aguarde o download automático)")
 print("  2. No seu clone local do repo PTD:")
 print(f"       unzip -o {zip_name} && \\")
-print("       python build_manifest.py && python build_metadata.py && python build_corpus.py && \\")
+print("       python build_coverage.py && python build_manifest.py && python build_metadata.py && \\")
+print("       python build_corpus.py && python build_variations.py && python build_xlsx.py && \\")
 print("       git checkout -b data-refresh/$(date +%Y-%m) && \\")
 print("       git add output/ && \\")
 print("       git commit -m 'data: refresh output/ — Colab run' && \\")

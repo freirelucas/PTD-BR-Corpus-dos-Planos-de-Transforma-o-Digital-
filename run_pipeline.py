@@ -6,9 +6,9 @@ compartilhado — a mesma semântica que o Jupyter dá às células. Saídas em
 ./ptd_output/ (mesmo layout do 01_setup local).
 
 Com --sync, substitui output/ do repo pelo resultado do run e regenera os
-derivados (build_metadata.py → datapackage/metadata;
-build_corpus.py → harmonized/; build_xlsx.py → PTD-corpus.xlsx),
-deixando a árvore pronta para commit.
+derivados (build_coverage.py → coverage_summary.csv; build_metadata.py →
+datapackage/metadata; build_corpus.py → harmonized/; build_xlsx.py →
+PTD-corpus.xlsx), deixando a árvore pronta para commit.
 
 Exit codes: 0 ok | 1 falha de pipeline ou gate | 2 portal SGD inacessível.
 """
@@ -133,14 +133,15 @@ def sync_repo() -> None:
     if REPO_ROOT not in sys.path:
         sys.path.insert(0, REPO_ROOT)
     import build_corpus
+    import build_coverage
     import build_manifest
     import build_metadata
     import build_variations
     import build_xlsx
-    if (build_manifest.main([]) != 0 or build_metadata.main([]) != 0
-            or build_corpus.main([]) != 0 or build_variations.main([]) != 0
-            or build_xlsx.main([]) != 0):
-        print("SYNC: regeneração de manifest/metadados/corpus/variações/xlsx falhou.")
+    if (build_coverage.main([]) != 0 or build_manifest.main([]) != 0
+            or build_metadata.main([]) != 0 or build_corpus.main([]) != 0
+            or build_variations.main([]) != 0 or build_xlsx.main([]) != 0):
+        print("SYNC: regeneração de coverage/manifest/metadados/corpus/variações/xlsx falhou.")
         sys.exit(1)
     print("SYNC ok: output/ pronto para commit.")
 

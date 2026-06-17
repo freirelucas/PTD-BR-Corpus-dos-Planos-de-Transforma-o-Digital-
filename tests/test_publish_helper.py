@@ -2,7 +2,9 @@
 validação dos artefatos essenciais.
 
 Spin-off sem analytics: a lista de essenciais não inclui data.js,
-statistics_summary.json, review_data.json nem nota_tecnica_insumos.md."""
+statistics_summary.json, review_data.json nem nota_tecnica_insumos.md.
+manifest.json e coverage_summary.csv saíram da lista — são derivados
+pós-pipeline (build_manifest.py / build_coverage.py), não saídas das células."""
 import os
 import zipfile
 
@@ -12,8 +14,8 @@ CELL_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file_
                          "notebook_cells", "13c_publish_helper.py")
 
 ESSENCIAIS = [
-    "manifest.json", "validation_report.json",
-    "coverage_summary.csv", "pdf_metadata.csv", "risks.csv", "risks.json",
+    "validation_report.json",
+    "pdf_metadata.csv", "risks.csv", "risks.json",
     "deliveries.csv", "deliveries.json", "organs.csv", "error_report.csv",
     "vocabulary_mapping.csv",
 ]
@@ -45,7 +47,7 @@ def test_13c_zip_recursivo_completo(tmp_path):
     assert len(zips) == 1
     names = zipfile.ZipFile(zips[0]).namelist()
     assert "output/risks.csv" in names
-    assert "output/manifest.json" in names
+    assert "output/pdf_metadata.csv" in names
     assert "output/metadata/dcat.jsonld" in names
     assert "output/harmonized/risks.csv" in names
     # todos os arcnames sob output/ (sem path traversal)

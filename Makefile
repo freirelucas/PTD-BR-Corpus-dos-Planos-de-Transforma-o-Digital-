@@ -1,4 +1,4 @@
-.PHONY: build manifest metadata corpus variations xlsx corpus-zip test smoke commit clean help
+.PHONY: build manifest metadata corpus variations coverage xlsx corpus-zip test smoke commit clean help
 
 help:
 	@echo "Targets:"
@@ -7,6 +7,7 @@ help:
 	@echo "  make metadata   - (re)gera os descritores de dados abertos em output/"
 	@echo "  make corpus     - (re)gera o corpus harmonizado em output/harmonized/"
 	@echo "  make variations - (re)gera output/variations.csv (catálogo tipado de divergências)"
+	@echo "  make coverage   - (re)gera output/coverage_summary.csv (cobertura por órgão)"
 	@echo "  make xlsx       - (re)gera output/PTD-corpus.xlsx (pasta Excel pronta p/ uso)"
 	@echo "  make corpus-zip - empacota só o corpus (harmonized/ + manifest) em corpus_<snapshot>.zip"
 	@echo "  make test       - roda pytest sobre tests/"
@@ -28,6 +29,9 @@ corpus:
 
 variations:
 	python build_variations.py
+
+coverage:
+	python build_coverage.py
 
 xlsx:
 	python build_xlsx.py

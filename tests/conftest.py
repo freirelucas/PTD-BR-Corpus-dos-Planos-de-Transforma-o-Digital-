@@ -37,6 +37,7 @@ _FULL_CELLS = ("02_config.py", "03_utils.py")
 # Adicione aqui conforme novos testes precisarem de funções de outros cells.
 _DEFS_CELLS = (
     "04b_scraping.py",
+    "05d_pdf_metadata.py",
     "06b_docling_setup.py",
     "07b_extract_risks.py",
     "08b_extract_deliveries.py",
