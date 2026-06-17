@@ -49,7 +49,7 @@ MANIFEST = os.path.join(OUTPUT_DIR, "manifest.json")
 PDF_METADATA = os.path.join(OUTPUT_DIR, "pdf_metadata.csv")
 
 # Arquivos de primeiro nível que NÃO entram em outputs[]:
-#   data.js          artefato de dashboard (não usado aqui)
+#   data.js          artefato de visualização (não usado aqui)
 #   manifest.json    auto-referência
 #   datapackage.json derivado por build_metadata.py (evita ciclo de hash)
 #   variations.csv   derivado por build_variations.py (idem)

@@ -133,7 +133,7 @@ def test_bundle_zip_conteudo_e_determinismo(tmp_path):
     # tudo sob uma única pasta ptd-corpus-<snapshot>/, sem caminhos crus de output/
     assert names and all(n.startswith("ptd-corpus-") and "/" in n for n in names)
     base = {n.split("/", 1)[1] for n in names}
-    # o corpus e o descritor — não data.js, figures, statistics, review_queue…
+    # contém o corpus canônico + descritor, sem vazar outros artefatos de output/
     assert {"deliveries.csv", "risks.csv", "organs.csv", "datapackage.json"} <= base
     assert "data.js" not in base and "statistics_summary.json" not in base
     # manifest.json entra se existir no output/ do repo (proveniência)

@@ -5,7 +5,7 @@ texto autoral dos PTDs e o vocabulário controlado (o "catálogo").
 Por que existe. Cada campo categórico do corpus já guarda quatro colunas:
 
   <campo>_original     o que o órgão escreveu (texto autoral)
-  <campo>_normalizado  o valor canônico do catálogo (habilita analytics)
+  <campo>_normalizado  o valor canônico do catálogo (para agregação/análise)
   <campo>_method       como o autoral foi encaixado: exact|alias|fuzzy_high|unmatched
   <campo>_score        distância do encaixe (1.0 = idêntico)
 

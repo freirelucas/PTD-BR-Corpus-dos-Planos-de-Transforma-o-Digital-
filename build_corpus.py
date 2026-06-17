@@ -297,7 +297,7 @@ def bundle_zip(artifacts, out_path=None):
     deliveries/risks/organs.csv + harmonization_report.json + README.md) mais
     `manifest.json` para proveniência (commit do pipeline + data do snapshot),
     sob a pasta `ptd-corpus-<snapshot>/`. É o dataset citável, sem o restante de
-    `output/` (dashboard, figuras, fila de revisão, estatísticas).
+    `output/` (metadados, relatórios, planilha Excel).
 
     Determinístico: os timestamps das entradas são fixados na data do snapshot,
     então o mesmo snapshot produz o mesmo zip (bit-exact).

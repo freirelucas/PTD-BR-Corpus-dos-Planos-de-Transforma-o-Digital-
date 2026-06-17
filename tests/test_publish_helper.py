@@ -1,10 +1,9 @@
 """Testes da célula 13c (bundle de publicação): zip recursivo de output/ e
 validação dos artefatos essenciais.
 
-Spin-off sem analytics: a lista de essenciais não inclui data.js,
-statistics_summary.json, review_data.json nem nota_tecnica_insumos.md.
-manifest.json e coverage_summary.csv saíram da lista — são derivados
-pós-pipeline (build_manifest.py / build_coverage.py), não saídas das células."""
+manifest.json e coverage_summary.csv não entram na lista de essenciais — são
+derivados pós-pipeline (build_manifest.py / build_coverage.py), não saídas das
+células."""
 import os
 import zipfile
 
